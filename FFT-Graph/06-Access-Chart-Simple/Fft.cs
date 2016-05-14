@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-/* 
+﻿/* 
  * Free FFT and convolution (C#)
  * 
  * Copyright (c) 2016 Project Nayuki
@@ -53,7 +48,7 @@ namespace _06_Access_Chart_Simple
             // Bit-reversed addressing permutation
             for (int i = 0; i < n; i++)
             {
-                int j = (int)((uint)ReverseBits(i) >> (32 - levels));  //int j = ReverseBits(i) >> (32 - levels);
+                int j = (int)((uint)ReverseBits(i) >> (32 - levels));
                 if (j > i)
                 {
                     double temp = real[i];
@@ -109,8 +104,6 @@ namespace _06_Access_Chart_Simple
                 result = (result << 1) | (val & 1);
             return result;
         }
-
-
 
     }
 }
