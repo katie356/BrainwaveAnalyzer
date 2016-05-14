@@ -672,15 +672,11 @@ namespace _06_Access_Chart_Simple
                 return;  // exit
             }
 
-            int intWhere = strFullPath.LastIndexOf("\\") + 1;  // searches for last "\" in the analyze file path
+            string strNewFileName = Path.GetFileNameWithoutExtension(strFullPath);
 
-            int intLength = strFullPath.Length - 4;  // gets rid of .csv
+            string myFileResults = Path.Combine(folderName, strNewFileName + "-FFT-Results.csv");
 
-            string strNewFileName = strFullPath.Substring(intWhere, intLength - intWhere);
-
-            string myFileResults = folderName + "\\" + strNewFileName + "-FFT-Results.csv";
-
-            string myFileFrequency = folderName + "\\" + strNewFileName + "-FFT-Frequency.csv";
+            string myFileFrequency = Path.Combine(folderName, strNewFileName + "-FFT-Frequency.csv");
 
 
             // **********************************
@@ -844,7 +840,7 @@ namespace _06_Access_Chart_Simple
             int intCountIndex = dTableIndex.Rows.Count;
             int intSecondsFreq = intCountIndex / 512;
   
-            for (int i = 0; i < intSecondsFreq * 512; i = i + 512)
+            for (int i = 0; i < intSecondsFreq * 512; i += 512)
             {
                 string strSeconds = Convert.ToString(dTableIndex.Rows[i]["Seconds"]);
                 string strAmplitude = Convert.ToString(dTableIndex.Rows[i]["Amplitude"]);
