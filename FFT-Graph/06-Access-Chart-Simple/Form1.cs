@@ -289,14 +289,14 @@ namespace _06_Access_Chart_Simple
             var csvFilename = "";
 
             if (myOpenFile.ShowDialog() == DialogResult.OK)
-               {
-                   csvFilename = myOpenFile.FileName.ToString();
-                   lblImportFile.Text = csvFilename;
-                   
-                   Properties.Settings.Default.SettingFile = lblImportFile.Text;
-                   Properties.Settings.Default.Save();  // to save the file name between sessions
- 
-                }
+            {
+                csvFilename = myOpenFile.FileName.ToString();
+                lblImportFile.Text = csvFilename;
+
+                Properties.Settings.Default.SettingFile = lblImportFile.Text;
+                Properties.Settings.Default.Save();  // to save the file name between sessions
+
+            }
 
             else return;  // exit the import if file not chosen
 
@@ -707,24 +707,24 @@ namespace _06_Access_Chart_Simple
             File.WriteAllText(myFileResults, strLabelsDFT);
 
             int intCount = dTableDFT.Rows.Count;
-  
-           for (int d = 0; d < intCount ; d++)
-           {
 
-               string appendText = Convert.ToString(dTableDFT.Rows[d][0]) + "," +
-                   Convert.ToString(dTableDFT.Rows[d][1]) + "," +
-                   Convert.ToString(dTableDFT.Rows[d][2]) + "," +
-                   Convert.ToString(dTableDFT.Rows[d][3]) + "," +
-                   Convert.ToString(dTableDFT.Rows[d][4]) + "," +
-                   Convert.ToString(dTableDFT.Rows[d][5]) + "," +
-                   Convert.ToString(dTableDFT.Rows[d][6]) + "," +
-                   Convert.ToString(dTableDFT.Rows[d][7]) + "," +
-                   //Convert.ToString(dTableDFT.Rows[i][8]) + "," +
-                   //Convert.ToString(dTableDFT.Rows[i][9]) + "," +
-                   //Convert.ToString(dTableDFT.Rows[i][10]) + "," +
-                   Environment.NewLine;  // Environment.NewLine is so that it appends to the next line
-               File.AppendAllText(myFileResults, appendText);
-           }
+            for (int d = 0; d < intCount; d++)
+            {
+
+                string appendText = Convert.ToString(dTableDFT.Rows[d][0]) + "," +
+                    Convert.ToString(dTableDFT.Rows[d][1]) + "," +
+                    Convert.ToString(dTableDFT.Rows[d][2]) + "," +
+                    Convert.ToString(dTableDFT.Rows[d][3]) + "," +
+                    Convert.ToString(dTableDFT.Rows[d][4]) + "," +
+                    Convert.ToString(dTableDFT.Rows[d][5]) + "," +
+                    Convert.ToString(dTableDFT.Rows[d][6]) + "," +
+                    Convert.ToString(dTableDFT.Rows[d][7]) + "," +
+                    //Convert.ToString(dTableDFT.Rows[i][8]) + "," +
+                    //Convert.ToString(dTableDFT.Rows[i][9]) + "," +
+                    //Convert.ToString(dTableDFT.Rows[i][10]) + "," +
+                    Environment.NewLine;  // Environment.NewLine is so that it appends to the next line
+                File.AppendAllText(myFileResults, appendText);
+            }
 
 
            lblExported.Text = "Exported to: " + myFileResults;           
@@ -732,7 +732,7 @@ namespace _06_Access_Chart_Simple
            Properties.Settings.Default.SettingExported = lblExported.Text;           
            Properties.Settings.Default.Save();  // to save between sessions
 
-            //--------------------------------------------------------
+           //--------------------------------------------------------
 
            dTableFrequency = new DataTable();
            cBuilderFrequency = new OleDbCommandBuilder(dAdapterFrequency);
@@ -754,7 +754,7 @@ namespace _06_Access_Chart_Simple
                File.AppendAllText(myFileFrequency, appendTextFreq);
            }
 
-            //---------------------------------------------------------
+           //---------------------------------------------------------
 
            lblExportedFreq.Text = "And Exported to: " + myFileFrequency;
 
