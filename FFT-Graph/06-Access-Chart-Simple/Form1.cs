@@ -418,9 +418,6 @@ namespace _06_Access_Chart_Simple
 
 
             // FFT (Fast Fourier Transform)
-            // https://www.nayuki.io/page/free-small-fft-in-multiple-languages
-            // https://www.nayuki.io/
-
             dTableDFT = new DataTable();
             cBuilderDFT = new OleDbCommandBuilder(dAdapterDFT);
             myDataViewDFT = dTableDFT.DefaultView;
@@ -446,7 +443,7 @@ namespace _06_Access_Chart_Simple
                 real[intLoop] = Convert.ToDouble(objA);
             }
 
-            Fft(real, imag);
+            Fft.TransformRadix2(real, imag);
 
             for (int i = 0; i < intCount; i++)
             {
@@ -549,11 +546,6 @@ namespace _06_Access_Chart_Simple
  
             MessageBox.Show("Done Calculating!");
 
-        }
-
-        private void Fft(double[] real, double[] imag)
-        {
-            //throw new NotImplementedException();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
