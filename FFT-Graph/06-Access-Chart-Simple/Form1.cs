@@ -238,7 +238,6 @@ namespace _06_Access_Chart_Simple
             myConnection.Close();
 
             // ***********************************************************************
-            
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -250,7 +249,6 @@ namespace _06_Access_Chart_Simple
         {
             // TODO: This line of code loads data into the 'openVibeDataSet.OpenVibeRaw' table. You can move, or remove it, as needed.
             //this.openVibeRawTableAdapter.Fill(this.openVibeDataSet.OpenVibeRaw);
-
         }
 
         private void chart1_Click(object sender, EventArgs e)
@@ -273,11 +271,8 @@ namespace _06_Access_Chart_Simple
 
         private void btnCSV2_Click(object sender, EventArgs e)
         {
-
             // http://www.codeproject.com/Questions/422907/Copy-CSV-records-into-MS-Access-table
-
-            // http://stackoverflow.com/questions/16606753/populating-a-dataset-from-a-csv-file     
-
+            // http://stackoverflow.com/questions/16606753/populating-a-dataset-from-a-csv-file
             // http://stackoverflow.com/questions/14761952/c-sharp-after-using-openfiledialog-a-messagebox-doesnt-open-on-top
 
             // Show the dialog and get result.
@@ -396,7 +391,6 @@ namespace _06_Access_Chart_Simple
 
         private void bntAnalyze_Click(object sender, EventArgs e)
         {
-
             // Create a database connection object using the connection string. 
             connString = "Provider=Microsoft.ACE.OLEDB.15.0; Data Source=C:\\OpenVibe\\OpenVibe.accdb";  // version Access 2013
             OleDbConnection myConnection = new OleDbConnection(connString);
@@ -540,7 +534,6 @@ namespace _06_Access_Chart_Simple
             //chart2.Update();
  
             MessageBox.Show("Done Calculating!");
-
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -551,36 +544,28 @@ namespace _06_Access_Chart_Simple
         private void settingsToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-
         }
 
         private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-
             frmAbout About = new frmAbout();
             About.Show();
-
         }
 
         private void helpToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            
         }
 
   
         private void backgroundColorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             btnColor.PerformClick();   // Background Color Button    
-
         }
 
         private void defaultFolderToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             btnDefault.PerformClick();
-
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -605,7 +590,6 @@ namespace _06_Access_Chart_Simple
 
         private void btnDefault_Click(object sender, EventArgs e)
         {
-
             // Show the color dialog.
             DialogResult result = folderBrowserDialog1.ShowDialog();     //colorDialog1.ShowDialog();
             // See if user pressed ok.
@@ -624,9 +608,7 @@ namespace _06_Access_Chart_Simple
                 Properties.Settings.Default.SettingFolder = lblDefault.Text;     
                 Properties.Settings.Default.Save();  // to save between sessions
                 // lblDefault.Text = Properties.Settings.Default.Setting;  // used to show default folder on startup
-
             }
-
         }
 
         private void lblDefault_Click(object sender, EventArgs e)
@@ -701,7 +683,6 @@ namespace _06_Access_Chart_Simple
 
             for (int d = 0; d < intCount; d++)
             {
-
                 string appendText = Convert.ToString(dTableDFT.Rows[d][0]) + "," +
                     Convert.ToString(dTableDFT.Rows[d][1]) + "," +
                     Convert.ToString(dTableDFT.Rows[d][2]) + "," +
@@ -759,7 +740,6 @@ namespace _06_Access_Chart_Simple
             System.Diagnostics.Process.Start("explorer.exe", folderName);
 
             //System.Diagnostics.Process.Start("path to notepad.exe", myFile);
-
         }
 
         private void lblExported_Click(object sender, EventArgs e)
@@ -774,7 +754,6 @@ namespace _06_Access_Chart_Simple
 
         private void btnColor_Click(object sender, EventArgs e)
         {
-
             // Show folder dialog.
             //DialogResult result = folderBrowserDialog1.ShowDialog();
             // See if user pressed ok.
@@ -792,9 +771,7 @@ namespace _06_Access_Chart_Simple
                 Properties.Settings.Default.myColor = this.BackColor;
                 Properties.Settings.Default.Save();  // to save the background color between sessions
                 // this.BackColor = Properties.Settings.Default.myColor;  // used to load saved color on startup
-
             }
-            
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
