@@ -511,17 +511,16 @@ namespace _06_Access_Chart_Simple
 
             for (int i = 0; i < intCount; i++)
             {
-                string strTime = Convert.ToString(dTableDFT.Rows[i]["Time"]);
-                string strElectrode = Convert.ToString(dTableDFT.Rows[i]["Electrode"]);
-                string strDFT = Convert.ToString(dTableDFT.Rows[i]["DFT"]);
-                string strDFTimag = Convert.ToString(dTableDFT.Rows[i]["DFTimag"]);
-                string strAmplitude = Convert.ToString(dTableDFT.Rows[i]["Amplitude"]);
-                string strRows = Convert.ToString(dTableDFT.Rows[i]["Rows"]);
-                string strFrequencyIndex = Convert.ToString(dTableDFT.Rows[i]["FrequencyIndex"]);
-                string strSeconds = Convert.ToString(dTableDFT.Rows[i]["Seconds"]);
-
-                                     //string queryDFT = "INSERT INTO [OpenVibeDFT] ([Time], Electrode, DFT, [Rows]) VALUES (0, 2, 5.00, 1)";
-                string queryDFT = "INSERT INTO [OpenVibeDFT] ([Time], Electrode, DFT, DFTimag, Amplitude,[Rows], FrequencyIndex, Seconds) VALUES (" + strTime + " ," + strElectrode + " ," + strDFT + " ," + strDFTimag + " ," + strAmplitude + " ," + strRows + " ," + strFrequencyIndex + " ," + strSeconds + ")";
+                //string queryDFT = "INSERT INTO [OpenVibeDFT] ([Time], Electrode, DFT, [Rows]) VALUES (0, 2, 5.00, 1)";
+                string queryDFT = "INSERT INTO [OpenVibeDFT] ([Time], Electrode, DFT, DFTimag, Amplitude,[Rows], FrequencyIndex, Seconds) VALUES ("
+                    + Convert.ToString(dTableDFT.Rows[i]["Time"          ]) + " ,"
+                    + Convert.ToString(dTableDFT.Rows[i]["Electrode"     ]) + " ,"
+                    + Convert.ToString(dTableDFT.Rows[i]["DFT"           ]) + " ,"
+                    + Convert.ToString(dTableDFT.Rows[i]["DFTimag"       ]) + " ,"
+                    + Convert.ToString(dTableDFT.Rows[i]["Amplitude"     ]) + " ,"
+                    + Convert.ToString(dTableDFT.Rows[i]["Rows"          ]) + " ,"
+                    + Convert.ToString(dTableDFT.Rows[i]["FrequencyIndex"]) + " ,"
+                    + Convert.ToString(dTableDFT.Rows[i]["Seconds"       ]) + ")";
                 cmd.CommandText = queryDFT;
                 cmd.ExecuteNonQuery();
             }
