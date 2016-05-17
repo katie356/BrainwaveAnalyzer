@@ -290,10 +290,9 @@ namespace _06_Access_Chart_Simple
 
                 Properties.Settings.Default.SettingFile = lblImportFile.Text;
                 Properties.Settings.Default.Save();  // to save the file name between sessions
-
             }
-
-            else return;  // exit the import if file not chosen
+            else
+                return;  // exit the import if file not chosen
 
             //  CSV Connection
 
@@ -331,7 +330,7 @@ namespace _06_Access_Chart_Simple
                 int z = s + 1;
                 myCommand.CommandText = "INSERT INTO OpenVibeRaw VALUES ('" + csvTable.Rows[s].ItemArray.GetValue(0) + "'," + csvTable.Rows[s].ItemArray.GetValue(1) + "," + csvTable.Rows[s].ItemArray.GetValue(2) +
                      "," + csvTable.Rows[s].ItemArray.GetValue(3) + "," + z + ")";
-                //"," + csvTable.Rows[i].ItemArray.GetValue(9) + ")";               
+                //"," + csvTable.Rows[i].ItemArray.GetValue(9) + ")";
 
                 lblLines.Text = "Number of Lines: " + z;
 
@@ -374,7 +373,7 @@ namespace _06_Access_Chart_Simple
 
             myConnection.Close();
 
-            chart1.Update();            
+            chart1.Update();
 
             MessageBox.Show("Done Importing!");
         }
@@ -520,7 +519,7 @@ namespace _06_Access_Chart_Simple
             }
 
             cmd.Dispose();
-                       
+
             this.chartDFT.DataSource = null;
             this.chartDFT.DataSource = myBindingSourceDFT;   //this is to refresh the chart, but is not working
             this.chartDFT.Refresh();
@@ -618,16 +617,12 @@ namespace _06_Access_Chart_Simple
 
         private void setImportExportDefaultFolderToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
             btnDefault.PerformClick();
-
         }
 
         private void btnExport_Click(object sender, EventArgs e)
         {
-            string folderName;
-
-            folderName = lblDefault.Text;  // the default folder picked by the user
+            string folderName = lblDefault.Text;  // the default folder picked by the user
 
 
             if (!Directory.Exists(folderName))   // default directory does not exist
