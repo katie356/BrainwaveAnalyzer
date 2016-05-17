@@ -437,10 +437,10 @@ namespace _06_Access_Chart_Simple
             double[] real = new double[intCount];
             double[] imag = new double[intCount];
 
-            for (int intLoop = 0; intLoop < intCount; intLoop++)
+            for (int i = 0; i < intCount; i++)
             {
-                Object objA = dTableDFT.Rows[intLoop]["Electrode"];
-                real[intLoop] = Convert.ToDouble(objA);
+                Object objA = dTableDFT.Rows[i]["Electrode"];
+                real[i] = Convert.ToDouble(objA);
             }
 
             Fft.TransformRadix2(real, imag);
@@ -458,24 +458,20 @@ namespace _06_Access_Chart_Simple
 
             int intCountFreq = dTableDFT.Rows.Count;
             int intSeconds2 = intCountFreq / 512;
-
-            int intSecLoop;  // Created intSecLoop outside of loop so that it is accessible inside and outside of the loop
-            // One intSecLoop for each second of data
-            int intLoop3;     // Created intLoop outside of the loop so that it accessible inside and outside of loop   
-                              // Called intLoop3 because intLoop and intLoop2 are already being used further up the code
-
-            for (intSecLoop = 0; intSecLoop < intSeconds2; intSecLoop++)
+            
+            // One loop iteration for each second of data
+            for (int i = 0; i < intSeconds2; i++)
             {
-                for (intLoop3 = 0; intLoop3 < 256; intLoop3++)
+                for (int j = 0; j < 256; j++)
                 {
-                    dTableDFT.Rows[intLoop3 + (intSecLoop * 512)]["FrequencyIndex"] = intLoop3 + 1;
-                    dTableDFT.Rows[intLoop3 + (intSecLoop * 512)]["Seconds"] = intSecLoop + 1;
+                    dTableDFT.Rows[j + (i * 512)]["FrequencyIndex"] = j + 1;
+                    dTableDFT.Rows[j + (i * 512)]["Seconds"] = i + 1;
                 }
 
-                for (intLoop3 = 256; intLoop3 < 512; intLoop3++)
+                for (int j = 256; j < 512; j++)
                 {
-                    dTableDFT.Rows[intLoop3 + (intSecLoop * 512)]["FrequencyIndex"] = 512 - intLoop3;
-                    dTableDFT.Rows[intLoop3 + (intSecLoop * 512)]["Seconds"] = intSecLoop + 1;
+                    dTableDFT.Rows[j + (i * 512)]["FrequencyIndex"] = 512 - j;
+                    dTableDFT.Rows[j + (i * 512)]["Seconds"] = i + 1;
                 }
             }
 
@@ -513,16 +509,16 @@ namespace _06_Access_Chart_Simple
             int intCount2 = dTableDFT.Rows.Count;
                              //MessageBox.Show(Convert.ToString(intCount));
 
-            for (int intLoop2 = 0; intLoop2 < intCount; intLoop2++)
+            for (int i = 0; i < intCount; i++)
             {
-                string strTime = Convert.ToString(dTableDFT.Rows[intLoop2]["Time"]);
-                string strElectrode = Convert.ToString(dTableDFT.Rows[intLoop2]["Electrode"]);
-                string strDFT = Convert.ToString(dTableDFT.Rows[intLoop2]["DFT"]);
-                string strDFTimag = Convert.ToString(dTableDFT.Rows[intLoop2]["DFTimag"]);
-                string strAmplitude = Convert.ToString(dTableDFT.Rows[intLoop2]["Amplitude"]);
-                string strRows = Convert.ToString(dTableDFT.Rows[intLoop2]["Rows"]);
-                string strFrequencyIndex = Convert.ToString(dTableDFT.Rows[intLoop2]["FrequencyIndex"]);
-                string strSeconds = Convert.ToString(dTableDFT.Rows[intLoop2]["Seconds"]);
+                string strTime = Convert.ToString(dTableDFT.Rows[i]["Time"]);
+                string strElectrode = Convert.ToString(dTableDFT.Rows[i]["Electrode"]);
+                string strDFT = Convert.ToString(dTableDFT.Rows[i]["DFT"]);
+                string strDFTimag = Convert.ToString(dTableDFT.Rows[i]["DFTimag"]);
+                string strAmplitude = Convert.ToString(dTableDFT.Rows[i]["Amplitude"]);
+                string strRows = Convert.ToString(dTableDFT.Rows[i]["Rows"]);
+                string strFrequencyIndex = Convert.ToString(dTableDFT.Rows[i]["FrequencyIndex"]);
+                string strSeconds = Convert.ToString(dTableDFT.Rows[i]["Seconds"]);
 
                                      //string queryDFT = "INSERT INTO [OpenVibeDFT] ([Time], Electrode, DFT, [Rows]) VALUES (0, 2, 5.00, 1)";
                 string queryDFT = "INSERT INTO [OpenVibeDFT] ([Time], Electrode, DFT, DFTimag, Amplitude,[Rows], FrequencyIndex, Seconds) VALUES (" + strTime + " ," + strElectrode + " ," + strDFT + " ," + strDFTimag + " ," + strAmplitude + " ," + strRows + " ," + strFrequencyIndex + " ," + strSeconds + ")";
