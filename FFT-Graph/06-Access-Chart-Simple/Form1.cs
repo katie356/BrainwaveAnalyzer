@@ -417,34 +417,16 @@ namespace _06_Access_Chart_Simple
             dAdapterDFT.Fill(dTableDFT);
 
             int intCount = dTableDFT.Rows.Count;
-
-            int intSeconds = intCount / 512;
-
+            int intSeconds = intCount / 512;  // Rounded down
             intCount = intSeconds * 512;
-
             //intCount = 512;  // testing with one second of info
+
+            for (int i = 0; i < intSeconds; i++)
+                CalcOneSecondOfFftData(i);  // This reads and writes dTableDFT
 
             //object[] myArray = new object[8];  // created an array that can contain 8 objects
             // created it outside of the loop so that it accessible inside and outside of loop
-
-            double[] real = new double[intCount];
-            double[] imag = new double[intCount];
-
-            for (int i = 0; i < intCount; i++)
-            {
-                Object objA = dTableDFT.Rows[i]["Electrode"];
-                real[i] = Convert.ToDouble(objA);
-            }
-
-            Fft.TransformRadix2(real, imag);
-
-            for (int i = 0; i < intCount; i++)
-            {
-                dTableDFT.Rows[i]["DFT"] = real[i];      // FFT real
-                dTableDFT.Rows[i]["DFTimag"] = imag[i];  // FFT imaginary
-                dTableDFT.Rows[i]["Amplitude"] = Math.Sqrt(real[i] * real[i] + imag[i] * imag[i]);  // Amplitude
-            }
-
+            
             dTableDFT.AcceptChanges();
 
             //******** Filling in Frequency Index *****************
@@ -534,6 +516,40 @@ namespace _06_Access_Chart_Simple
  
             MessageBox.Show("Done Calculating!");
         }
+
+
+        // Given which second to work on, this method reads one second's worth of samples from dTableDFT at
+        // that time offset, computes the FFT on those samples, and writes them to new columns in dTableDFT.
+        private void CalcOneSecondOfFftData(int second)
+        {
+            const int SAMPLES_PER_SECOND = 512;  // Must be a power of 2 due to the FFT
+            int offset = second * SAMPLES_PER_SECOND;
+
+            // Set up input samples
+            double[] real = new double[SAMPLES_PER_SECOND];
+            double[] imag = new double[SAMPLES_PER_SECOND];
+            for (int i = 0; i < real.Length; i++)
+            {
+                real[i] = Convert.ToDouble(dTableDFT.Rows[offset + i]["Electrode"]);
+                imag[i] = 0.0;
+            }
+
+            // Do the Fourier transform
+            Fft.TransformRadix2(real, imag);
+
+            // Compute amplitude and write output frequencies
+            for (int i = 0; i < real.Length; i++)
+            {
+                int j = offset + i;
+                dTableDFT.Rows[j]["DFT"    ] = real[i];
+                dTableDFT.Rows[j]["DFTimag"] = imag[i];
+                if (i <= real.Length / 2)
+                    dTableDFT.Rows[j]["Amplitude"] = Math.Sqrt(real[i] * real[i] + imag[i] * imag[i]);
+                else  // Ignore the upper half of the FFT, which is a mirror image of the lower half
+                    dTableDFT.Rows[j]["Amplitude"] = 0.0;
+            }
+        }
+
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
