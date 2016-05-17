@@ -699,41 +699,41 @@ namespace _06_Access_Chart_Simple
             }
 
 
-           lblExported.Text = "Exported to: " + myFileResults;           
+            lblExported.Text = "Exported to: " + myFileResults;
 
-           Properties.Settings.Default.SettingExported = lblExported.Text;           
-           Properties.Settings.Default.Save();  // to save between sessions
+            Properties.Settings.Default.SettingExported = lblExported.Text;
+            Properties.Settings.Default.Save();  // to save between sessions
 
-           //--------------------------------------------------------
+            //--------------------------------------------------------
 
-           dTableFrequency = new DataTable();
-           cBuilderFrequency = new OleDbCommandBuilder(dAdapterFrequency);
-           myDataViewFrequency = dTableFrequency.DefaultView;
-           dAdapterFrequency.Fill(dTableFrequency);
+            dTableFrequency = new DataTable();
+            cBuilderFrequency = new OleDbCommandBuilder(dAdapterFrequency);
+            myDataViewFrequency = dTableFrequency.DefaultView;
+            dAdapterFrequency.Fill(dTableFrequency);
 
-           int intSecs = intCount / 512;
+            int intSecs = intCount / 512;
 
-           string strFrequencyLabels = "Seconds,Amplitude,Frequency" + "\n";  // "\n" is for new line
+            string strFrequencyLabels = "Seconds,Amplitude,Frequency" + "\n";  // "\n" is for new line
 
-           File.WriteAllText(myFileFrequency, strFrequencyLabels);
+            File.WriteAllText(myFileFrequency, strFrequencyLabels);
 
-           for (int f = 0; f < intSecs; f++)
-           {
-               string appendTextFreq = Convert.ToString(dTableFrequency.Rows[f][0]) + "," +
-                   Convert.ToString(dTableFrequency.Rows[f][1]) + "," +
-                   Convert.ToString(dTableFrequency.Rows[f][2]) + "," +
-                   Environment.NewLine;
-               File.AppendAllText(myFileFrequency, appendTextFreq);
-           }
+            for (int f = 0; f < intSecs; f++)
+            {
+                string appendTextFreq = Convert.ToString(dTableFrequency.Rows[f][0]) + "," +
+                    Convert.ToString(dTableFrequency.Rows[f][1]) + "," +
+                    Convert.ToString(dTableFrequency.Rows[f][2]) + "," +
+                    Environment.NewLine;
+                File.AppendAllText(myFileFrequency, appendTextFreq);
+            }
 
-           //---------------------------------------------------------
+            //---------------------------------------------------------
 
-           lblExportedFreq.Text = "And Exported to: " + myFileFrequency;
+            lblExportedFreq.Text = "And Exported to: " + myFileFrequency;
 
-           Properties.Settings.Default.SettingExportedFreq = lblExportedFreq.Text;
-           Properties.Settings.Default.Save();  // to save between sessions
+            Properties.Settings.Default.SettingExportedFreq = lblExportedFreq.Text;
+            Properties.Settings.Default.Save();  // to save between sessions
 
-           MessageBox.Show("Exported to: " + myFileResults + "\n" +
+            MessageBox.Show("Exported to: " + myFileResults + "\n" +
                              " and " + "\n" +
                               myFileFrequency);
 
