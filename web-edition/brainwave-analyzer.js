@@ -1,6 +1,8 @@
 "use strict";
 
 
+/*---- Top-level functions ----*/
+
 function doClear() {
 	document.getElementById("input-text").value = "";
 	removeAllChildren(document.getElementById("results"));
@@ -9,6 +11,22 @@ function doClear() {
 
 
 function doAnalyze() {
+	var samples = readFormInput();
+	if (samples == null)
+		return;
+	
+	// Do the work after the CSS animation finishes
+	setTimeout(function() {
+		var analysis = computeAndAnalyze(samples);
+		displayAnalysis(analysis);
+	}, 250);
+}
+
+
+/*---- Middle-level application functions ----*/
+
+// Reads the textarea with ID "input-text", then returns an array of numeric samples or null.
+function readFormInput() {
 	var inputTextElem = document.getElementById("input-text");
 	var text = inputTextElem.value;
 	text = text.replace(/\n+$/g, "");  // Strip trailing newlines
@@ -20,7 +38,7 @@ function doAnalyze() {
 		if (header[i] == "Electrode") {
 			if (electrodeColIndex != -1) {
 				alert("Error: Duplicate column \"Electrode\"");
-				return;
+				return null;
 			} else {
 				electrodeColIndex = i;
 			}
@@ -51,16 +69,42 @@ function doAnalyze() {
 	if (invalidValues > 0)
 		alert("Warning: Replaced " + invalidValues + " invalid electrode values in the input data");
 	inputTextElem.className = "minimize";
-	
-	setTimeout(function() {
-		doComputation(samples);
-	}, 250);
+	return samples;
 }
 
 
 var SAMPLES_PER_SECOND = 512;
 
-function doComputation(samples) {
+// Returns an array of dictionaries, one per second.
+function computeAndAnalyze(samples) {
+	var result = [];
+	var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
+	for (var i = 0; i < numSeconds; i++) {
+		var startIndex = (i + 0) * SAMPLES_PER_SECOND;  // Inclusive
+		var endIndex   = (i + 1) * SAMPLES_PER_SECOND;  // Exclusive
+		var block = samples.slice(startIndex, endIndex)
+		
+		var real = block.slice();  // Clone
+		var imag = real.map(function() { return 0; });  // Same length, but all zeros
+		transform(real, imag);  // FFT
+		real[0] = 0;  // Cancel the DC offset coefficient
+		
+		var amplitude = [];
+		for (var j = 0; j <= real.length / 2; j++)
+			amplitude.push(Math.hypot(real[j], imag[j]));
+		
+		result.push({
+			electrode: block,
+			fftReal: real,
+			fftImag: imag,
+			fftAmplitude: amplitude,
+		});
+	}
+	return result;
+}
+
+
+function displayAnalysis(analysis) {
 	var resultsElem = document.getElementById("results");
 	removeAllChildren(resultsElem);
 	
@@ -74,20 +118,8 @@ function doComputation(samples) {
 	var tbodyElem = createElement("tbody");
 	tableElem.appendChild(tbodyElem);
 	
-	var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
-	for (var i = 0; i < numSeconds; i++) {
-		var startIndex = (i + 0) * SAMPLES_PER_SECOND;  // Inclusive
-		var endIndex   = (i + 1) * SAMPLES_PER_SECOND;  // Exclusive
-		var block = samples.slice(startIndex, endIndex)
-		var real = block.slice();  // Clone
-		var imag = real.map(function() { return 0; });  // Same length, but all zeros
-		transform(real, imag);  // FFT
-		real[0] = 0;  // Cancel the DC offset coefficient
-		var amplitude = [];
-		for (var j = 0; j <= real.length / 2; j++)
-			amplitude.push(Math.hypot(real[j], imag[j]));
-		var maxAmplitude = Math.max.apply(null, amplitude);
-		
+	// Process each second (block) of data
+	analysis.forEach(function(data, i) {
 		var h3 = createElement("h3", "Time = " + i + " seconds");
 		resultsElem.appendChild(h3);
 		
@@ -96,11 +128,11 @@ function doComputation(samples) {
 		
 		var graphElem = createElement("div");
 		graphElem.className = "wavegraph";
-		var minBlock = Math.min.apply(null, block);
-		var maxBlock = Math.max.apply(null, block);
-		for (var j = 0; j < block.length; j++) {
+		var minBlock = Math.min.apply(null, data.electrode);
+		var maxBlock = Math.max.apply(null, data.electrode);
+		for (var j = 0; j < data.electrode.length; j++) {
 			var fullHeight = 4;
-			var dotOffset = (maxBlock - block[j]) / (maxBlock - minBlock) * fullHeight;
+			var dotOffset = (maxBlock - data.electrode[j]) / (maxBlock - minBlock) * fullHeight;
 			var dotElem = createElement("div");
 			dotElem.style.top = "calc(" + dotOffset.toFixed(3) + "em - 1px)";
 			dotElem.title = (i + j / SAMPLES_PER_SECOND).toFixed(3) + " s";
@@ -111,11 +143,12 @@ function doComputation(samples) {
 		p = createElement("p", "Frequency spectrum:");
 		resultsElem.appendChild(p);
 		
+		var maxAmplitude = Math.max.apply(null, data.fftAmplitude);
 		graphElem = createElement("div");
 		graphElem.className = "freqgraph";
-		for (var j = 0; j <= real.length / 2; j++) {
+		for (var j = 0; j < data.fftAmplitude.length; j++) {
 			var fullHeight = 10;
-			var barHeight = amplitude[j] / maxAmplitude * fullHeight;
+			var barHeight = data.fftAmplitude[j] / maxAmplitude * fullHeight;
 			var barElem = createElement("div");
 			barElem.style.height = barHeight.toFixed(3) + "em";
 			barElem.title = j + " Hz";
@@ -126,21 +159,23 @@ function doComputation(samples) {
 		for (var j = 0; j < SAMPLES_PER_SECOND; j++) {
 			var trElem = createElement("tr");
 			trElem.appendChild(createElement("td", (i + j / SAMPLES_PER_SECOND).toFixed(3)));
-			trElem.appendChild(createElement("td", block[j].toString()));
-			trElem.appendChild(createElement("td", j < amplitude.length ? real[j].toFixed(3) : ""));
-			trElem.appendChild(createElement("td", j < amplitude.length ? imag[j].toFixed(3) : ""));
-			trElem.appendChild(createElement("td", j < amplitude.length ? amplitude[j].toFixed(3) : ""));
-			trElem.appendChild(createElement("td", j < amplitude.length ? j.toString() : ""));
+			trElem.appendChild(createElement("td", data.electrode[j].toString()));
+			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftReal[j].toFixed(3) : ""));
+			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftImag[j].toFixed(3) : ""));
+			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftAmplitude[j].toFixed(3) : ""));
+			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? j.toString() : ""));
 			trElem.appendChild(createElement("td", i.toString()));
 			tbodyElem.appendChild(trElem);
 		}
-	}
+	});
 	
 	var p = createElement("p", "Numbers:");
 	resultsElem.appendChild(p);
 	resultsElem.appendChild(tableElem);
 }
 
+
+/*---- Low-level utility functions ----*/
 
 function createElement(tagName, content) {
 	var result = document.createElement(tagName);
@@ -159,7 +194,7 @@ function removeAllChildren(node) {
 }
 
 
-// Polyfill
+// Polyfill for environments with missing features
 if (!("hypot" in Math)) {
 	Math.hypot = function(x, y) {
 		return Math.sqrt(x * x + y * y);
