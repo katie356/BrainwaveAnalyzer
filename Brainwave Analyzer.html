@@ -89,6 +89,12 @@ p {
 <!--**** HTML page content ****-->
 <body>
 <h1>Brainwave Analyzer</h1>
+<p>The Brainwave Analyzer is a project of<br>
+Alpha Gamma Waves Blog - <a href="https://alphagammawaves.wordpress.com/">https://alphagammawaves.wordpress.com/</a></p>
+<p>Software created in JavaScript by<br>
+Project Nayuki - <a href="https://www.nayuki.io/">https://www.nayuki.io/</a></p>
+<p>Help - <a href="https://alphagammawaves.wordpress.com/brainwave-analyzer/">https://alphagammawaves.wordpress.com/brainwave-analyzer/</a></p>
+
 <h2>Input data (CSV)</h2>
 <p><textarea id="input-text" onfocus="this.className='';">Time,Electrode,Attention,Meditation,Rows
 0,140,61,53,1
@@ -1116,9 +1122,9 @@ p {
 1.996094,69,57,30,1023
 1.998047,64,57,30,1024</textarea><br>
 <input type="button" value="Analyze" onclick="doAnalyze();">
-<input type="button" value="Clear" onclick="doClear()";></p>
+<input type="button" value="Clear" onclick="doClear();"></p>
 
-<h2>Output results (graphs)</h2>
+<h2>Output results</h2>
 <div id="results"></div>
 
 
