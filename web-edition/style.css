@@ -47,6 +47,15 @@ p {
 	margin-bottom: 0.5em;
 }
 
+table {
+	border: 1px solid #D0D0D0;
+	font-size: 80%;
+}
+
+td {
+	text-align: right;
+}
+
 .wavegraph, .freqgraph {
 	display: table-cell;
 	border: 1px solid #D0D0D0;

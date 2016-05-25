@@ -64,6 +64,16 @@ function doComputation(samples) {
 	var resultsElem = document.getElementById("results");
 	removeAllChildren(resultsElem);
 	
+	var tableElem = createElement("table");
+	var trElem = createElement("tr");
+	["Time", "Electrode", "FFT", "FFTimag", "Amplitude", "FreqIndex", "Seconds"].forEach(
+		function(name) {
+			trElem.appendChild(createElement("th", name));
+		});
+	tableElem.appendChild(createElement("thead", trElem));
+	var tbodyElem = createElement("tbody");
+	tableElem.appendChild(tbodyElem);
+	
 	var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
 	for (var i = 0; i < numSeconds; i++) {
 		var startIndex = (i + 0) * SAMPLES_PER_SECOND;  // Inclusive
@@ -112,7 +122,23 @@ function doComputation(samples) {
 			graphElem.appendChild(barElem);
 		}
 		resultsElem.appendChild(graphElem);
+		
+		for (var j = 0; j < SAMPLES_PER_SECOND; j++) {
+			var trElem = createElement("tr");
+			trElem.appendChild(createElement("td", (i + j / SAMPLES_PER_SECOND).toFixed(3)));
+			trElem.appendChild(createElement("td", block[j].toString()));
+			trElem.appendChild(createElement("td", j < amplitude.length ? real[j].toFixed(3) : ""));
+			trElem.appendChild(createElement("td", j < amplitude.length ? imag[j].toFixed(3) : ""));
+			trElem.appendChild(createElement("td", j < amplitude.length ? amplitude[j].toFixed(3) : ""));
+			trElem.appendChild(createElement("td", j < amplitude.length ? j.toString() : ""));
+			trElem.appendChild(createElement("td", i.toString()));
+			tbodyElem.appendChild(trElem);
+		}
 	}
+	
+	var p = createElement("p", "Numbers:");
+	resultsElem.appendChild(p);
+	resultsElem.appendChild(tableElem);
 }
 
 
