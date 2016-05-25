@@ -6,11 +6,30 @@
 var analysisResults;
 
 
-function doClear() {
-	clearResults();
-	var inputTextElem = document.getElementById("input-text");
-	inputTextElem.value = "";
-	inputTextElem.className = "";
+function doClear(level) {
+	if (level == undefined)
+		level = 3;
+	
+	switch (level) {  // Uses fall-through
+		case 3:
+			var inputTextElem = document.getElementById("input-text");
+			inputTextElem.value = "";
+			inputTextElem.className = "";
+			
+		case 2:
+			analysisResults = null;
+			document.getElementById("results").style.display = "none";
+			removeAllChildren(document.getElementById("time-offset"));
+		
+		case 1:
+			removeAllChildren(document.getElementById("brainwave"));
+			removeAllChildren(document.getElementById("frequency-spectrum"));
+			removeAllChildren(document.getElementById("numbers-table"));
+			break;
+		
+		default:
+			throw "Assertion error";
+	}
 }
 
 
@@ -21,19 +40,14 @@ function doAnalyze() {
 	
 	// Do the work after the CSS animation finishes
 	setTimeout(function() {
+		doClear(2);
 		analysisResults = computeAndAnalyze(samples);
-		displayAnalysis(analysisResults);
+		displayResults();
 	}, 250);
 }
 
 
 /*---- Middle-level application functions ----*/
-
-function clearResults() {
-	analysisResults = null;
-	removeAllChildren(document.getElementById("results"));
-}
-
 
 // Reads the textarea with ID "input-text", then returns an array of numeric samples or null.
 function readFormInput() {
@@ -119,82 +133,68 @@ function computeAndAnalyze(samples) {
 }
 
 
-function displayAnalysis(analysis) {
-	clearResults();
-	var resultsElem = document.getElementById("results");
-	
-	var tableElem = createElement("table");
-	var trElem = createElement("tr");
-	var columns = [
-		"Time", "Electrode", "FFT", "FFTimag", "Amplitude", "FreqIndex", "Seconds",
-		"Delta", "Theta", "Alpha", "Beta", "Gamma"];
-	columns.forEach(
-		function(name) {
-			trElem.appendChild(createElement("th", name));
-		});
-	tableElem.appendChild(createElement("thead", trElem));
-	var tbodyElem = createElement("tbody");
-	tableElem.appendChild(tbodyElem);
-	
-	// Process each second (block) of data
-	analysis.forEach(function(data, i) {
-		var h3 = createElement("h3", "Time = " + i + " seconds");
-		resultsElem.appendChild(h3);
-		
-		var p = createElement("p", "Brainwave:");
-		resultsElem.appendChild(p);
-		
-		var graphElem = createElement("div");
-		graphElem.className = "wavegraph";
-		var minBlock = Math.min.apply(null, data.electrode);
-		var maxBlock = Math.max.apply(null, data.electrode);
-		for (var j = 0; j < data.electrode.length; j++) {
-			var fullHeight = 4;
-			var dotOffset = (maxBlock - data.electrode[j]) / (maxBlock - minBlock) * fullHeight;
-			var dotElem = createElement("div");
-			dotElem.style.top = "calc(" + dotOffset.toFixed(3) + "em - 1px)";
-			dotElem.title = (i + j / SAMPLES_PER_SECOND).toFixed(3) + " s";
-			graphElem.appendChild(dotElem);
-		}
-		resultsElem.appendChild(graphElem);
-		
-		p = createElement("p", "Frequency spectrum:");
-		resultsElem.appendChild(p);
-		
-		var maxAmplitude = Math.max.apply(null, data.fftAmplitude);
-		graphElem = createElement("div");
-		graphElem.className = "freqgraph";
-		for (var j = 0; j < data.fftAmplitude.length; j++) {
-			var fullHeight = 10;
-			var barHeight = data.fftAmplitude[j] / maxAmplitude * fullHeight;
-			var barElem = createElement("div");
-			barElem.style.height = barHeight.toFixed(3) + "em";
-			barElem.title = j + " Hz";
-			graphElem.appendChild(barElem);
-		}
-		resultsElem.appendChild(graphElem);
-		
-		for (var j = 0; j < SAMPLES_PER_SECOND; j++) {
-			var trElem = createElement("tr");
-			trElem.appendChild(createElement("td", (i + j / SAMPLES_PER_SECOND).toFixed(3)));
-			trElem.appendChild(createElement("td", data.electrode[j].toString()));
-			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftReal[j].toFixed(3) : ""));
-			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftImag[j].toFixed(3) : ""));
-			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftAmplitude[j].toFixed(3) : ""));
-			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? j.toString() : ""));
-			trElem.appendChild(createElement("td", i.toString()));
-			trElem.appendChild(createElement("td", data.delta.toFixed(3)));
-			trElem.appendChild(createElement("td", data.theta.toFixed(3)));
-			trElem.appendChild(createElement("td", data.alpha.toFixed(3)));
-			trElem.appendChild(createElement("td", data.beta .toFixed(3)));
-			trElem.appendChild(createElement("td", data.gamma.toFixed(3)));
-			tbodyElem.appendChild(trElem);
-		}
+function displayResults() {
+	var selectElem = document.getElementById("time-offset");
+	analysisResults.forEach(function(data, i) {
+		var optionElem = createElement("option", i.toString());
+		optionElem.value = i.toString();
+		selectElem.appendChild(optionElem);
 	});
+	document.getElementById("results").style.display = "";
 	
-	var p = createElement("p", "Numbers:");
-	resultsElem.appendChild(p);
-	resultsElem.appendChild(tableElem);
+	selectElem.onchange = function() {
+		displayAnalysis(parseInt(this.value, 10));
+	};
+	doClear(1);
+	if (analysisResults.length >= 1)
+		displayAnalysis(0);
+}
+
+
+function displayAnalysis(timeOffset) {
+	doClear(1);
+	var data = analysisResults[timeOffset];
+	
+	var graphElem = document.getElementById("brainwave");
+	var minBlock = Math.min.apply(null, data.electrode);
+	var maxBlock = Math.max.apply(null, data.electrode);
+	for (var j = 0; j < data.electrode.length; j++) {
+		var fullHeight = 4;
+		var dotOffset = (maxBlock - data.electrode[j]) / (maxBlock - minBlock) * fullHeight;
+		var dotElem = createElement("div");
+		dotElem.style.top = "calc(" + dotOffset.toFixed(3) + "em - 1px)";
+		dotElem.title = (timeOffset + j / SAMPLES_PER_SECOND).toFixed(3) + " s";
+		graphElem.appendChild(dotElem);
+	}
+	
+	var maxAmplitude = Math.max.apply(null, data.fftAmplitude);
+	graphElem = document.getElementById("frequency-spectrum");
+	for (var j = 0; j < data.fftAmplitude.length; j++) {
+		var fullHeight = 10;
+		var barHeight = data.fftAmplitude[j] / maxAmplitude * fullHeight;
+		var barElem = createElement("div");
+		barElem.style.height = barHeight.toFixed(3) + "em";
+		barElem.title = j + " Hz";
+		graphElem.appendChild(barElem);
+	}
+	
+	var tbodyElem = document.getElementById("numbers-table");
+	for (var j = 0; j < SAMPLES_PER_SECOND; j++) {
+		var trElem = createElement("tr");
+		trElem.appendChild(createElement("td", (timeOffset + j / SAMPLES_PER_SECOND).toFixed(3)));
+		trElem.appendChild(createElement("td", data.electrode[j].toString()));
+		trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftReal[j].toFixed(3) : ""));
+		trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftImag[j].toFixed(3) : ""));
+		trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftAmplitude[j].toFixed(3) : ""));
+		trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? j.toString() : ""));
+		trElem.appendChild(createElement("td", timeOffset.toString()));
+		trElem.appendChild(createElement("td", data.delta.toFixed(3)));
+		trElem.appendChild(createElement("td", data.theta.toFixed(3)));
+		trElem.appendChild(createElement("td", data.alpha.toFixed(3)));
+		trElem.appendChild(createElement("td", data.beta .toFixed(3)));
+		trElem.appendChild(createElement("td", data.gamma.toFixed(3)));
+		tbodyElem.appendChild(trElem);
+	}
 }
 
 

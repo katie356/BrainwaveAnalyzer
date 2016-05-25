@@ -42,6 +42,10 @@ input[type=button] {
 	font-size: inherit;
 }
 
+select {
+	padding: 0.2em 1.0em;
+}
+
 p {
 	margin-top: 1.0em;
 	margin-bottom: 0.5em;
@@ -65,16 +69,16 @@ td {
 	text-align: right;
 }
 
-.wavegraph, .freqgraph {
+#brainwave, #frequency-spectrum {
 	display: table-cell;
 	border: 1px solid #D0D0D0;
 }
 
-.wavegraph {
+#brainwave {
 	height: 4.0em;
 }
 
-.wavegraph > div {
+#brainwave > div {
 	display: inline-block;
 	width: 2px;
 	height: 2px;
@@ -83,7 +87,7 @@ td {
 	vertical-align: top;
 }
 
-.freqgraph > div {
+#frequency-spectrum > div {
 	display: inline-block;
 	width: 4px;
 	background-color: #4000A0;
