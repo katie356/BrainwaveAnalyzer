@@ -78,12 +78,10 @@ function doComputation(samples) {
 			amplitude.push(Math.hypot(real[j], imag[j]));
 		var maxAmplitude = Math.max.apply(null, amplitude);
 		
-		var h3 = document.createElement("h3");
-		h3.appendChild(document.createTextNode("Time = " + i + " seconds"));
+		var h3 = createElement("h3", "Time = " + i + " seconds");
 		resultsElem.appendChild(h3);
 		
-		var p = document.createElement("p");
-		p.appendChild(document.createTextNode("Brainwave:"));
+		var p = createElement("p", "Brainwave:");
 		resultsElem.appendChild(p);
 		
 		var graphElem = document.createElement("div");
@@ -100,8 +98,7 @@ function doComputation(samples) {
 		}
 		resultsElem.appendChild(graphElem);
 		
-		p = document.createElement("p");
-		p.appendChild(document.createTextNode("Frequency spectrum:"));
+		p = createElement("p", "Frequency spectrum:");
 		resultsElem.appendChild(p);
 		
 		graphElem = document.createElement("div");
@@ -116,6 +113,15 @@ function doComputation(samples) {
 		}
 		resultsElem.appendChild(graphElem);
 	}
+}
+
+
+function createElement(tagName, content) {
+	var result = document.createElement(tagName);
+	if (typeof content == "string")
+		content = document.createTextNode(content);
+	result.appendChild(content);
+	return result;
 }
 
 
