@@ -68,28 +68,3 @@ th {
 td {
 	text-align: right;
 }
-
-#brainwave, #frequency-spectrum {
-	display: table-cell;
-	border: 1px solid #D0D0D0;
-}
-
-#brainwave {
-	height: 4.0em;
-}
-
-#brainwave > div {
-	display: inline-block;
-	width: 2px;
-	height: 2px;
-	position: relative;
-	background-color: #B00000;
-	vertical-align: top;
-}
-
-#frequency-spectrum > div {
-	display: inline-block;
-	width: 4px;
-	background-color: #4000A0;
-	vertical-align: bottom;
-}

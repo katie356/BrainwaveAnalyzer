@@ -22,8 +22,6 @@ function doClear(level) {
 			removeAllChildren(document.getElementById("time-offset"));
 		
 		case 1:
-			removeAllChildren(document.getElementById("brainwave"));
-			removeAllChildren(document.getElementById("frequency-spectrum"));
 			removeAllChildren(document.getElementById("numbers-table"));
 			break;
 		
@@ -211,28 +209,87 @@ function displayAnalysis(timeOffset) {
 	doClear(1);
 	var data = analysisResults[timeOffset];
 	
-	var graphElem = document.getElementById("brainwave");
-	var minBlock = Math.min.apply(null, data.electrode);
-	var maxBlock = Math.max.apply(null, data.electrode);
-	for (var j = 0; j < data.electrode.length; j++) {
-		var fullHeight = 4;
-		var dotOffset = (maxBlock - data.electrode[j]) / (maxBlock - minBlock) * fullHeight;
-		var dotElem = createElement("div");
-		dotElem.style.top = "calc(" + dotOffset.toFixed(3) + "em - 1px)";
-		dotElem.title = (timeOffset + j / SAMPLES_PER_SECOND).toFixed(3) + " s";
-		graphElem.appendChild(dotElem);
-	}
+	var color = "#B00000";
+	new Chart(document.getElementById("brainwave"), {
+		type: "line",
+		data: {
+			labels: data.electrode.map(function() { return ""; }),
+			datasets: [{
+				label: "Electrode",
+				data: data.electrode.slice(),
+				borderColor: color,
+				backgroundColor: color,
+				fill: false,
+				pointRadius: 0,
+			}],
+		},
+		options: {
+			animation: {
+				duration: 0,
+			},
+			responsive: false,
+			showLines: true,
+			scales: {
+				xAxes: [{
+					scaleLabel: {
+						display: true,
+						labelString: "Time",
+					},
+				}],
+				yAxes: [{
+					animate: false,
+					scaleLabel: {
+						display: true,
+						labelString: "Amplitude",
+					},
+					ticks: {
+						beginAtZero: false,
+					},
+				}],
+			},
+		},
+	});
 	
-	var maxAmplitude = Math.max.apply(null, data.fftAmplitude);
-	graphElem = document.getElementById("frequency-spectrum");
-	for (var j = 0; j < data.fftAmplitude.length; j++) {
-		var fullHeight = 10;
-		var barHeight = data.fftAmplitude[j] / maxAmplitude * fullHeight;
-		var barElem = createElement("div");
-		barElem.style.height = barHeight.toFixed(3) + "em";
-		barElem.title = j + " Hz";
-		graphElem.appendChild(barElem);
-	}
+	var color = "#4000A0";
+	new Chart(document.getElementById("frequency-spectrum"), {
+		type: "bar",
+		data: {
+			labels: data.fftAmplitude.map(function(_, i) { return i + " Hz"; }),
+			datasets: [{
+				label: "Amplitude",
+				data: data.fftAmplitude.slice(),
+				borderColor: color,
+				backgroundColor: color,
+				borderWidth: 0,
+			}],
+		},
+		options: {
+			animation: {
+				duration: 0,
+			},
+			responsive: false,
+			categoryPercentage: 1.0,
+			barPercentage: 1.0,
+			scales: {
+				xAxes: [{
+					scaleLabel: {
+						display: true,
+						labelString: "Frequency",
+					},
+				}],
+				yAxes: [{
+					animate: false,
+					scaleLabel: {
+						display: true,
+						labelString: "Amplitude",
+					},
+					ticks: {
+						beginAtZero: true,
+					},
+				}],
+			},
+		},
+	});
 	
 	var tbodyElem = document.getElementById("numbers-table");
 	for (var j = 0; j < SAMPLES_PER_SECOND; j++) {
