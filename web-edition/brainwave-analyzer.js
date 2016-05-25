@@ -148,6 +148,62 @@ function displayResults() {
 	doClear(1);
 	if (analysisResults.length >= 1)
 		displayAnalysis(0);
+	
+	var labels = [];
+	var dataSeriesConfig = [
+		["Delta", "#0000A0"],
+		["Theta", "#00A000"],
+		["Alpha", "#D0D000"],
+		["Beta" , "#FFA000"],
+		["Gamma", "#FF4040"],
+	];
+	var datasets = dataSeriesConfig.map(function(tuple) {
+		return {
+			label: tuple[0],
+			borderColor: tuple[1],
+			pointBackgroundColor: tuple[1],
+			backgroundColor: tuple[1],
+			data: [],
+			fill: false,
+		};
+	});
+	analysisResults.forEach(function(data, i) {
+		labels.push(i.toString());
+		datasets[0].data.push(data.delta);
+		datasets[1].data.push(data.theta);
+		datasets[2].data.push(data.alpha);
+		datasets[3].data.push(data.beta );
+		datasets[4].data.push(data.gamma);
+	});
+	
+	new Chart(document.getElementById("overall-bands"), {
+		type: "line",
+		data: {
+			labels: labels,
+			datasets: datasets,
+		},
+		options: {
+			responsive: false,
+			showLines: true,
+			scales: {
+				xAxes: [{
+					scaleLabel: {
+						display: true,
+						labelString: "Time (s)",
+					},
+				}],
+				yAxes: [{
+					scaleLabel: {
+						display: true,
+						labelString: "Amplitude",
+					},
+					ticks: {
+						beginAtZero: true,
+					},
+				}],
+			},
+		},
+	});
 }
 
 

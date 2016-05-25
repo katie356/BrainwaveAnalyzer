@@ -1045,6 +1045,9 @@ Project Nayuki - <a href="https://www.nayuki.io/">https://www.nayuki.io/</a></p>
 
 <h2>Output results</h2>
 <div id="results" style="display:none">
+	<p>Overall frequency bands:</p>
+	<canvas id="overall-bands" width="800" height="500"></canvas>
+	
 	<p>Time offset: <select id="time-offset"></select> seconds</p>
 	
 	<p>Brainwave:</p>
@@ -1074,6 +1077,7 @@ Project Nayuki - <a href="https://www.nayuki.io/">https://www.nayuki.io/</a></p>
 </div>
 
 <script src="fft.js" type="text/javascript"></script>
+<script src="Chart.min.js" type="text/javascript"></script>
 <script src="brainwave-analyzer.js" type="text/javascript"></script>
 </body>
 </html>
