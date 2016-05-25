@@ -84,14 +84,14 @@ function doComputation(samples) {
 		var p = createElement("p", "Brainwave:");
 		resultsElem.appendChild(p);
 		
-		var graphElem = document.createElement("div");
+		var graphElem = createElement("div");
 		graphElem.className = "wavegraph";
 		var minBlock = Math.min.apply(null, block);
 		var maxBlock = Math.max.apply(null, block);
 		for (var j = 0; j < block.length; j++) {
 			var fullHeight = 4;
 			var dotOffset = (maxBlock - block[j]) / (maxBlock - minBlock) * fullHeight;
-			var dotElem = document.createElement("div");
+			var dotElem = createElement("div");
 			dotElem.style.top = "calc(" + dotOffset.toFixed(3) + "em - 1px)";
 			dotElem.title = (i + j / SAMPLES_PER_SECOND).toFixed(3) + " s";
 			graphElem.appendChild(dotElem);
@@ -101,12 +101,12 @@ function doComputation(samples) {
 		p = createElement("p", "Frequency spectrum:");
 		resultsElem.appendChild(p);
 		
-		graphElem = document.createElement("div");
+		graphElem = createElement("div");
 		graphElem.className = "freqgraph";
 		for (var j = 0; j <= real.length / 2; j++) {
 			var fullHeight = 10;
 			var barHeight = amplitude[j] / maxAmplitude * fullHeight;
-			var barElem = document.createElement("div");
+			var barElem = createElement("div");
 			barElem.style.height = barHeight.toFixed(3) + "em";
 			barElem.title = j + " Hz";
 			graphElem.appendChild(barElem);
@@ -118,9 +118,11 @@ function doComputation(samples) {
 
 function createElement(tagName, content) {
 	var result = document.createElement(tagName);
-	if (typeof content == "string")
-		content = document.createTextNode(content);
-	result.appendChild(content);
+	if (content != undefined) {
+		if (typeof content == "string")
+			content = document.createTextNode(content);
+		result.appendChild(content);
+	}
 	return result;
 }
 
