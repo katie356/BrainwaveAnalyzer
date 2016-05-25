@@ -98,6 +98,11 @@ function computeAndAnalyze(samples) {
 			fftReal: real,
 			fftImag: imag,
 			fftAmplitude: amplitude,
+			delta: sumAmplitudesEnergy(amplitude.slice( 0,  4)),
+			theta: sumAmplitudesEnergy(amplitude.slice( 4,  8)),
+			alpha: sumAmplitudesEnergy(amplitude.slice( 8, 14)),
+			beta : sumAmplitudesEnergy(amplitude.slice(14, 32)),
+			gamma: sumAmplitudesEnergy(amplitude.slice(32, amplitude.length)),
 		});
 	}
 	return result;
@@ -110,7 +115,10 @@ function displayAnalysis(analysis) {
 	
 	var tableElem = createElement("table");
 	var trElem = createElement("tr");
-	["Time", "Electrode", "FFT", "FFTimag", "Amplitude", "FreqIndex", "Seconds"].forEach(
+	var columns = [
+		"Time", "Electrode", "FFT", "FFTimag", "Amplitude", "FreqIndex", "Seconds",
+		"Delta", "Theta", "Alpha", "Beta", "Gamma"];
+	columns.forEach(
 		function(name) {
 			trElem.appendChild(createElement("th", name));
 		});
@@ -165,6 +173,11 @@ function displayAnalysis(analysis) {
 			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftAmplitude[j].toFixed(3) : ""));
 			trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? j.toString() : ""));
 			trElem.appendChild(createElement("td", i.toString()));
+			trElem.appendChild(createElement("td", data.delta.toFixed(3)));
+			trElem.appendChild(createElement("td", data.theta.toFixed(3)));
+			trElem.appendChild(createElement("td", data.alpha.toFixed(3)));
+			trElem.appendChild(createElement("td", data.beta .toFixed(3)));
+			trElem.appendChild(createElement("td", data.gamma.toFixed(3)));
 			tbodyElem.appendChild(trElem);
 		}
 	});
@@ -176,6 +189,15 @@ function displayAnalysis(analysis) {
 
 
 /*---- Low-level utility functions ----*/
+
+function sumAmplitudesEnergy(amplitudes) {
+	var sum = 0;
+	amplitudes.forEach(function(x) {
+		sum += x * x;
+	});
+	return Math.sqrt(sum);
+}
+
 
 function createElement(tagName, content) {
 	var result = document.createElement(tagName);
