@@ -19,9 +19,21 @@ function doClear(level) {
 		case 2:
 			analysisResults = null;
 			document.getElementById("results").style.display = "none";
+			if (overallBandsChart != null) {
+				overallBandsChart.destroy();
+				overallBandsChart = null;
+			}
 			removeAllChildren(document.getElementById("time-offset"));
 		
 		case 1:
+			if (brainwaveChart != null) {
+				brainwaveChart.destroy();
+				brainwaveChart = null;
+			}
+			if (frequencySpectrumChart != null) {
+				frequencySpectrumChart.destroy();
+				frequencySpectrumChart = null;
+			}
 			removeAllChildren(document.getElementById("numbers-table"));
 			break;
 		
@@ -46,6 +58,11 @@ function doAnalyze() {
 
 
 /*---- Middle-level application functions ----*/
+
+var overallBandsChart = null;
+var brainwaveChart = null;
+var frequencySpectrumChart = null;
+
 
 // Reads the textarea with ID "input-text", then returns an array of numeric samples or null.
 function readFormInput() {
@@ -174,7 +191,7 @@ function displayResults() {
 		datasets[4].data.push(data.gamma);
 	});
 	
-	new Chart(document.getElementById("overall-bands"), {
+	overallBandsChart = new Chart(document.getElementById("overall-bands"), {
 		type: "line",
 		data: {
 			labels: labels,
@@ -210,7 +227,7 @@ function displayAnalysis(timeOffset) {
 	var data = analysisResults[timeOffset];
 	
 	var color = "#B00000";
-	new Chart(document.getElementById("brainwave"), {
+	brainwaveChart = new Chart(document.getElementById("brainwave"), {
 		type: "line",
 		data: {
 			labels: data.electrode.map(function() { return ""; }),
@@ -251,7 +268,7 @@ function displayAnalysis(timeOffset) {
 	});
 	
 	var color = "#4000A0";
-	new Chart(document.getElementById("frequency-spectrum"), {
+	frequencySpectrumChart = new Chart(document.getElementById("frequency-spectrum"), {
 		type: "bar",
 		data: {
 			labels: data.fftAmplitude.map(function(_, i) { return i + " Hz"; }),
