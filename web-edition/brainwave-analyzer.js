@@ -3,9 +3,13 @@
 
 /*---- Top-level functions ----*/
 
+var analysisResults;
+
+
 function doClear() {
-	document.getElementById("input-text").value = "";
-	removeAllChildren(document.getElementById("results"));
+	clearResults();
+	var inputTextElem = document.getElementById("input-text");
+	inputTextElem.value = "";
 	inputTextElem.className = "";
 }
 
@@ -17,13 +21,19 @@ function doAnalyze() {
 	
 	// Do the work after the CSS animation finishes
 	setTimeout(function() {
-		var analysis = computeAndAnalyze(samples);
-		displayAnalysis(analysis);
+		analysisResults = computeAndAnalyze(samples);
+		displayAnalysis(analysisResults);
 	}, 250);
 }
 
 
 /*---- Middle-level application functions ----*/
+
+function clearResults() {
+	analysisResults = null;
+	removeAllChildren(document.getElementById("results"));
+}
+
 
 // Reads the textarea with ID "input-text", then returns an array of numeric samples or null.
 function readFormInput() {
@@ -110,8 +120,8 @@ function computeAndAnalyze(samples) {
 
 
 function displayAnalysis(analysis) {
+	clearResults();
 	var resultsElem = document.getElementById("results");
-	removeAllChildren(resultsElem);
 	
 	var tableElem = createElement("table");
 	var trElem = createElement("tr");
