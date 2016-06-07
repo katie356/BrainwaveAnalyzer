@@ -26,7 +26,7 @@ Project Nayuki - <a href="https://www.nayuki.io/">https://www.nayuki.io/</a></p>
 	<p>Overall frequency bands:</p>
 	<canvas id="overall-bands" width="800" height="500"></canvas>
 	
-	<p>Time offset: <select id="time-offset"></select> seconds</p>
+	<p>Time offset: <input type="button" value="&lt;" onclick="doDisplayPreviousSecond();"> <select id="time-offset"></select> <input type="button" value="&gt;" onclick="doDisplayNextSecond();"> seconds</p>
 	
 	<p>Brainwave:</p>
 	<canvas id="brainwave" width="800" height="200"></canvas>

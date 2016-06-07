@@ -1,9 +1,16 @@
+/* 
+ * Brainwave Analyzer
+ * https://github.com/katie356/BrainwaveAnalyzer
+ * Open source under the MIT License
+ */
+
 "use strict";
 
 
 /*---- Top-level functions ----*/
 
-var analysisResults;
+var analysisResults = null;
+var currentSecondDisplayed = -1;
 
 
 function doClear(level) {
@@ -94,6 +101,28 @@ function doAnalyze() {
 		displayResults();
 	};
 	reader.readAsText(file);
+}
+
+
+function doDisplayPreviousSecond() {
+	if (analysisResults == null || currentSecondDisplayed == -1)
+		return;
+	else if (currentSecondDisplayed >= 1) {
+		currentSecondDisplayed--;
+		document.getElementById("time-offset").selectedIndex = currentSecondDisplayed;
+		displayAnalysis(currentSecondDisplayed);
+	}
+}
+
+
+function doDisplayNextSecond() {
+	if (analysisResults == null || currentSecondDisplayed == -1)
+		return;
+	else if (currentSecondDisplayed + 1 < analysisResults.length) {
+		currentSecondDisplayed++;
+		document.getElementById("time-offset").selectedIndex = currentSecondDisplayed;
+		displayAnalysis(currentSecondDisplayed);
+	}
 }
 
 
@@ -216,6 +245,7 @@ function displayResults() {
 
 function displayAnalysis(timeOffset) {
 	doClear(1);
+	currentSecondDisplayed = timeOffset;
 	var data = analysisResults[timeOffset];
 	
 	var color = "#B00000";
