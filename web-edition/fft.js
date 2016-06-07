@@ -1,7 +1,7 @@
 /* 
  * Free FFT and convolution (JavaScript)
  * 
- * Copyright (c) 2014 Project Nayuki
+ * Copyright (c) 2016 Project Nayuki
  * https://www.nayuki.io/page/free-small-fft-in-multiple-languages
  * 
  * (MIT License)
@@ -114,102 +114,5 @@ function transformRadix2(real, imag) {
             x >>>= 1;
         }
         return y;
-    }
-}
-
-
-/* 
- * Computes the discrete Fourier transform (DFT) of the given complex vector, storing the result back into the vector.
- * The vector can have any length. This requires the convolution function, which in turn requires the radix-2 FFT function.
- * Uses Bluestein's chirp z-transform algorithm.
- */
-function transformBluestein(real, imag) {
-    // Find a power-of-2 convolution length m such that m >= n * 2 + 1
-    if (real.length != imag.length)
-        throw "Mismatched lengths";
-    var n = real.length;
-    var m = 1;
-    while (m < n * 2 + 1)
-        m *= 2;
-    
-    // Trignometric tables
-    var cosTable = new Array(n);
-    var sinTable = new Array(n);
-    for (var i = 0; i < n; i++) {
-        var j = i * i % (n * 2);  // This is more accurate than j = i * i
-        cosTable[i] = Math.cos(Math.PI * j / n);
-        sinTable[i] = Math.sin(Math.PI * j / n);
-    }
-    
-    // Temporary vectors and preprocessing
-    var areal = new Array(m);
-    var aimag = new Array(m);
-    for (var i = 0; i < n; i++) {
-        areal[i] =  real[i] * cosTable[i] + imag[i] * sinTable[i];
-        aimag[i] = -real[i] * sinTable[i] + imag[i] * cosTable[i];
-    }
-    for (var i = n; i < m; i++)
-        areal[i] = aimag[i] = 0;
-    var breal = new Array(m);
-    var bimag = new Array(m);
-    breal[0] = cosTable[0];
-    bimag[0] = sinTable[0];
-    for (var i = 1; i < n; i++) {
-        breal[i] = breal[m - i] = cosTable[i];
-        bimag[i] = bimag[m - i] = sinTable[i];
-    }
-    for (var i = n; i <= m - n; i++)
-        breal[i] = bimag[i] = 0;
-    
-    // Convolution
-    var creal = new Array(m);
-    var cimag = new Array(m);
-    convolveComplex(areal, aimag, breal, bimag, creal, cimag);
-    
-    // Postprocessing
-    for (var i = 0; i < n; i++) {
-        real[i] =  creal[i] * cosTable[i] + cimag[i] * sinTable[i];
-        imag[i] = -creal[i] * sinTable[i] + cimag[i] * cosTable[i];
-    }
-}
-
-
-/* 
- * Computes the circular convolution of the given real vectors. Each vector's length must be the same.
- */
-function convolveReal(x, y, out) {
-    if (x.length != y.length || x.length != out.length)
-        throw "Mismatched lengths";
-    var zeros = new Array(x.length);
-    for (var i = 0; i < zeros.length; i++)
-        zeros[i] = 0;
-    convolveComplex(x, zeros, y, zeros.slice(), out, zeros.slice());
-}
-
-
-/* 
- * Computes the circular convolution of the given complex vectors. Each vector's length must be the same.
- */
-function convolveComplex(xreal, ximag, yreal, yimag, outreal, outimag) {
-    if (xreal.length != ximag.length || xreal.length != yreal.length || yreal.length != yimag.length || xreal.length != outreal.length || outreal.length != outimag.length)
-        throw "Mismatched lengths";
-    
-    var n = xreal.length;
-    xreal = xreal.slice();
-    ximag = ximag.slice();
-    yreal = yreal.slice();
-    yimag = yimag.slice();
-    
-    transform(xreal, ximag);
-    transform(yreal, yimag);
-    for (var i = 0; i < n; i++) {
-        var temp = xreal[i] * yreal[i] - ximag[i] * yimag[i];
-        ximag[i] = ximag[i] * yreal[i] + xreal[i] * yimag[i];
-        xreal[i] = temp;
-    }
-    inverseTransform(xreal, ximag);
-    for (var i = 0; i < n; i++) {  // Scaling (because this FFT implementation omits it)
-        outreal[i] = xreal[i] / n;
-        outimag[i] = ximag[i] / n;
     }
 }
