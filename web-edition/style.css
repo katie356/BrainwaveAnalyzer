@@ -26,20 +26,13 @@ h1 {
 	text-align: center;
 }
 
-textarea {
-	width: 50em;
-	height: 40em;
-	transition: height 0.2s ease;
-}
-
-textarea.minimize {
-	height: 5em;
+input[type=button], input[type=file] {
+	font-family: inherit;
+	font-size: inherit;
 }
 
 input[type=button] {
 	padding: 0.2em 1.0em;
-	font-family: inherit;
-	font-size: inherit;
 }
 
 select {
