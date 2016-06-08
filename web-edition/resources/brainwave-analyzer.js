@@ -9,7 +9,7 @@
 
 /*---- Top-level functions ----*/
 
-var analysisResults = null;
+var analysisResults = null;  // Set by doAnalyze(), cleared by doClear()
 var currentSecondDisplayed = -1;
 
 
@@ -51,7 +51,7 @@ function doClear(level) {
 
 function doAnalyze() {
 	var inputFileElem = document.getElementById("input-file");
-	if (inputFileElem.files.length != 1)
+	if (inputFileElem.files.length != 1)  // No file or multiple files selected
 		return null;
 	
 	var file = inputFileElem.files[0];
@@ -154,22 +154,25 @@ function computeAndAnalyze(samples) {
 			amplitude.push(Math.hypot(real[j], imag[j]));
 		
 		result.push({
-			electrode: block,
-			fftReal: real,
-			fftImag: imag,
-			fftAmplitude: amplitude,
-			delta: sumAmplitudesEnergy(amplitude.slice( 0,  4)),
-			theta: sumAmplitudesEnergy(amplitude.slice( 4,  8)),
-			alpha: sumAmplitudesEnergy(amplitude.slice( 8, 14)),
-			beta : sumAmplitudesEnergy(amplitude.slice(14, 32)),
-			gamma: sumAmplitudesEnergy(amplitude.slice(32, amplitude.length)),
+			electrode: block,  // Array of SAMPLES_PER_SECOND numbers
+			fftReal: real,     // Array of SAMPLES_PER_SECOND numbers
+			fftImag: imag,     // Array of SAMPLES_PER_SECOND numbers
+			fftAmplitude: amplitude,  // Array of (SAMPLES_PER_SECOND/2)+1 numbers
+			delta: sumAmplitudesEnergy(amplitude.slice( 0,  4)),  // Scalar number
+			theta: sumAmplitudesEnergy(amplitude.slice( 4,  8)),  // Scalar number
+			alpha: sumAmplitudesEnergy(amplitude.slice( 8, 14)),  // Scalar number
+			beta : sumAmplitudesEnergy(amplitude.slice(14, 32)),  // Scalar number
+			gamma: sumAmplitudesEnergy(amplitude.slice(32, amplitude.length)),  // Scalar number
 		});
 	}
 	return result;
 }
 
 
+// Based on the value of 'analysisResults', this function builds and shows the
+// overall brainwave graph, and shows the per-second data for the 0th second.
 function displayResults() {
+	// Create and configure the <select> element
 	var selectElem = document.getElementById("time-offset");
 	analysisResults.forEach(function(data, i) {
 		var optionElem = createElement("option", i.toString());
@@ -182,9 +185,12 @@ function displayResults() {
 		displayAnalysis(parseInt(this.value, 10));
 	};
 	doClear(1);
+	
+	// Display the per-second data
 	if (analysisResults.length >= 1)
 		displayAnalysis(0);
 	
+	// Build the data for the brainwave power graph
 	var labels = [];
 	var dataSeriesConfig = [
 		["Delta", "#0000A0"],
@@ -212,6 +218,7 @@ function displayResults() {
 		datasets[4].data.push(data.gamma);
 	});
 	
+	// Create the overall brainwave power graph
 	overallBandsChart = new Chart(document.getElementById("overall-bands"), {
 		type: "line",
 		data: {
@@ -243,11 +250,13 @@ function displayResults() {
 }
 
 
+// Based on the value of 'analysisResults', this function shows the per-second data for the given second.
 function displayAnalysis(timeOffset) {
 	doClear(1);
 	currentSecondDisplayed = timeOffset;
 	var data = analysisResults[timeOffset];
 	
+	// Create brainwave time series chart
 	var color = "#B00000";
 	brainwaveChart = new Chart(document.getElementById("brainwave"), {
 		type: "line",
@@ -289,6 +298,7 @@ function displayAnalysis(timeOffset) {
 		},
 	});
 	
+	// Create frequency spectrum chart
 	var color = "#4000A0";
 	frequencySpectrumChart = new Chart(document.getElementById("frequency-spectrum"), {
 		type: "bar",
@@ -330,6 +340,7 @@ function displayAnalysis(timeOffset) {
 		},
 	});
 	
+	// Create table of numbers
 	var tbodyElem = document.getElementById("numbers-table");
 	for (var j = 0; j < SAMPLES_PER_SECOND; j++) {
 		var trElem = createElement("tr");
@@ -352,6 +363,7 @@ function displayAnalysis(timeOffset) {
 
 /*---- Low-level utility functions ----*/
 
+// Returns sqrt(ampl[0]^2 + ampl[1]^2 + ... + ampl[n-1]^2).
 function sumAmplitudesEnergy(amplitudes) {
 	var sum = 0;
 	amplitudes.forEach(function(x) {
@@ -361,6 +373,7 @@ function sumAmplitudesEnergy(amplitudes) {
 }
 
 
+// Returns a new HTML element with the given tag name, and option content (text string or child element).
 function createElement(tagName, content) {
 	var result = document.createElement(tagName);
 	if (content != undefined) {
@@ -372,6 +385,7 @@ function createElement(tagName, content) {
 }
 
 
+// Removes all the children of the given DOM element node.
 function removeAllChildren(node) {
 	while (node.firstChild != null)
 		node.removeChild(node.firstChild);
