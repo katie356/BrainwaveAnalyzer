@@ -10,7 +10,6 @@
 /*---- Top-level functions ----*/
 
 var analysisResults = null;  // Set by doAnalyze(), cleared by doClear()
-var currentSecondDisplayed = -1;
 
 
 function doClear(level) {
@@ -104,24 +103,20 @@ function doAnalyze() {
 
 
 function doDisplayPreviousSecond() {
-	if (analysisResults == null || currentSecondDisplayed == -1)
+	var selectElem = document.getElementById("time-offset");
+	if (analysisResults == null || selectElem.selectedIndex - 1 < 0)
 		return;
-	else if (currentSecondDisplayed >= 1) {
-		currentSecondDisplayed--;
-		document.getElementById("time-offset").selectedIndex = currentSecondDisplayed;
-		displayAnalysis(currentSecondDisplayed);
-	}
+	selectElem.selectedIndex--;
+	displayAnalysis(selectElem.selectedIndex);
 }
 
 
 function doDisplayNextSecond() {
-	if (analysisResults == null || currentSecondDisplayed == -1)
+	var selectElem = document.getElementById("time-offset");
+	if (analysisResults == null || selectElem.selectedIndex + 1 >= selectElem.length)
 		return;
-	else if (currentSecondDisplayed + 1 < analysisResults.length) {
-		currentSecondDisplayed++;
-		document.getElementById("time-offset").selectedIndex = currentSecondDisplayed;
-		displayAnalysis(currentSecondDisplayed);
-	}
+	selectElem.selectedIndex++;
+	displayAnalysis(selectElem.selectedIndex);
 }
 
 
@@ -250,7 +245,6 @@ function displayResults() {
 // Based on the value of 'analysisResults', this function shows the per-second data for the given second.
 function displayAnalysis(timeOffset) {
 	doClear(1);
-	currentSecondDisplayed = timeOffset;
 	var data = analysisResults[timeOffset];
 	
 	// Create brainwave time series chart
