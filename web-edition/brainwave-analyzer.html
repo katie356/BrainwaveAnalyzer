@@ -1,9 +1,14 @@
 <!DOCTYPE html>
+<!--
+  - Brainwave Analyzer
+  - https://github.com/katie356/BrainwaveAnalyzer
+  - Open source under the MIT License
+  -->
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Brainwave Analyzer</title>
-<link rel="Stylesheet" href="resources/style.css" type="text/css">
+	<meta charset="UTF-8">
+	<title>Brainwave Analyzer</title>
+	<link rel="Stylesheet" href="resources/style.css" type="text/css">
 </head>
 
 <body>
@@ -26,7 +31,13 @@ Project Nayuki - <a href="https://www.nayuki.io/">https://www.nayuki.io/</a></p>
 	<p>Overall frequency bands:</p>
 	<canvas id="overall-bands" width="800" height="500"></canvas>
 	
-	<p>Time offset: <input type="button" value="&lt;" onclick="doDisplayPreviousSecond();"> <select id="time-offset"></select> <input type="button" value="&gt;" onclick="doDisplayNextSecond();"> seconds</p>
+	<p>
+		Time offset:
+		<input type="button" value="&lt;" onclick="doDisplayPreviousSecond();">
+		<select id="time-offset"></select>
+		<input type="button" value="&gt;" onclick="doDisplayNextSecond();">
+		seconds
+	</p>
 	
 	<p>Brainwave:</p>
 	<canvas id="brainwave" width="800" height="200"></canvas>
