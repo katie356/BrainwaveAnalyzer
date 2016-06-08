@@ -19,8 +19,7 @@ function doClear(level) {
 	
 	switch (level) {  // Uses fall-through
 		case 3:
-			var inputFileElem = document.getElementById("input-file");
-			inputFileElem.value = "";
+			document.getElementById("input-file").value = "";
 			
 		case 2:
 			analysisResults = null;
@@ -44,7 +43,7 @@ function doClear(level) {
 			break;
 		
 		default:
-			throw "Assertion error";
+			throw "Illegal argument";
 	}
 }
 
@@ -174,17 +173,15 @@ function computeAndAnalyze(samples) {
 function displayResults() {
 	// Create and configure the <select> element
 	var selectElem = document.getElementById("time-offset");
-	analysisResults.forEach(function(data, i) {
+	analysisResults.forEach(function(_, i) {
 		var optionElem = createElement("option", i.toString());
 		optionElem.value = i.toString();
 		selectElem.appendChild(optionElem);
 	});
-	document.getElementById("results").style.display = "";
-	
 	selectElem.onchange = function() {
 		displayAnalysis(parseInt(this.value, 10));
 	};
-	doClear(1);
+	document.getElementById("results").style.display = "";
 	
 	// Display the per-second data
 	if (analysisResults.length >= 1)
