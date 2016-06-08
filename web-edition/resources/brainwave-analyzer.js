@@ -342,14 +342,14 @@ function displayAnalysis(timeOffset) {
 	
 	// Create table of numbers
 	var tbodyElem = document.getElementById("numbers-table");
-	for (var j = 0; j < SAMPLES_PER_SECOND; j++) {
+	for (var i = 0; i < SAMPLES_PER_SECOND; i++) {
 		var trElem = createElement("tr");
-		trElem.appendChild(createElement("td", (timeOffset + j / SAMPLES_PER_SECOND).toFixed(3)));
-		trElem.appendChild(createElement("td", data.electrode[j].toString()));
-		trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftReal[j].toFixed(3) : ""));
-		trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftImag[j].toFixed(3) : ""));
-		trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? data.fftAmplitude[j].toFixed(3) : ""));
-		trElem.appendChild(createElement("td", j < data.fftAmplitude.length ? j.toString() : ""));
+		trElem.appendChild(createElement("td", (timeOffset + i / SAMPLES_PER_SECOND).toFixed(3)));
+		trElem.appendChild(createElement("td", data.electrode[i].toString()));
+		trElem.appendChild(createElement("td", i < data.fftAmplitude.length ? data.fftReal[i].toFixed(3) : ""));
+		trElem.appendChild(createElement("td", i < data.fftAmplitude.length ? data.fftImag[i].toFixed(3) : ""));
+		trElem.appendChild(createElement("td", i < data.fftAmplitude.length ? data.fftAmplitude[i].toFixed(3) : ""));
+		trElem.appendChild(createElement("td", i < data.fftAmplitude.length ? i.toString() : ""));
 		trElem.appendChild(createElement("td", timeOffset.toString()));
 		trElem.appendChild(createElement("td", data.delta.toFixed(3)));
 		trElem.appendChild(createElement("td", data.theta.toFixed(3)));
