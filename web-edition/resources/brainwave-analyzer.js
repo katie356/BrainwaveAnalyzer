@@ -55,50 +55,55 @@ function doAnalyze() {
 	var file = inputFileElem.files[0];
 	var reader = new FileReader();
 	reader.onload = function() {
-		var text = reader.result.replace(/\n+$/g, "");  // Strip trailing newlines
-		var lines = text.split("\n");
-		
-		var header = lines[0].split(";");
-		var electrodeColIndex = -1;
-		for (var i = 0; i < header.length; i++) {
-			if (header[i] == "Electrode") {
-				if (electrodeColIndex != -1) {
-					alert("Error: Duplicate column \"Electrode\"");
-					return null;
-				} else {
-					electrodeColIndex = i;
-				}
-			}
-		}
-		
-		var skippedRows = 0;
-		var invalidValues = 0;
-		var samples = [];
-		for (var i = 1; i < lines.length; i++) {
-			var columns = lines[i].split(";");
-			if (columns.length != header.length) {
-				skippedRows++;
-			} else {
-				var strValue = columns[electrodeColIndex];
-				var numValue;
-				if (/^[+-]?\d+(?:\.\d*)?$/.test(strValue))
-					numValue = parseFloat(strValue)
-				else {
-					invalidValues++;
-					numValue = 0;
-				}
-				samples.push(numValue);
-			}
-		}
-		if (skippedRows > 0)
-			alert("Warning: Skipped " + skippedRows + " rows in the input data due to invalid format");
-		if (invalidValues > 0)
-			alert("Warning: Replaced " + invalidValues + " invalid electrode values in the input data");
-		doClear(2);
-		analysisResults = computeAndAnalyze(samples);
-		displayResults();
+		parseFileTextAndAnalyze(reader.result);
 	};
 	reader.readAsText(file);
+}
+
+
+function parseFileTextAndAnalyze(text) {
+	text = text.replace(/\n+$/g, "");  // Strip trailing newlines
+	var lines = text.split("\n");
+	
+	var header = lines[0].split(";");
+	var electrodeColIndex = -1;
+	for (var i = 0; i < header.length; i++) {
+		if (header[i] == "Electrode") {
+			if (electrodeColIndex != -1) {
+				alert("Error: Duplicate column \"Electrode\"");
+				return null;
+			} else {
+				electrodeColIndex = i;
+			}
+		}
+	}
+	
+	var skippedRows = 0;
+	var invalidValues = 0;
+	var samples = [];
+	for (var i = 1; i < lines.length; i++) {
+		var columns = lines[i].split(";");
+		if (columns.length != header.length) {
+			skippedRows++;
+		} else {
+			var strValue = columns[electrodeColIndex];
+			var numValue;
+			if (/^[+-]?\d+(?:\.\d*)?$/.test(strValue))
+				numValue = parseFloat(strValue)
+			else {
+				invalidValues++;
+				numValue = 0;
+			}
+			samples.push(numValue);
+		}
+	}
+	if (skippedRows > 0)
+		alert("Warning: Skipped " + skippedRows + " rows in the input data due to invalid format");
+	if (invalidValues > 0)
+		alert("Warning: Replaced " + invalidValues + " invalid electrode values in the input data");
+	doClear(2);
+	analysisResults = computeAndAnalyze(samples);
+	displayResults();
 }
 
 
