@@ -51,7 +51,6 @@ function doAnalyze() {
 	var inputFileElem = document.getElementById("input-file");
 	if (inputFileElem.files.length != 1)  // No file or multiple files selected
 		return null;
-	
 	var file = inputFileElem.files[0];
 	var reader = new FileReader();
 	reader.onload = function() {
@@ -64,23 +63,16 @@ function doAnalyze() {
 function parseFileTextAndAnalyze(text) {
 	text = text.replace(/\n+$/g, "");  // Strip trailing newlines
 	var lines = text.split("\n");
-	
 	var header = lines[0].split(";");
-	var electrodeColIndex = -1;
-	for (var i = 0; i < header.length; i++) {
-		if (header[i] == "Electrode") {
-			if (electrodeColIndex != -1) {
-				alert("Error: Duplicate column \"Electrode\"");
-				return null;
-			} else {
-				electrodeColIndex = i;
-			}
-		}
+	var electrodeColIndex = header.indexOf("Electrode");
+	if (header.indexOf("Electrode", electrodeColIndex + 1) != -1) {
+		alert('Error: Duplicate column "Electrode"');
+		return;
 	}
 	
+	var samples = [];
 	var skippedRows = 0;
 	var invalidValues = 0;
-	var samples = [];
 	for (var i = 1; i < lines.length; i++) {
 		var columns = lines[i].split(";");
 		if (columns.length != header.length) {
