@@ -494,8 +494,20 @@ namespace _06_Access_Chart_Simple
             dTableDFT.AcceptChanges();
 
             //*****************************************************
- 
+            
+            // Select method 
 
+            DataRow[] fRows = dTableDFT.Select("FrequencyIndex=0");
+
+            for(int i = 0; i < fRows.Length; i ++)
+            {
+              fRows[i]["Amplitude"] = 0;
+            }
+
+            dTableDFT.AcceptChanges();
+ 
+            //-----------------------------------------------------
+            
             //MessageBox.Show(Convert.ToString(dTableDFT.Rows[2]["Amplitude"]));
 
             myBindingSourceDFT = new BindingSource();
