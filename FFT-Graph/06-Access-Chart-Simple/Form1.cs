@@ -431,25 +431,66 @@ namespace _06_Access_Chart_Simple
 
             //******** Filling in Frequency Index *****************
 
-            int intCountFreq = dTableDFT.Rows.Count;
+                     int intCountFreq = dTableDFT.Rows.Count;
             int intSeconds2 = intCountFreq / 512;
             
             // One loop iteration for each second of data
-            for (int i = 0; i < intSeconds2; i++)
-            {
+            for (int i = 0; i < intSeconds2; )
+            {                
                 for (int j = 0; j < 256; j++)
                 {
-                    dTableDFT.Rows[j + (i * 512)]["FrequencyIndex"] = j + 1;
-                    dTableDFT.Rows[j + (i * 512)]["Seconds"] = i + 1;
+                    dTableDFT.Rows[j + (i * 512) + 1]["FrequencyIndex"] = j + 1;
                 }
-
+ 
                 for (int j = 256; j < 512; j++)
                 {
                     dTableDFT.Rows[j + (i * 512)]["FrequencyIndex"] = 512 - j;
-                    dTableDFT.Rows[j + (i * 512)]["Seconds"] = i + 1;
-                }
-            }
+                 }
 
+                for (int j = 0; j < 512; j++)
+                {
+                 dTableDFT.Rows[j + (i * 512)]["Seconds"] = i;
+
+                   if ( j > 0 && j < 4)    // Delta	< 4
+                   {
+                       dTableDFT.Rows[j + (i * 512)]["Delta"] = dTableDFT.Rows[j + (i * 512)]["Amplitude"];
+                   }
+
+                   else if (j >= 4 && j < 8)    // Theta ≥ 4 and < 8
+                   {
+                       dTableDFT.Rows[j + (i * 512)]["Theta"] = dTableDFT.Rows[j + (i * 512)]["Amplitude"];
+                   }
+
+                   else if (j >= 8 && j < 14)    // Alpha ≥ 8 and < 14
+                   {
+                       dTableDFT.Rows[j + (i * 512)]["Alpha"] = dTableDFT.Rows[j + (i * 512)]["Amplitude"];
+                   }
+
+                   else if (j >= 14 && j < 32)    // Beta ≥ 14 and <32
+                   {
+                       dTableDFT.Rows[j + (i * 512)]["Beta"] = dTableDFT.Rows[j + (i * 512)]["Amplitude"];
+                   }
+
+                   else if (j == 32)    // Gamma  ≥ 32
+                   {
+                       dTableDFT.Rows[j + (i * 512)]["Gamma"] = dTableDFT.Rows[j + (i * 512)]["Amplitude"];
+                   }
+
+                   else if (j > 32)    // Gamma  ≥ 32
+                   {
+                       dTableDFT.Rows[j + (i * 512)]["Gamma"] = dTableDFT.Rows[j + (i * 512)]["Amplitude"];
+                   }
+                    //Delta	< 4
+                    //Theta ≥ 4 and < 8
+                    //Alpha	≥ 8 and < 14	
+                    //Beta	≥ 14 and <32
+                    //Gamma ≥ 32                    
+                }
+
+
+                i++;
+            }
+             
             dTableDFT.AcceptChanges();
 
             //*****************************************************
