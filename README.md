@@ -3,9 +3,13 @@
 Program to import raw brainwaves, and using FFT and Frequency Index calculate various bands of brainwaves.
 The Brainwave Analyzer is a rough untested program.
 
-Version 2  - May 2016 (Not a working version)
+Version 3  - June 2016 (Not a working version)
 
-Written in C# 2010
+Two Versions:
+
+"Web-Edition" written in Javascript by Nayuki
+
+"FFT-Graph" written in C# 2010 by Nayuki and katie
 
 Access file and csv sample files included.
 
@@ -13,7 +17,6 @@ Program assumes that access file is at:
 C:\Openvibe\OpenVibe.accdb
 
 The Brainwave Analyzer is a free open source program 
-written by Nayuki and katie
 
 Based on software written by Project Nayuki:
 https://www.nayuki.io/page/free-small-fft-in-multiple-languages
