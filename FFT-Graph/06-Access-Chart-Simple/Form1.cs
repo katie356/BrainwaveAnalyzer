@@ -271,7 +271,8 @@ namespace _06_Access_Chart_Simple
 
         private void btnCSV2_Click(object sender, EventArgs e)
         {
-            // http://www.codeproject.com/Questions/422907/Copy-CSV-records-into-MS-Access-table
+
+           // http://www.codeproject.com/Questions/422907/Copy-CSV-records-into-MS-Access-table
             // http://stackoverflow.com/questions/16606753/populating-a-dataset-from-a-csv-file
             // http://stackoverflow.com/questions/14761952/c-sharp-after-using-openfiledialog-a-messagebox-doesnt-open-on-top
 
@@ -294,88 +295,122 @@ namespace _06_Access_Chart_Simple
             else
                 return;  // exit the import if file not chosen
 
-            //  CSV Connection
+            string myPath = csvFilename;  //@"c:\OpenVibe\Test.txt";
 
-            //var csvFilename = @"c:\OpenVibe\OpenVibeRaw.csv";
-            String csvConnString = string.Format(
-                @"Provider=Microsoft.Jet.OleDb.4.0; Data Source={0};Extended Properties=""Text;HDR=YES;FMT=Delimited""",
-                Path.GetDirectoryName(csvFilename));
+            string strLine;
+            string[] strArray;
+            char[] charArray = new char[] { ';' };
 
-            var csvConnection = new OleDbConnection(csvConnString);
+            //--------------------
 
-            csvConnection.Open();
-            var csvQuery = "SELECT * FROM [" + Path.GetFileName(csvFilename) + "]";
-            var csvAdapter = new OleDbDataAdapter(csvQuery, csvConnection);
-
-            var csvDataset = new DataSet("CSVFile");
-            csvAdapter.Fill(csvDataset);
-
-            //MessageBox.Show("Done!");
-
-            DataTable csvTable = csvDataset.Tables[0];
-
-            // Access Database Connection
-            DataTable myDataTable = new DataTable();
-            dAdapterRaw.Fill(myDataTable);
-            OleDbConnection myConnection = new OleDbConnection(connString);
-            OleDbCommand myCommand = new OleDbCommand(queryRaw, myConnection);
-            myConnection.Open();
-
-            myCommand.CommandText = "DELETE FROM OpenVibeRaw";
-            myCommand.ExecuteNonQuery();
-
-             //read each row in the csvTable and insert that record into the Access Database
-            for (int s = 0; s < csvTable.Rows.Count; s++)  // normally "int i = 0" but data starts on the second row (1 instead of 0)
+            using (DataTable myDataTable = new DataTable())
             {
-                int z = s + 1;
-                myCommand.CommandText = "INSERT INTO OpenVibeRaw VALUES ('" + csvTable.Rows[s].ItemArray.GetValue(0) + "'," + csvTable.Rows[s].ItemArray.GetValue(1) + "," + csvTable.Rows[s].ItemArray.GetValue(2) +
-                     "," + csvTable.Rows[s].ItemArray.GetValue(3) + "," + z + ")";
-                //"," + csvTable.Rows[i].ItemArray.GetValue(9) + ")";
+                DataColumn idColumn = new DataColumn("Rows", Type.GetType("System.Int32"));
+                idColumn.AutoIncrement = true;
+                idColumn.AutoIncrementSeed = 1;
+                //table.Columns.Add(idColumn);
 
-                lblLines.Text = "Number of Lines: " + z;
+                // Two columns.
+                myDataTable.Columns.Add("Time", typeof(double));          // typeof(string));
+                myDataTable.Columns.Add("Electrode", typeof(double));        // typeof(DateTime));
+                myDataTable.Columns.Add("Attention", typeof(double));
+                myDataTable.Columns.Add("Meditation", typeof(double));
+                myDataTable.Columns.Add(idColumn);
 
-                lblSeconds.Text = "Number of Seconds: " + z / 512;
+                FileStream aFile = new FileStream(myPath, FileMode.Open);
+                StreamReader sr = new StreamReader(aFile);
 
-                //MessageBox.Show(myCommand.CommandText);
+                strLine = sr.ReadLine();
+                strArray = strLine.Split(charArray);
 
+                strLine = sr.ReadLine();
+                while (strLine != null)
+                {
+                    strArray = strLine.Split(charArray);
+                    DataRow dr = myDataTable.NewRow();
+                    for (int i = 0; i <= 3; i++)   // strArray.GetUpperBound(0)
+                    {
+                        dr[i] = strArray[i].Trim();
+                    }
+                    myDataTable.Rows.Add(dr);
+                    strLine = sr.ReadLine();
+                }
+                sr.Close();
+
+                //MessageBox.Show(Convert.ToString(myDataTable.Rows[0].Field<int>(1)));
+                //MessageBox.Show(Convert.ToString(myDataTable.Rows[1].Field<int>(1)));
+
+
+                //MessageBox.Show(Convert.ToString(dTableDFT.Rows[2]["Amplitude"]));
+
+                myBindingSourceDFT = new BindingSource();
+                myBindingSourceDFT.DataSource = myDataTable;
+                this.dataGridView1.DataSource = myBindingSourceDFT;
+
+                //MessageBox.Show("Updated Dataset");
+
+                OleDbConnection myConnection = new OleDbConnection(connString);
+                OleDbCommand myCommand = new OleDbCommand(queryRaw, myConnection);
+                myConnection.Open();
+
+                myCommand.CommandText = "DELETE FROM OpenVibeRaw";
                 myCommand.ExecuteNonQuery();
+
+
+                // Copy from Dataset to Database
+
+                //MessageBox.Show("DFT Done, but still needs to be save to database");
+
+                // http://stackoverflow.com/questions/7070011/writing-large-number-of-records-bulk-insert-to-access-in-net-c
+
+                //myConnection.Open();
+                OleDbCommand cmd = new OleDbCommand();
+                cmd.Connection = myConnection;
+
+                int intCount2 = myDataTable.Rows.Count;
+
+                //intCount2 = 512;
+
+                //MessageBox.Show(Convert.ToString(intCount));
+
+                for (int i = 0; i < intCount2; i++)
+                {
+                    //string queryDFT = "INSERT INTO [OpenVibeDFT] ([Time], Electrode, DFT, [Rows]) VALUES (0, 2, 5.00, 1)";
+                    string queryRaw2 = "INSERT INTO [OpenVibeRaw] ([Time], [Electrode], [Attention], [Meditation], [Rows]) VALUES ("
+                        + Convert.ToString(myDataTable.Rows[i]["Time"]) + " ,"
+                        + Convert.ToString(myDataTable.Rows[i]["Electrode"]) + " ,"
+                        + Convert.ToString(myDataTable.Rows[i]["Attention"]) + " ,"
+                        + Convert.ToString(myDataTable.Rows[i]["Meditation"]) + " ,"
+                        + Convert.ToString(myDataTable.Rows[i]["Rows"]) + ")";
+                    cmd.CommandText = queryRaw2;
+                    cmd.ExecuteNonQuery();
+                }
+
+                cmd.Dispose();
+
+                //myConnection.Open();
+
+                this.dataGridView1.DataSource = null;
+                this.dataGridView1.DataSource = myBindingSourceRaw;
+
+                this.chart1.DataSource = null;
+                this.chart1.DataSource = myBindingSourceRaw;   //this is to refresh the chart
+                this.chart1.Refresh();
+
+                myBindingSourceDFT.DataSource = null;
+
+                this.dataGridView2.DataSource = null;
+
+                this.dataGridView3.DataSource = null;
+
+                myConnection.Close();
+
             }
-
-            myConnection.Close();
-
-            // This is to refresh the DataGrid so that the imported info shows up
-
-            myDataTable = new DataTable();
-            dAdapterRaw.Fill(myDataTable);
-
-            // Create a database connection object using the connection string. 
-            myConnection = new OleDbConnection(connString);
-
-            // Create a database command on the connection using query. 
-            myCommand = new OleDbCommand(queryRaw, myConnection);
-
-            myBindingSourceRaw.DataSource = myDataTable;
-
-            myConnection.Open();
-
-            this.dataGridView1.DataSource = null;
-            this.dataGridView1.DataSource = myBindingSourceRaw;
-
-            this.chart1.DataSource = null;
-            this.chart1.DataSource = myBindingSourceRaw;   //this is to refresh the chart
-            this.chart1.Refresh();
-  
-            myBindingSourceDFT.DataSource = null;
-
-            this.dataGridView2.DataSource = null; 
-
-            this.dataGridView3.DataSource = null;
-
-            myConnection.Close();
 
             chart1.Update();
 
             MessageBox.Show("Done Importing!");
+
         }
 
         private void chart2_Click(object sender, EventArgs e)
