@@ -26,12 +26,13 @@
 </section>
 
 <section>
-	<h2>Output results</h2>
+	<h2>Output analysis</h2>
 	<div id="results" style="display:none">
-		<p>Overall frequency bands:</p>
+		<h3>Results for entire time period</h3>
+		<p>Frequency bands:</p>
 		<canvas id="overall-bands" width="800" height="500"></canvas>
 		
-		<p>Power distribution for whole session:</p>
+		<p>Power distribution:</p>
 		<table id="power-distribution">
 			<tbody>
 				<tr><td>Delta band</td><td id="delta-overall"></td></tr>
@@ -48,7 +49,8 @@
 		</p>
 		<hr>
 		
-		<p style="font-weight:bold">
+		<h3>Results per second of data</h3>
+		<p>
 			Time offset:
 			<input type="button" value="&lt;" onclick="doDisplayPreviousSecond();">
 			<select id="time-offset"></select>
