@@ -36,7 +36,7 @@ h1 {
 article {
 	flex-grow: 1;
 	flex-shrink: 1;
-	padding: 1.0em 2.0em;
+	padding: 1.0em 1.0em;
 	border-left: 0.3em solid #F8F8F8;
 	border-right: 0.3em solid #F8F8F8;
 	background-color: #FFFFFF;
@@ -46,8 +46,19 @@ article {
 	background-size: 60% auto;
 }
 
+section {
+	padding: 0.8em 1.5em;
+	background-color: rgba(0,0,0,0.01);
+	border: 1px solid #E0E0E0;
+	border-radius: 0.8em;
+}
+
+section + section {
+	margin-top: 1.5em;
+}
+
 h2 {
-	margin-top: 2.0em;
+	margin-top: 0em;
 	margin-bottom: 0.3em;
 }
 
