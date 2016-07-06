@@ -114,8 +114,8 @@ table {
 	text-align: right;
 }
 
-hr {
-	margin: 1.0em 0em 1.0em;
-	border: none;
-	border-bottom: 1px solid #E0E0E0;
+#about p {
+	line-height: 1.6;
+	font-size: 90%;
+	font-style: italic;
 }
