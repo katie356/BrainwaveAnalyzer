@@ -18,92 +18,92 @@
 
 <article>
 <section>
-<h2>Input data</h2>
-<p>Select an OpenVibe CSV file:<br>
-<input type="file" id="input-file" accept=".csv"><br>
-<input type="button" value="Analyze" onclick="doAnalyze();">
-<input type="button" value="Clear" onclick="doClear();"></p>
+	<h2>Input data</h2>
+	<p>Select an OpenVibe CSV file:<br>
+	<input type="file" id="input-file" accept=".csv"><br>
+	<input type="button" value="Analyze" onclick="doAnalyze();">
+	<input type="button" value="Clear" onclick="doClear();"></p>
 </section>
 
 <section>
-<h2>Output results</h2>
-<div id="results" style="display:none">
-	<p>Overall frequency bands:</p>
-	<canvas id="overall-bands" width="800" height="500"></canvas>
-	
-	<p>Power distribution for whole session:</p>
-	<table id="power-distribution">
-		<tbody>
-			<tr><td>Delta band</td><td id="delta-overall"></td></tr>
-			<tr><td>Theta band</td><td id="theta-overall"></td></tr>
-			<tr><td>Alpha band</td><td id="alpha-overall"></td></tr>
-			<tr><td>Beta  band</td><td id="beta-overall" ></td></tr>
-			<tr><td>Gamma band</td><td id="gamma-overall"></td></tr>
-		</tbody>
-	</table>
-	
-	<p>Export per-second bands:
-		<input type="button" value="Download CSV" onclick="downloadBandsCsv();">
-		<a id="downloader" download="brainwave-bands.csv"></a>
-	</p>
-	<hr>
-	
-	<p>
-		Time offset:
-		<input type="button" value="&lt;" onclick="doDisplayPreviousSecond();">
-		<select id="time-offset"></select>
-		<input type="button" value="&gt;" onclick="doDisplayNextSecond();">
-		seconds
-	</p>
-	
-	<p>Brainwave:</p>
-	<canvas id="brainwave" width="800" height="200"></canvas>
-	
-	<p>Frequency spectrum:</p>
-	<canvas id="frequency-spectrum" width="800" height="200"></canvas>
-	
-	<p>Numbers:</p>
-	<table id="numbers">
-		<thead>
-			<th>Time</th>
-			<th>Electrode</th>
-			<th>FFT</th>
-			<th>FFTimag</th>
-			<th>Amplitude</th>
-			<th>FreqIndex</th>
-			<th>Seconds</th>
-			<th>Delta</th>
-			<th>Theta</th>
-			<th>Alpha</th>
-			<th>Beta</th>
-			<th>Gamma</th>
-		</thead>
-		<tbody id="numbers-table"></tbody>
-		<tfoot>
-			<th>Time</th>
-			<th>Electrode</th>
-			<th>FFT</th>
-			<th>FFTimag</th>
-			<th>Amplitude</th>
-			<th>FreqIndex</th>
-			<th>Seconds</th>
-			<th>Delta</th>
-			<th>Theta</th>
-			<th>Alpha</th>
-			<th>Beta</th>
-			<th>Gamma</th>
-		</tfoot>
-	</table>
-</div>
+	<h2>Output results</h2>
+	<div id="results" style="display:none">
+		<p>Overall frequency bands:</p>
+		<canvas id="overall-bands" width="800" height="500"></canvas>
+		
+		<p>Power distribution for whole session:</p>
+		<table id="power-distribution">
+			<tbody>
+				<tr><td>Delta band</td><td id="delta-overall"></td></tr>
+				<tr><td>Theta band</td><td id="theta-overall"></td></tr>
+				<tr><td>Alpha band</td><td id="alpha-overall"></td></tr>
+				<tr><td>Beta  band</td><td id="beta-overall" ></td></tr>
+				<tr><td>Gamma band</td><td id="gamma-overall"></td></tr>
+			</tbody>
+		</table>
+		
+		<p>Export per-second bands:
+			<input type="button" value="Download CSV" onclick="downloadBandsCsv();">
+			<a id="downloader" download="brainwave-bands.csv"></a>
+		</p>
+		<hr>
+		
+		<p>
+			Time offset:
+			<input type="button" value="&lt;" onclick="doDisplayPreviousSecond();">
+			<select id="time-offset"></select>
+			<input type="button" value="&gt;" onclick="doDisplayNextSecond();">
+			seconds
+		</p>
+		
+		<p>Brainwave:</p>
+		<canvas id="brainwave" width="800" height="200"></canvas>
+		
+		<p>Frequency spectrum:</p>
+		<canvas id="frequency-spectrum" width="800" height="200"></canvas>
+		
+		<p>Numbers:</p>
+		<table id="numbers">
+			<thead>
+				<th>Time</th>
+				<th>Electrode</th>
+				<th>FFT</th>
+				<th>FFTimag</th>
+				<th>Amplitude</th>
+				<th>FreqIndex</th>
+				<th>Seconds</th>
+				<th>Delta</th>
+				<th>Theta</th>
+				<th>Alpha</th>
+				<th>Beta</th>
+				<th>Gamma</th>
+			</thead>
+			<tbody id="numbers-table"></tbody>
+			<tfoot>
+				<th>Time</th>
+				<th>Electrode</th>
+				<th>FFT</th>
+				<th>FFTimag</th>
+				<th>Amplitude</th>
+				<th>FreqIndex</th>
+				<th>Seconds</th>
+				<th>Delta</th>
+				<th>Theta</th>
+				<th>Alpha</th>
+				<th>Beta</th>
+				<th>Gamma</th>
+			</tfoot>
+		</table>
+	</div>
 </section>
 
 <section id="about">
-<h2>About <i>Brainwave Analyzer</i></h2>
-<p>The Brainwave Analyzer is a project of Alpha Gamma Waves Blog – <a href="https://alphagammawaves.wordpress.com/">https://alphagammawaves.wordpress.com/</a><br>
-Help documentation – <a href="https://alphagammawaves.wordpress.com/brainwave-analyzer/">https://alphagammawaves.wordpress.com/brainwave-analyzer/</a><br>
-GitHub project repository – <a href="https://github.com/katie356/BrainwaveAnalyzer">https://github.com/katie356/BrainwaveAnalyzer <img src="resources/github-icon.svg" style="width:1.2em; vertical-align:middle"></a><br>
-Software created in JavaScript by Project Nayuki – <a href="https://www.nayuki.io/">https://www.nayuki.io/</a><br>
-The code is open source under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+	<h2>About <i>Brainwave Analyzer</i></h2>
+	<p>The Brainwave Analyzer is a project of Alpha Gamma Waves Blog – <a href="https://alphagammawaves.wordpress.com/">https://alphagammawaves.wordpress.com/</a><br>
+	Help documentation – <a href="https://alphagammawaves.wordpress.com/brainwave-analyzer/">https://alphagammawaves.wordpress.com/brainwave-analyzer/</a><br>
+	GitHub project repository – <a href="https://github.com/katie356/BrainwaveAnalyzer">https://github.com/katie356/BrainwaveAnalyzer <img src="resources/github-icon.svg" style="width:1.2em; vertical-align:middle"></a><br>
+	Software created in JavaScript by Project Nayuki – <a href="https://www.nayuki.io/">https://www.nayuki.io/</a><br>
+	The code is open source under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
 </section>
 </article>
 
