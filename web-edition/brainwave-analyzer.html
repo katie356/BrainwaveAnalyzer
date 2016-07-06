@@ -32,13 +32,15 @@ Project Nayuki - <a href="https://www.nayuki.io/">https://www.nayuki.io/</a></p>
 	<canvas id="overall-bands" width="800" height="500"></canvas>
 	
 	<p>Power distribution for whole session:</p>
-	<ul>
-		<li>Delta band: <span id="delta-overall"></span>%</li>
-		<li>Theta band: <span id="theta-overall"></span>%</li>
-		<li>Alpha band: <span id="alpha-overall"></span>%</li>
-		<li>Beta band:  <span id="beta-overall" ></span>%</li>
-		<li>Gamma band: <span id="gamma-overall"></span>%</li>
-	</ul>
+	<table id="power-distribution">
+		<tbody>
+			<tr><td>Delta band</td><td id="delta-overall"></td></tr>
+			<tr><td>Theta band</td><td id="theta-overall"></td></tr>
+			<tr><td>Alpha band</td><td id="alpha-overall"></td></tr>
+			<tr><td>Beta  band</td><td id="beta-overall" ></td></tr>
+			<tr><td>Gamma band</td><td id="gamma-overall"></td></tr>
+		</tbody>
+	</table>
 	
 	<p>Export per-second bands:
 		<input type="button" value="Download CSV" onclick="downloadBandsCsv();">

@@ -268,7 +268,8 @@ function displayResults() {
 		});
 		var span = document.getElementById(name + "-overall");
 		removeAllChildren(span);
-		span.appendChild(document.createTextNode((bandPower / totalPower * 100).toFixed(2)));
+		var s = (bandPower / totalPower * 100).toFixed(2) + "%";
+		span.appendChild(document.createTextNode(s));
 	});
 }
 

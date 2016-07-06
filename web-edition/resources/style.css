@@ -58,6 +58,15 @@ table {
 	border-collapse: collapse;
 }
 
+#power-distribution td {
+	padding: 0.4em 0.8em;
+	border: 1px solid #D0D0D0;
+}
+
+#power-distribution td:nth-child(2) {
+	text-align: right;
+}
+
 #numbers {
 	font-size: 80%;
 }
