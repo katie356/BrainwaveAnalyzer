@@ -31,6 +31,12 @@ Project Nayuki - <a href="https://www.nayuki.io/">https://www.nayuki.io/</a></p>
 	<p>Overall frequency bands:</p>
 	<canvas id="overall-bands" width="800" height="500"></canvas>
 	
+	<p>Export per-second bands:
+		<input type="button" value="Download CSV" onclick="downloadBandsCsv();">
+		<a id="downloader" download="brainwave-bands.csv"></a>
+	</p>
+	<hr>
+	
 	<p>
 		Time offset:
 		<input type="button" value="&lt;" onclick="doDisplayPreviousSecond();">

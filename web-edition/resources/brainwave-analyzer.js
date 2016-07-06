@@ -117,6 +117,22 @@ function doDisplayNextSecond() {
 }
 
 
+function downloadBandsCsv() {
+	var anchor = document.getElementById("downloader");
+	var s = "Time,Delta,Theta,Alpha,Beta,Gamma\n";
+	analysisResults.forEach(function(data, i) {
+		s += i + ",";
+		s += data.delta + ",";
+		s += data.theta + ",";
+		s += data.alpha + ",";
+		s += data.beta + ",";
+		s += data.gamma + "\n";
+	});
+	anchor.href = "data:text/plain;charset=utf-8," + encodeURIComponent(s);
+	anchor.click();
+}
+
+
 /*---- Middle-level application functions ----*/
 
 var overallBandsChart = null;
