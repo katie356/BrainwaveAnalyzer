@@ -31,6 +31,15 @@ Project Nayuki - <a href="https://www.nayuki.io/">https://www.nayuki.io/</a></p>
 	<p>Overall frequency bands:</p>
 	<canvas id="overall-bands" width="800" height="500"></canvas>
 	
+	<p>Power distribution for whole session:</p>
+	<ul>
+		<li>Delta band: <span id="delta-overall"></span>%</li>
+		<li>Theta band: <span id="theta-overall"></span>%</li>
+		<li>Alpha band: <span id="alpha-overall"></span>%</li>
+		<li>Beta band:  <span id="beta-overall" ></span>%</li>
+		<li>Gamma band: <span id="gamma-overall"></span>%</li>
+	</ul>
+	
 	<p>Export per-second bands:
 		<input type="button" value="Download CSV" onclick="downloadBandsCsv();">
 		<a id="downloader" download="brainwave-bands.csv"></a>

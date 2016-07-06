@@ -252,6 +252,24 @@ function displayResults() {
 			},
 		},
 	});
+	
+	// Calculate and display overall power percentage per band
+	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
+	var totalPower = 0;
+	analysisResults.forEach(function(data) {
+		bandNames.forEach(function(name) {
+			totalPower += data[name];
+		});
+	});
+	bandNames.forEach(function(name) {
+		var bandPower = 0;
+		analysisResults.forEach(function(data) {
+			bandPower += data[name];
+		});
+		var span = document.getElementById(name + "-overall");
+		removeAllChildren(span);
+		span.appendChild(document.createTextNode((bandPower / totalPower * 100).toFixed(2)));
+	});
 }
 
 
