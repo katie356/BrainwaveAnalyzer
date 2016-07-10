@@ -1,0 +1,1293 @@
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\06-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\06-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\06-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\06-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\06-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\06-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\06-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\07-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\07-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\07-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\07-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\07-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\07-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\07-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\08-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\08-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\08-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\08-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\08-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\08-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\08-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\08-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\09-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\09-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\09-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\09-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\09-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\09-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\09-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\09-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\10-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\10-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\10-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\10-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\10-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\10-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\10-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\10-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\11-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\11-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\11-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\11-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\11-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\11-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\11-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\11-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\12-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\12-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\12-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\12-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\12-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\12-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\12-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\12-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\13-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\13-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\13-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\13-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\13-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\13-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\13-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\13-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\14-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\14-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\14-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\14-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\14-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\14-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\14-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\14-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\15-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\15-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\15-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\15-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\15-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\15-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\15-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\15-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\16-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\16-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\16-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\16-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\16-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\16-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\16-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\16-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\17-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\17-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\17-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\17-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\17-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\17-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\17-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\17-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\18-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\18-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\18-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\18-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\18-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\18-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\18-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\18-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\19-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\19-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\19-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\19-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\19-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\19-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\19-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\19-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\21-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\21-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\21-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\21-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\21-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\21-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\21-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\21-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\22-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\22-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\22-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\22-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\22-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\22-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\22-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\22-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\23-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\23-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\23-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\23-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\23-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\23-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\23-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\23-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\24-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\24-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\24-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\24-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\24-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\24-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\24-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\24-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\25-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\25-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\25-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\25-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\25-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\25-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\25-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\25-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\26-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\26-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\26-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\26-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\26-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\26-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\26-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\26-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\27-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\27-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\27-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\27-Access-Chart-Simple\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\27-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\27-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\27-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-Project-Charts\27-Access-Chart-Simple\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\09-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\09-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\09-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\09-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\09-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\09-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\09-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\09-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\10-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\10-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\10-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\10-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\10-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\10-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\10-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\10-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\11-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\11-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\11-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\11-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\11-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\11-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\11-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\11-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\12-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\12-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\12-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\12-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\12-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\12-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\12-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\12-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\13-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\13-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\13-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\13-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\13-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\13-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\13-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\13-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\14-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\14-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\14-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\14-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\14-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\14-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\14-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\14-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\15-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\15-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\15-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\15-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\15-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\15-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\15-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\15-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\16-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\16-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\16-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\16-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\16-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\16-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\16-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\16-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\17-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\22-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\23-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\23-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\23-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\24-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\25-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\26-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\27-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\28-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\29-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\30-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\31-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\32-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\33-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\34-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\35-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\36-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\37-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\38-DFT-Graph-Index\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\39-DFT-Graph-Rows\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\40-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\41-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\42-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\43-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\44-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\44-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\44-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\45-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\45-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\45-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\46-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\47-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\49-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\50-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\51-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\52-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\53-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.About.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\54-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\55-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\56-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\57-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\58-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\59-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\60-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\60-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\60-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\61-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\62-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph-Test\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph-Test\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\63-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\64-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\64-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\64-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\65-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\66-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\67-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\68-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\69-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\70-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\71-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\72-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\73-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\74-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\75-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\76-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\78-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\79-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\80-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\81-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\82-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\83-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\84-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\84-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\84-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\85-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\86-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\87-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\88-DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Upload-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\89-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\89-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\89-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\90-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\91-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\91-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\91-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\92-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\93-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\94-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\96-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\97-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\98-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\99-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\100-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\101-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\102-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\103-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\104-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\105-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\106-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\107-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\108-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\109-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\110-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\110-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\110-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\111-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\112-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\113-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\114-DFT-Graph\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-1\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\DFT-3\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-1\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\DFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\Users\Kelsey\Documents\Visual Studio 2010\Projects\C#\x-DFT\00-Email\FFT-2\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\06\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\07\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\08\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\09\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer\02\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-1\BrainwaveAnalyzer\10\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-1\BrainwaveAnalyzer\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-1\BrainwaveAnalyzer\10\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\16-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\17-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\18-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\19-new\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\20\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\21\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\21\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\21\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\22\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\23\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\23\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\23\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\24\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\24\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\24\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\25\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\26\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\27\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\28\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\28\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\28\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\29\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe.config
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.exe
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\bin\Debug\06-Access-Chart-Simple.pdb
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csprojResolveAssemblyReference.cache
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.frmAbout.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Form1.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\_06_Access_Chart_Simple.Properties.Resources.resources
+C:\OpenVibe\BrainwaveAnalyzer-3\30\FFT-Graph\06-Access-Chart-Simple\obj\x86\Debug\06-Access-Chart-Simple.csproj.GenerateResource.Cache

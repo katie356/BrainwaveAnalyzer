@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="frequencyIndexDataset" targetNamespace="http://tempuri.org/frequencyIndexDataset.xsd" xmlns:mstns="http://tempuri.org/frequencyIndexDataset.xsd" xmlns="http://tempuri.org/frequencyIndexDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="OpenVibeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="OpenVibeConnectionString (Settings)" PropertyReference="ApplicationSettings._06_Access_Chart_Simple.Properties.Settings.GlobalReference.Default.OpenVibeConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="qFrequencyTableAdapter" GeneratorDataComponentClassName="qFrequencyTableAdapter" Name="qFrequency" UserDataComponentName="qFrequencyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="OpenVibeConnectionString (Settings)" DbObjectName="qFrequency" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Seconds, Amplitude, FirstOfFrequencyIndex FROM qFrequency</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Seconds" DataSetColumn="Seconds" />
+              <Mapping SourceColumn="Amplitude" DataSetColumn="Amplitude" />
+              <Mapping SourceColumn="FirstOfFrequencyIndex" DataSetColumn="FirstOfFrequencyIndex" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="frequencyIndexDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="frequencyIndexDataset" msprop:Generator_UserDSName="frequencyIndexDataset">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="qFrequency" msprop:Generator_TableClassName="qFrequencyDataTable" msprop:Generator_TableVarName="tableqFrequency" msprop:Generator_TablePropName="qFrequency" msprop:Generator_RowDeletingName="qFrequencyRowDeleting" msprop:Generator_RowChangingName="qFrequencyRowChanging" msprop:Generator_RowEvHandlerName="qFrequencyRowChangeEventHandler" msprop:Generator_RowDeletedName="qFrequencyRowDeleted" msprop:Generator_UserTableName="qFrequency" msprop:Generator_RowChangedName="qFrequencyRowChanged" msprop:Generator_RowEvArgName="qFrequencyRowChangeEvent" msprop:Generator_RowClassName="qFrequencyRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Seconds" msprop:Generator_ColumnVarNameInTable="columnSeconds" msprop:Generator_ColumnPropNameInRow="Seconds" msprop:Generator_ColumnPropNameInTable="SecondsColumn" msprop:Generator_UserColumnName="Seconds" type="xs:int" minOccurs="0" />
+              <xs:element name="Amplitude" msprop:Generator_ColumnVarNameInTable="columnAmplitude" msprop:Generator_ColumnPropNameInRow="Amplitude" msprop:Generator_ColumnPropNameInTable="AmplitudeColumn" msprop:Generator_UserColumnName="Amplitude" type="xs:double" minOccurs="0" />
+              <xs:element name="FirstOfFrequencyIndex" msprop:Generator_ColumnVarNameInTable="columnFirstOfFrequencyIndex" msprop:Generator_ColumnPropNameInRow="FirstOfFrequencyIndex" msprop:Generator_ColumnPropNameInTable="FirstOfFrequencyIndexColumn" msprop:Generator_UserColumnName="FirstOfFrequencyIndex" type="xs:short" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
