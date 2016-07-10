@@ -407,6 +407,34 @@ namespace _06_Access_Chart_Simple
 
             }
 
+                    DataTable myDataTable2 = new DataTable();
+            dAdapterRaw.Fill(myDataTable2);
+
+            // Create a database connection object using the connection string. 
+            OleDbConnection myConnection2 = new OleDbConnection(connString);
+
+            // Create a database command on the connection using query. 
+            OleDbCommand myCommand2 = new OleDbCommand(queryRaw, myConnection2);
+
+            myBindingSourceRaw.DataSource = myDataTable2;
+
+            myConnection2.Open();
+
+            this.dataGridView1.DataSource = null;
+            this.dataGridView1.DataSource = myBindingSourceRaw;
+
+            this.chart1.DataSource = null;
+            this.chart1.DataSource = myBindingSourceRaw;   //this is to refresh the chart
+            this.chart1.Refresh();
+
+            myBindingSourceDFT.DataSource = null;
+
+            this.dataGridView2.DataSource = null;
+
+            this.dataGridView3.DataSource = null;
+
+            myConnection2.Close();
+
             chart1.Update();
 
             MessageBox.Show("Done Importing!");
