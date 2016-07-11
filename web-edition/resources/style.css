@@ -71,6 +71,10 @@ input[type=button] {
 	padding: 0.2em 1.0em;
 }
 
+input[type=file] {
+	width: 100%;
+}
+
 select {
 	padding: 0.2em 1.0em;
 }
