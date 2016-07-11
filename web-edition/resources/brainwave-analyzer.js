@@ -119,6 +119,7 @@ function doDisplayNextSecond() {
 
 function downloadBandsCsv() {
 	var anchor = document.getElementById("downloader");
+	anchor.download = document.getElementById("export-file-name").value;
 	var s = "Time,Delta,Theta,Alpha,Beta,Gamma\n";
 	analysisResults.forEach(function(data, i) {
 		s += i + ",";

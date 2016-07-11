@@ -44,8 +44,9 @@
 		</table>
 		
 		<p>Export per-second bands:
-			<input type="button" value="Download CSV" onclick="downloadBandsCsv();">
-			<a id="downloader" download="brainwave-bands.csv"></a>
+			<input type="text" id="export-file-name" value="brainwave-bands.csv" placeholder="example.csv" style="width:15em">
+			<input type="button" value="Download file" onclick="downloadBandsCsv();">
+			<a id="downloader"></a>
 		</p>
 		<hr>
 		

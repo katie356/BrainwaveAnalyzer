@@ -62,7 +62,7 @@ h2 {
 	margin-bottom: 0.3em;
 }
 
-input[type=button], input[type=file] {
+input {
 	font-family: inherit;
 	font-size: inherit;
 }
