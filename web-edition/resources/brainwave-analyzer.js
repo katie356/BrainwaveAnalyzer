@@ -119,7 +119,7 @@ function doDisplayNextSecond() {
 
 function downloadBandsCsv() {
 	var s = "Time,Delta,Theta,Alpha,Beta,Gamma\n";
-	analysisResults.forEach(function(data, i) {
+	analysisResults.perSecond.forEach(function(data, i) {
 		s += i + ",";
 		s += data.delta + ",";
 		s += data.theta + ",";
@@ -137,7 +137,7 @@ function downloadBandsCsv() {
 
 function downloadNumbersCsv() {
 	var s = "Time,Electrode,FFT,FFTimag,Amplitude,FreqIndex,Seconds,Delta,Theta,Alpha,Beta,Gamma\n";
-	analysisResults.forEach(function(data, timeOffset) {
+	analysisResults.perSecond.forEach(function(data, timeOffset) {
 		for (var i = 0; i < SAMPLES_PER_SECOND; i++) {
 			s += (timeOffset + i / SAMPLES_PER_SECOND).toFixed(6) + ",";
 			s += data.electrode[i] + ",";
@@ -172,7 +172,9 @@ var SAMPLES_PER_SECOND = 512;
 
 // Returns an array of dictionaries, one per second.
 function computeAndAnalyze(samples) {
-	var result = [];
+	var result = {};
+	
+	result.perSecond = [];
 	var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
 	for (var i = 0; i < numSeconds; i++) {
 		var startIndex = (i + 0) * SAMPLES_PER_SECOND;  // Inclusive
@@ -188,7 +190,7 @@ function computeAndAnalyze(samples) {
 		for (var j = 0; j <= real.length / 2; j++)
 			amplitude.push(Math.hypot(real[j], imag[j]));
 		
-		result.push({
+		result.perSecond.push({
 			electrode: block,  // Array of SAMPLES_PER_SECOND numbers
 			fftReal: real,     // Array of SAMPLES_PER_SECOND numbers
 			fftImag: imag,     // Array of SAMPLES_PER_SECOND numbers
@@ -209,7 +211,7 @@ function computeAndAnalyze(samples) {
 function displayResults() {
 	// Create and configure the <select> element
 	var selectElem = document.getElementById("time-offset");
-	analysisResults.forEach(function(_, i) {
+	analysisResults.perSecond.forEach(function(_, i) {
 		var optionElem = createElement("option", i.toString());
 		optionElem.value = i.toString();
 		selectElem.appendChild(optionElem);
@@ -220,7 +222,7 @@ function displayResults() {
 	document.getElementById("results").style.display = "";
 	
 	// Display the per-second data
-	if (analysisResults.length >= 1)
+	if (analysisResults.perSecond.length >= 1)
 		displayAnalysis(0);
 	
 	// Build the data for the brainwave power graph
@@ -242,7 +244,7 @@ function displayResults() {
 			fill: false,
 		};
 	});
-	analysisResults.forEach(function(data, i) {
+	analysisResults.perSecond.forEach(function(data, i) {
 		labels.push(i.toString());
 		datasets[0].data.push(data.delta);
 		datasets[1].data.push(data.theta);
@@ -284,14 +286,14 @@ function displayResults() {
 	// Calculate and display overall power percentage per band
 	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
 	var totalPower = 0;
-	analysisResults.forEach(function(data) {
+	analysisResults.perSecond.forEach(function(data) {
 		bandNames.forEach(function(name) {
 			totalPower += data[name];
 		});
 	});
 	bandNames.forEach(function(name) {
 		var bandPower = 0;
-		analysisResults.forEach(function(data) {
+		analysisResults.perSecond.forEach(function(data) {
 			bandPower += data[name];
 		});
 		var span = document.getElementById(name + "-overall");
@@ -305,7 +307,7 @@ function displayResults() {
 // Based on the value of 'analysisResults', this function shows the per-second data for the given second.
 function displayAnalysis(timeOffset) {
 	doClear(1);
-	var data = analysisResults[timeOffset];
+	var data = analysisResults.perSecond[timeOffset];
 	
 	// Create brainwave time series chart
 	var color = "#B00000";
