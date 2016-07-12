@@ -43,14 +43,24 @@
 			</tbody>
 		</table>
 		
-		<p>Export per-second bands:
-			<input type="text" id="export-bands-file-name" value="brainwave-bands.csv" placeholder="example.csv" style="width:15em">
-			<input type="button" value="Download file" onclick="downloadBandsCsv();">
-		</p>
-		<p>Export numbers table for all seconds:
-			<input type="text" id="export-numbers-file-name" value="brainwave-numbers.csv" placeholder="example.csv" style="width:15em">
-			<input type="button" value="Download file" onclick="downloadNumbersCsv();">
-		</p>
+		<hr>
+		<h3>File export</h3>
+		<div id="file-export-table">
+			<p>
+				<span>Export band powers per second:</span>
+				<span>
+					<input type="text" id="export-bands-file-name" value="brainwave-bands.csv" placeholder="example.csv" style="width:15em">
+					<input type="button" value="Download file" onclick="downloadBandsCsv();">
+				</span>
+			</p>
+			<p>
+				<span>Export numbers table for all seconds:</span>
+				<span>
+					<input type="text" id="export-numbers-file-name" value="brainwave-numbers.csv" placeholder="example.csv" style="width:15em">
+					<input type="button" value="Download file" onclick="downloadNumbersCsv();">
+				</span>
+			</p>
+		</div>
 		<a id="downloader"></a>
 		<hr>
 		

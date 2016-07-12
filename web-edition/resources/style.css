@@ -104,6 +104,22 @@ table {
 	text-align: right;
 }
 
+#file-export-table {
+	display: table;
+}
+
+#file-export-table > p {
+	display: table-row;
+}
+
+#file-export-table > p > span {
+	display: table-cell;
+}
+
+#file-export-table > p > span:first-child {
+	padding-right: 1.0em;
+}
+
 #numbers {
 	font-size: 80%;
 }
