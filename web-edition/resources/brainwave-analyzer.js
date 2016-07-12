@@ -135,6 +135,32 @@ function downloadBandsCsv() {
 }
 
 
+function downloadNumbersCsv() {
+	var s = "Time,Electrode,FFT,FFTimag,Amplitude,FreqIndex,Seconds,Delta,Theta,Alpha,Beta,Gamma\n";
+	analysisResults.forEach(function(data, timeOffset) {
+		for (var i = 0; i < SAMPLES_PER_SECOND; i++) {
+			s += (timeOffset + i / SAMPLES_PER_SECOND).toFixed(6) + ",";
+			s += data.electrode[i] + ",";
+			s += (i < data.fftAmplitude.length ? data.fftReal[i].toFixed(3) : "") + ",";
+			s += (i < data.fftAmplitude.length ? data.fftImag[i].toFixed(3) : "") + ",";
+			s += (i < data.fftAmplitude.length ? data.fftAmplitude[i].toFixed(3) : "") + ",";
+			s += (i < data.fftAmplitude.length ? i.toString() : "") + ",";
+			s += timeOffset + ",";
+			s += data.delta.toFixed(3) + ",";
+			s += data.theta.toFixed(3) + ",";
+			s += data.alpha.toFixed(3) + ",";
+			s += data.beta .toFixed(3) + ",";
+			s += data.gamma.toFixed(3) + "\n";
+		}
+	});
+	
+	var anchor = document.getElementById("downloader");
+	anchor.href = "data:text/plain;charset=utf-8," + encodeURIComponent(s);
+	anchor.download = document.getElementById("export-numbers-file-name").value;
+	anchor.click();
+}
+
+
 /*---- Middle-level application functions ----*/
 
 var overallBandsChart = null;
