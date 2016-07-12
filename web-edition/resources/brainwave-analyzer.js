@@ -118,8 +118,6 @@ function doDisplayNextSecond() {
 
 
 function downloadBandsCsv() {
-	var anchor = document.getElementById("downloader");
-	anchor.download = document.getElementById("export-bands-file-name").value;
 	var s = "Time,Delta,Theta,Alpha,Beta,Gamma\n";
 	analysisResults.forEach(function(data, i) {
 		s += i + ",";
@@ -129,7 +127,10 @@ function downloadBandsCsv() {
 		s += data.beta + ",";
 		s += data.gamma + "\n";
 	});
+	
+	var anchor = document.getElementById("downloader");
 	anchor.href = "data:text/plain;charset=utf-8," + encodeURIComponent(s);
+	anchor.download = document.getElementById("export-bands-file-name").value;
 	anchor.click();
 }
 
