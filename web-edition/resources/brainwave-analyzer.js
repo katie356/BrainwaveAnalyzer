@@ -12,6 +12,8 @@
 var analysisResults = null;  // Set by doAnalyze(), cleared by doClear()
 
 
+// Clears some or all of the HTML elements and JavaScript state variables, depending on the level argument (1 to 3).
+// The clearing options are cumulative - for example clearing level 2 implies also clearing level 1.
 function doClear(level) {
 	if (level == undefined)
 		level = 3;
@@ -51,6 +53,12 @@ function doClear(level) {
 }
 
 
+// The main action handler that drives everything:
+// - Reads the text file
+// - Performs analysis
+// - Stores the results
+// - Initializes UI elements
+// - Creates the graphs
 function doAnalyze() {
 	var inputFileElem = document.getElementById("input-file");
 	if (inputFileElem.files.length != 1)  // No file or multiple files selected
@@ -64,7 +72,9 @@ function doAnalyze() {
 }
 
 
+// Continuation of doAnalyze() after the file data is available.
 function parseFileTextAndAnalyze(text) {
+	// Preprocessing and column detection
 	text = text.replace(/\n+$/g, "");  // Strip trailing newlines
 	var lines = text.split("\n");
 	var header = lines[0].split(";");
@@ -74,6 +84,7 @@ function parseFileTextAndAnalyze(text) {
 		return;
 	}
 	
+	// Parse each line as one electrode sample
 	var samples = [];
 	var skippedRows = 0;
 	var invalidValues = 0;
@@ -97,12 +108,15 @@ function parseFileTextAndAnalyze(text) {
 		alert("Warning: Skipped " + skippedRows + " rows in the input data due to invalid format");
 	if (invalidValues > 0)
 		alert("Warning: Replaced " + invalidValues + " invalid electrode values in the input data");
+	
+	// Continue with the rest of the main program logic
 	doClear(2);
 	analysisResults = computeAndAnalyze(samples);
 	displayResults();
 }
 
 
+// Steps back the per-second display to the previous second of data, if possible.
 function doDisplayPreviousSecond() {
 	var selectElem = document.getElementById("time-offset");
 	if (analysisResults == null || selectElem.selectedIndex - 1 < 0)
@@ -112,6 +126,7 @@ function doDisplayPreviousSecond() {
 }
 
 
+// Advances the per-second display to the next second of data, if possible.
 function doDisplayNextSecond() {
 	var selectElem = document.getElementById("time-offset");
 	if (analysisResults == null || selectElem.selectedIndex + 1 >= selectElem.length)
@@ -121,6 +136,7 @@ function doDisplayNextSecond() {
 }
 
 
+// Takes the current analysis results, creates CSV data, and initiates a file download.
 function downloadBandsCsv() {
 	if (analysisResults == null)
 		return;
@@ -141,6 +157,7 @@ function downloadBandsCsv() {
 }
 
 
+// Takes the current analysis results, creates CSV data, and initiates a file download.
 function downloadNumbersCsv() {
 	if (analysisResults == null)
 		return;
@@ -181,6 +198,9 @@ var SAMPLES_PER_SECOND = 512;
 
 // Returns an array of dictionaries, one per second.
 function computeAndAnalyze(samples) {
+	// Note: All helper functions contained here are pure. They take arguments and return new values.
+	// They do not have side effects, and do not read or write variables from the enclosing scope.
+	
 	function computePerSecond(samples) {
 		var result = [];
 		var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
@@ -392,6 +412,7 @@ function displayResults() {
 
 
 // Based on the value of 'analysisResults', this function shows the per-second data for the given second.
+// timeOffset is an integer in the range [0, analysisResults.perSecond.length).
 function displayAnalysis(timeOffset) {
 	doClear(1);
 	var data = analysisResults.perSecond[timeOffset];
