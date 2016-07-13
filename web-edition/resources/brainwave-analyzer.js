@@ -23,9 +23,9 @@ function doClear(level) {
 		case 2:
 			analysisResults = null;
 			document.getElementById("results").style.display = "none";
-			if (overallBandsChart != null) {
-				overallBandsChart.destroy();
-				overallBandsChart = null;
+			if (perSecondBandsChart != null) {
+				perSecondBandsChart.destroy();
+				perSecondBandsChart = null;
 			}
 			if (perMinuteBandsChart != null) {
 				perMinuteBandsChart.destroy();
@@ -167,7 +167,7 @@ function downloadNumbersCsv() {
 
 /*---- Middle-level application functions ----*/
 
-var overallBandsChart = null;
+var perSecondBandsChart = null;
 var perMinuteBandsChart = null;
 var brainwaveChart = null;
 var frequencySpectrumChart = null;
@@ -298,7 +298,7 @@ function displayResults() {
 	});
 	
 	// Create the overall brainwave power graph
-	overallBandsChart = new Chart(document.getElementById("overall-bands"), {
+	perSecondBandsChart = new Chart(document.getElementById("per-second-bands"), {
 		type: "line",
 		data: {
 			labels: labels,
