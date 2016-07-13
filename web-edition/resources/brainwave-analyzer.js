@@ -179,7 +179,8 @@ var SAMPLES_PER_SECOND = 512;
 function computeAndAnalyze(samples) {
 	var result = {};
 	
-	result.perSecond = [];
+	function computePerSecond(samples) {
+	var result = [];
 	var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
 	for (var i = 0; i < numSeconds; i++) {
 		var startIndex = (i + 0) * SAMPLES_PER_SECOND;  // Inclusive
@@ -195,7 +196,7 @@ function computeAndAnalyze(samples) {
 		for (var j = 0; j <= real.length / 2; j++)
 			amplitude.push(Math.hypot(real[j], imag[j]));
 		
-		result.perSecond.push({
+		result.push({
 			electrode: block,  // Array of SAMPLES_PER_SECOND numbers
 			fftReal: real,     // Array of SAMPLES_PER_SECOND numbers
 			fftImag: imag,     // Array of SAMPLES_PER_SECOND numbers
@@ -207,8 +208,11 @@ function computeAndAnalyze(samples) {
 			gamma: sumAmplitudesEnergy(amplitude.slice(32, amplitude.length)),  // Scalar number
 		});
 	}
+	return result;
+	}
 	
-	function getMedian(arr) {
+	function computePerMinute(perSecond) {
+	function getMedian(arr) {  // Note: This permutes the given array as a side effect.
 		if (arr.length == 0)
 			throw "Zero length";
 		arr.sort(function(x, y) { return x - y; });
@@ -218,10 +222,10 @@ function computeAndAnalyze(samples) {
 			return (arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2;
 	}
 	
-	result.perMinute = [];
-	for (var i = 0; i < result.perSecond.length; i += 60) {
-		var subdata = result.perSecond.slice(i, i + 60);
-		result.perMinute.push({
+	var result = [];
+	for (var i = 0; i < perSecond.length; i += 60) {
+		var subdata = perSecond.slice(i, i + 60);
+		result.push({
 			delta: getMedian(subdata.map(function(data) { return data.delta; })),
 			theta: getMedian(subdata.map(function(data) { return data.theta; })),
 			alpha: getMedian(subdata.map(function(data) { return data.alpha; })),
@@ -229,23 +233,31 @@ function computeAndAnalyze(samples) {
 			gamma: getMedian(subdata.map(function(data) { return data.gamma; })),
 		});
 	}
+	return result;
+	}
 	
-	result.overall = {};
+	function computeOverall(perSecond) {
+	var result = {};
 	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
 	var totalPower = 0;
-	result.perSecond.forEach(function(data) {
+	perSecond.forEach(function(data) {
 		bandNames.forEach(function(name) {
 			totalPower += data[name];
 		});
 	});
 	bandNames.forEach(function(name) {
 		var bandPower = 0;
-		result.perSecond.forEach(function(data) {
+		perSecond.forEach(function(data) {
 			bandPower += data[name];
 		});
-		result.overall[name + "Proportion"] = bandPower / totalPower;
+		result[name + "Proportion"] = bandPower / totalPower;
 	});
+	return result;
+	}
 	
+	result.perSecond = computePerSecond(samples);
+	result.perMinute = computePerMinute(result.perSecond);
+	result.overall = computeOverall(result.perSecond);
 	return result;
 }
 
