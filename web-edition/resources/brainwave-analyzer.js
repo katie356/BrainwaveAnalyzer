@@ -77,33 +77,68 @@ function parseFileTextAndAnalyze(text) {
 	// Preprocessing and column detection
 	text = text.replace(/\n+$/g, "");  // Strip trailing newlines
 	var lines = text.split("\n");
-	var header = lines[0].split(";");
-	var electrodeColIndex = header.indexOf("Electrode");
-	if (header.indexOf("Electrode", electrodeColIndex + 1) != -1) {
-		alert('Error: Duplicate column "Electrode"');
-		return;
-	}
 	
-	// Parse each line as one electrode sample
 	var samples = [];
 	var skippedRows = 0;
 	var invalidValues = 0;
-	for (var i = 1; i < lines.length; i++) {
-		var columns = lines[i].split(";");
-		if (columns.length != header.length) {
-			skippedRows++;
-		} else {
-			var strValue = columns[electrodeColIndex];
-			var numValue;
-			if (/^[+-]?\d+(?:\.\d*)?$/.test(strValue))
-				numValue = parseFloat(strValue)
-			else {
-				invalidValues++;
-				numValue = 0;
+	
+	if (lines[0].indexOf(";") != -1) {  // OpenVibe format
+		var header = lines[0].split(";");
+		var electrodeColIndex = header.indexOf("Electrode");
+		if (header.indexOf("Electrode", electrodeColIndex + 1) != -1) {
+			alert('Error: Duplicate column "Electrode"');
+			return;
+		}
+		
+		// Parse each line as one electrode sample
+		for (var i = 1; i < lines.length; i++) {
+			var columns = lines[i].split(";");
+			if (columns.length != header.length) {
+				skippedRows++;
+			} else {
+				var strValue = columns[electrodeColIndex];
+				var numValue;
+				if (/^[+-]?\d+(?:\.\d*)?$/.test(strValue))
+					numValue = parseFloat(strValue)
+				else {
+					invalidValues++;
+					numValue = 0;
+				}
+				samples.push(numValue);
 			}
-			samples.push(numValue);
+		}
+		
+	} else {  // Mindwave format
+		var header = lines[0].split(/,\s*/);
+		var rawColIndex = header.indexOf("Raw");
+		if (header.indexOf("Raw", rawColIndex + 1) != -1) {
+			alert('Error: Duplicate column "Raw"');
+			return;
+		}
+		
+		// Parse each line as one electrode sample
+		for (var i = 1; i < lines.length; i++) {
+			var columns = lines[i].split(",");
+			if (columns.length != header.length) {
+				if (1 < i && i < lines.length - 1) {
+					// Only increment for invalid middle rows, because the first
+					// and last data rows being invalid is a normal occurrence
+					skippedRows++;
+				}
+			} else {
+				var strValue = columns[rawColIndex];
+				var numValue;
+				if (/^[+-]?\d+(?:\.\d*)?$/.test(strValue))
+					numValue = parseFloat(strValue)
+				else {
+					invalidValues++;
+					numValue = 0;
+				}
+				samples.push(numValue);
+			}
 		}
 	}
+	
 	if (skippedRows > 0)
 		alert("Warning: Skipped " + skippedRows + " rows in the input data due to invalid format");
 	if (invalidValues > 0)
