@@ -202,6 +202,29 @@ function computeAndAnalyze(samples) {
 			gamma: sumAmplitudesEnergy(amplitude.slice(32, amplitude.length)),  // Scalar number
 		});
 	}
+	
+	function getMedian(arr) {
+		if (arr.length == 0)
+			throw "Zero length";
+		arr.sort(function(x, y) { return x - y; });
+		if (arr.length % 2 == 1)
+			return arr[(arr.length - 1) / 2];
+		else
+			return (arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2;
+	}
+	
+	result.perMinute = [];
+	for (var i = 0; i < result.perSecond.length; i += 60) {
+		var subdata = result.perSecond.slice(i, i + 60);
+		result.perMinute.push({
+			delta: getMedian(subdata.map(function(data) { return data.delta; })),
+			theta: getMedian(subdata.map(function(data) { return data.theta; })),
+			alpha: getMedian(subdata.map(function(data) { return data.alpha; })),
+			beta : getMedian(subdata.map(function(data) { return data.beta ; })),
+			gamma: getMedian(subdata.map(function(data) { return data.gamma; })),
+		});
+	}
+	
 	return result;
 }
 
