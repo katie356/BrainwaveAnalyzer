@@ -180,79 +180,79 @@ function computeAndAnalyze(samples) {
 	var result = {};
 	
 	function computePerSecond(samples) {
-	var result = [];
-	var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
-	for (var i = 0; i < numSeconds; i++) {
-		var startIndex = (i + 0) * SAMPLES_PER_SECOND;  // Inclusive
-		var endIndex   = (i + 1) * SAMPLES_PER_SECOND;  // Exclusive
-		var block = samples.slice(startIndex, endIndex)
-		
-		var real = block.slice();  // Clone
-		var imag = real.map(function() { return 0; });  // Same length, but all zeros
-		fastFourierTransform(real, imag);
-		real[0] = 0;  // Cancel the DC offset coefficient
-		
-		var amplitude = [];
-		for (var j = 0; j <= real.length / 2; j++)
-			amplitude.push(Math.hypot(real[j], imag[j]));
-		
-		result.push({
-			electrode: block,  // Array of SAMPLES_PER_SECOND numbers
-			fftReal: real,     // Array of SAMPLES_PER_SECOND numbers
-			fftImag: imag,     // Array of SAMPLES_PER_SECOND numbers
-			fftAmplitude: amplitude,  // Array of (SAMPLES_PER_SECOND/2)+1 numbers
-			delta: sumAmplitudesEnergy(amplitude.slice( 0,  4)),  // Scalar number
-			theta: sumAmplitudesEnergy(amplitude.slice( 4,  8)),  // Scalar number
-			alpha: sumAmplitudesEnergy(amplitude.slice( 8, 14)),  // Scalar number
-			beta : sumAmplitudesEnergy(amplitude.slice(14, 32)),  // Scalar number
-			gamma: sumAmplitudesEnergy(amplitude.slice(32, amplitude.length)),  // Scalar number
-		});
-	}
-	return result;
+		var result = [];
+		var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
+		for (var i = 0; i < numSeconds; i++) {
+			var startIndex = (i + 0) * SAMPLES_PER_SECOND;  // Inclusive
+			var endIndex   = (i + 1) * SAMPLES_PER_SECOND;  // Exclusive
+			var block = samples.slice(startIndex, endIndex)
+			
+			var real = block.slice();  // Clone
+			var imag = real.map(function() { return 0; });  // Same length, but all zeros
+			fastFourierTransform(real, imag);
+			real[0] = 0;  // Cancel the DC offset coefficient
+			
+			var amplitude = [];
+			for (var j = 0; j <= real.length / 2; j++)
+				amplitude.push(Math.hypot(real[j], imag[j]));
+			
+			result.push({
+				electrode: block,  // Array of SAMPLES_PER_SECOND numbers
+				fftReal: real,     // Array of SAMPLES_PER_SECOND numbers
+				fftImag: imag,     // Array of SAMPLES_PER_SECOND numbers
+				fftAmplitude: amplitude,  // Array of (SAMPLES_PER_SECOND/2)+1 numbers
+				delta: sumAmplitudesEnergy(amplitude.slice( 0,  4)),  // Scalar number
+				theta: sumAmplitudesEnergy(amplitude.slice( 4,  8)),  // Scalar number
+				alpha: sumAmplitudesEnergy(amplitude.slice( 8, 14)),  // Scalar number
+				beta : sumAmplitudesEnergy(amplitude.slice(14, 32)),  // Scalar number
+				gamma: sumAmplitudesEnergy(amplitude.slice(32, amplitude.length)),  // Scalar number
+			});
+		}
+		return result;
 	}
 	
 	function computePerMinute(perSecond) {
-	function getMedian(arr) {  // Note: This permutes the given array as a side effect.
-		if (arr.length == 0)
-			throw "Zero length";
-		arr.sort(function(x, y) { return x - y; });
-		if (arr.length % 2 == 1)
-			return arr[(arr.length - 1) / 2];
-		else
-			return (arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2;
-	}
-	
-	var result = [];
-	for (var i = 0; i < perSecond.length; i += 60) {
-		var subdata = perSecond.slice(i, i + 60);
-		result.push({
-			delta: getMedian(subdata.map(function(data) { return data.delta; })),
-			theta: getMedian(subdata.map(function(data) { return data.theta; })),
-			alpha: getMedian(subdata.map(function(data) { return data.alpha; })),
-			beta : getMedian(subdata.map(function(data) { return data.beta ; })),
-			gamma: getMedian(subdata.map(function(data) { return data.gamma; })),
-		});
-	}
-	return result;
+		function getMedian(arr) {  // Note: This permutes the given array as a side effect.
+			if (arr.length == 0)
+				throw "Zero length";
+			arr.sort(function(x, y) { return x - y; });
+			if (arr.length % 2 == 1)
+				return arr[(arr.length - 1) / 2];
+			else
+				return (arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2;
+		}
+		
+		var result = [];
+		for (var i = 0; i < perSecond.length; i += 60) {
+			var subdata = perSecond.slice(i, i + 60);
+			result.push({
+				delta: getMedian(subdata.map(function(data) { return data.delta; })),
+				theta: getMedian(subdata.map(function(data) { return data.theta; })),
+				alpha: getMedian(subdata.map(function(data) { return data.alpha; })),
+				beta : getMedian(subdata.map(function(data) { return data.beta ; })),
+				gamma: getMedian(subdata.map(function(data) { return data.gamma; })),
+			});
+		}
+		return result;
 	}
 	
 	function computeOverall(perSecond) {
-	var result = {};
-	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
-	var totalPower = 0;
-	perSecond.forEach(function(data) {
-		bandNames.forEach(function(name) {
-			totalPower += data[name];
-		});
-	});
-	bandNames.forEach(function(name) {
-		var bandPower = 0;
+		var result = {};
+		var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
+		var totalPower = 0;
 		perSecond.forEach(function(data) {
-			bandPower += data[name];
+			bandNames.forEach(function(name) {
+				totalPower += data[name];
+			});
 		});
-		result[name + "Proportion"] = bandPower / totalPower;
-	});
-	return result;
+		bandNames.forEach(function(name) {
+			var bandPower = 0;
+			perSecond.forEach(function(data) {
+				bandPower += data[name];
+			});
+			result[name + "Proportion"] = bandPower / totalPower;
+		});
+		return result;
 	}
 	
 	result.perSecond = computePerSecond(samples);
