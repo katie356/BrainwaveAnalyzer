@@ -225,6 +225,22 @@ function computeAndAnalyze(samples) {
 		});
 	}
 	
+	result.overall = {};
+	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
+	var totalPower = 0;
+	result.perSecond.forEach(function(data) {
+		bandNames.forEach(function(name) {
+			totalPower += data[name];
+		});
+	});
+	bandNames.forEach(function(name) {
+		var bandPower = 0;
+		result.perSecond.forEach(function(data) {
+			bandPower += data[name];
+		});
+		result.overall[name + "Proportion"] = bandPower / totalPower;
+	});
+	
 	return result;
 }
 
@@ -308,20 +324,10 @@ function displayResults() {
 	
 	// Calculate and display overall power percentage per band
 	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
-	var totalPower = 0;
-	analysisResults.perSecond.forEach(function(data) {
-		bandNames.forEach(function(name) {
-			totalPower += data[name];
-		});
-	});
 	bandNames.forEach(function(name) {
-		var bandPower = 0;
-		analysisResults.perSecond.forEach(function(data) {
-			bandPower += data[name];
-		});
+		var s = (analysisResults.overall[name + "Proportion"] * 100).toFixed(2) + "%";
 		var span = document.getElementById(name + "-overall");
 		removeAllChildren(span);
-		var s = (bandPower / totalPower * 100).toFixed(2) + "%";
 		span.appendChild(document.createTextNode(s));
 	});
 }
