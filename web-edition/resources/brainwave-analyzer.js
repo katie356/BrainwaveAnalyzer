@@ -122,6 +122,8 @@ function doDisplayNextSecond() {
 
 
 function downloadBandsCsv() {
+	if (analysisResults == null)
+		return;
 	var s = "Time,Delta,Theta,Alpha,Beta,Gamma\n";
 	analysisResults.perSecond.forEach(function(data, i) {
 		s += i + ",";
@@ -140,6 +142,8 @@ function downloadBandsCsv() {
 
 
 function downloadNumbersCsv() {
+	if (analysisResults == null)
+		return;
 	var s = "Time,Electrode,FFT,FFTimag,Amplitude,FreqIndex,Seconds,Delta,Theta,Alpha,Beta,Gamma\n";
 	analysisResults.perSecond.forEach(function(data, timeOffset) {
 		for (var i = 0; i < SAMPLES_PER_SECOND; i++) {
@@ -177,8 +181,6 @@ var SAMPLES_PER_SECOND = 512;
 
 // Returns an array of dictionaries, one per second.
 function computeAndAnalyze(samples) {
-	var result = {};
-	
 	function computePerSecond(samples) {
 		var result = [];
 		var numSeconds = Math.floor(samples.length / SAMPLES_PER_SECOND);
@@ -212,16 +214,6 @@ function computeAndAnalyze(samples) {
 	}
 	
 	function computePerMinute(perSecond) {
-		function getMedian(arr) {  // Note: This permutes the given array as a side effect.
-			if (arr.length == 0)
-				throw "Zero length";
-			arr.sort(function(x, y) { return x - y; });
-			if (arr.length % 2 == 1)
-				return arr[(arr.length - 1) / 2];
-			else
-				return (arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2;
-		}
-		
 		var result = [];
 		for (var i = 0; i < perSecond.length; i += 60) {
 			var subdata = perSecond.slice(i, i + 60);
@@ -255,6 +247,7 @@ function computeAndAnalyze(samples) {
 		return result;
 	}
 	
+	var result = {};
 	result.perSecond = computePerSecond(samples);
 	result.perMinute = computePerMinute(result.perSecond);
 	result.overall = computeOverall(result.perSecond);
@@ -490,19 +483,25 @@ function displayAnalysis(timeOffset) {
 	// Create table of numbers
 	var tbodyElem = document.getElementById("numbers-table");
 	for (var i = 0; i < SAMPLES_PER_SECOND; i++) {
+		var cellTexts = [
+			(timeOffset + i / SAMPLES_PER_SECOND).toFixed(3),
+			data.electrode[i].toString(),
+			i < data.fftAmplitude.length ? data.fftReal[i].toFixed(3) : "",
+			i < data.fftAmplitude.length ? data.fftImag[i].toFixed(3) : "",
+			i < data.fftAmplitude.length ? data.fftAmplitude[i].toFixed(3) : "",
+			i < data.fftAmplitude.length ? i.toString() : "",
+			timeOffset.toString(),
+			data.delta.toFixed(3),
+			data.theta.toFixed(3),
+			data.alpha.toFixed(3),
+			data.beta .toFixed(3),
+			data.gamma.toFixed(3),
+		];
+		
 		var trElem = createElement("tr");
-		trElem.appendChild(createElement("td", (timeOffset + i / SAMPLES_PER_SECOND).toFixed(3)));
-		trElem.appendChild(createElement("td", data.electrode[i].toString()));
-		trElem.appendChild(createElement("td", i < data.fftAmplitude.length ? data.fftReal[i].toFixed(3) : ""));
-		trElem.appendChild(createElement("td", i < data.fftAmplitude.length ? data.fftImag[i].toFixed(3) : ""));
-		trElem.appendChild(createElement("td", i < data.fftAmplitude.length ? data.fftAmplitude[i].toFixed(3) : ""));
-		trElem.appendChild(createElement("td", i < data.fftAmplitude.length ? i.toString() : ""));
-		trElem.appendChild(createElement("td", timeOffset.toString()));
-		trElem.appendChild(createElement("td", data.delta.toFixed(3)));
-		trElem.appendChild(createElement("td", data.theta.toFixed(3)));
-		trElem.appendChild(createElement("td", data.alpha.toFixed(3)));
-		trElem.appendChild(createElement("td", data.beta .toFixed(3)));
-		trElem.appendChild(createElement("td", data.gamma.toFixed(3)));
+		cellTexts.forEach(function(text) {
+			trElem.appendChild(createElement("td", text));
+		});
 		tbodyElem.appendChild(trElem);
 	}
 }
@@ -517,6 +516,19 @@ function sumAmplitudesEnergy(amplitudes) {
 		sum += x * x;
 	});
 	return Math.sqrt(sum);
+}
+
+
+// Returns the median of the given array of numbers. The array must have at least 1 element. Calling this
+// function will permute the given array as a side effect; this works best for arrays that will be discarded.
+function getMedian(arr) {
+	arr.sort(function(x, y) { return x - y; });
+	if (arr.length == 0)
+		throw "Zero length";
+	else if (arr.length % 2 == 1)
+		return arr[(arr.length - 1) / 2];
+	else
+		return (arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2;
 }
 
 
