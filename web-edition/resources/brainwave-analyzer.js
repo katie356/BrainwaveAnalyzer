@@ -27,6 +27,10 @@ function doClear(level) {
 				overallBandsChart.destroy();
 				overallBandsChart = null;
 			}
+			if (perMinuteBandsChart != null) {
+				perMinuteBandsChart.destroy();
+				perMinuteBandsChart = null;
+			}
 			removeAllChildren(document.getElementById("time-offset"));
 		
 		case 1:
@@ -164,6 +168,7 @@ function downloadNumbersCsv() {
 /*---- Middle-level application functions ----*/
 
 var overallBandsChart = null;
+var perMinuteBandsChart = null;
 var brainwaveChart = null;
 var frequencySpectrumChart = null;
 
@@ -307,6 +312,54 @@ function displayResults() {
 					scaleLabel: {
 						display: true,
 						labelString: "Time (s)",
+					},
+				}],
+				yAxes: [{
+					scaleLabel: {
+						display: true,
+						labelString: "Amplitude",
+					},
+					ticks: {
+						beginAtZero: true,
+					},
+				}],
+			},
+		},
+	});
+	
+	labels = [];
+	datasets = dataSeriesConfig.map(function(tuple) {
+		return {
+			label: tuple[0],
+			borderColor: tuple[1],
+			pointBackgroundColor: tuple[1],
+			backgroundColor: tuple[1],
+			data: [],
+			fill: false,
+		};
+	});
+	analysisResults.perMinute.forEach(function(data, i) {
+		labels.push(i.toString());
+		datasets[0].data.push(data.delta);
+		datasets[1].data.push(data.theta);
+		datasets[2].data.push(data.alpha);
+		datasets[3].data.push(data.beta );
+		datasets[4].data.push(data.gamma);
+	});
+	perMinuteBandsChart = new Chart(document.getElementById("per-minute-bands"), {
+		type: "line",
+		data: {
+			labels: labels,
+			datasets: datasets,
+		},
+		options: {
+			responsive: false,
+			showLines: true,
+			scales: {
+				xAxes: [{
+					scaleLabel: {
+						display: true,
+						labelString: "Time (min)",
 					},
 				}],
 				yAxes: [{
