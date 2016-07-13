@@ -62,6 +62,10 @@ h2 {
 	margin-bottom: 0.3em;
 }
 
+canvas {
+	display: block;
+}
+
 input {
 	font-family: inherit;
 	font-size: inherit;
