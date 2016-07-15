@@ -486,7 +486,7 @@ function displayAnalysis(timeOffset) {
 					animate: false,
 					scaleLabel: {
 						display: true,
-						labelString: "Amplitude",
+						labelString: "Value",
 					},
 					ticks: {
 						beginAtZero: false,
