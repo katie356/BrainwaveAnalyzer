@@ -18,6 +18,13 @@ function doClear(level) {
 	if (level == undefined)
 		level = 3;
 	
+	// Helper function to cut down on repetition.
+	function destroyChart(chart) {
+		if (chart != null)
+			chart.destroy();
+		return null;
+	}
+	
 	switch (level) {  // Uses fall-through
 		case 3:
 			document.getElementById("input-file").value = "";
@@ -25,14 +32,8 @@ function doClear(level) {
 		case 2:
 			analysisResults = null;
 			document.getElementById("results").style.display = "none";
-			if (perSecondBandsChart != null) {
-				perSecondBandsChart.destroy();
-				perSecondBandsChart = null;
-			}
-			if (perMinuteBandsChart != null) {
-				perMinuteBandsChart.destroy();
-				perMinuteBandsChart = null;
-			}
+			perSecondBandsChart = destroyChart(perSecondBandsChart);
+			perMinuteBandsChart = destroyChart(perMinuteBandsChart);
 			removeAllChildren("delta-overall");
 			removeAllChildren("theta-overall");
 			removeAllChildren("alpha-overall");
@@ -42,14 +43,8 @@ function doClear(level) {
 			removeAllChildren("time-offset");
 		
 		case 1:
-			if (brainwaveChart != null) {
-				brainwaveChart.destroy();
-				brainwaveChart = null;
-			}
-			if (frequencySpectrumChart != null) {
-				frequencySpectrumChart.destroy();
-				frequencySpectrumChart = null;
-			}
+			brainwaveChart = destroyChart(brainwaveChart);
+			frequencySpectrumChart = destroyChart(frequencySpectrumChart);
 			removeAllChildren("numbers-table");
 			break;
 		
