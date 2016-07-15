@@ -33,13 +33,13 @@ function doClear(level) {
 				perMinuteBandsChart.destroy();
 				perMinuteBandsChart = null;
 			}
-			removeAllChildren(document.getElementById("delta-overall"));
-			removeAllChildren(document.getElementById("theta-overall"));
-			removeAllChildren(document.getElementById("alpha-overall"));
-			removeAllChildren(document.getElementById("beta-overall" ));
-			removeAllChildren(document.getElementById("gamma-overall"));
-			removeAllChildren(document.getElementById("file-name-display"));
-			removeAllChildren(document.getElementById("time-offset"));
+			removeAllChildren("delta-overall");
+			removeAllChildren("theta-overall");
+			removeAllChildren("alpha-overall");
+			removeAllChildren("beta-overall" );
+			removeAllChildren("gamma-overall");
+			removeAllChildren("file-name-display");
+			removeAllChildren("time-offset");
 		
 		case 1:
 			if (brainwaveChart != null) {
@@ -50,7 +50,7 @@ function doClear(level) {
 				frequencySpectrumChart.destroy();
 				frequencySpectrumChart = null;
 			}
-			removeAllChildren(document.getElementById("numbers-table"));
+			removeAllChildren("numbers-table");
 			break;
 		
 		default:
@@ -610,8 +610,10 @@ function createElement(tagName, content) {
 }
 
 
-// Removes all the children of the given DOM element node.
+// Removes all the children of the given DOM element node or ID string.
 function removeAllChildren(node) {
+	if (typeof node == "string")
+		node = document.getElementById(node);
 	while (node.firstChild != null)
 		node.removeChild(node.firstChild);
 }
