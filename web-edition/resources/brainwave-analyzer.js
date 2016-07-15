@@ -33,6 +33,7 @@ function doClear(level) {
 				perMinuteBandsChart.destroy();
 				perMinuteBandsChart = null;
 			}
+			removeAllChildren(document.getElementById("file-name-display"));
 			removeAllChildren(document.getElementById("time-offset"));
 		
 		case 1:
@@ -66,14 +67,14 @@ function doAnalyze() {
 	var file = inputFileElem.files[0];
 	var reader = new FileReader();
 	reader.onload = function() {
-		parseFileTextAndAnalyze(reader.result);
+		parseFileTextAndAnalyze(file.name, reader.result);
 	};
 	reader.readAsText(file);
 }
 
 
 // Continuation of doAnalyze() after the file data is available.
-function parseFileTextAndAnalyze(text) {
+function parseFileTextAndAnalyze(filename, text) {
 	// Preprocessing and column detection
 	text = text.replace(/\n+$/g, "");  // Strip trailing newlines
 	var lines = text.split("\n");
@@ -146,7 +147,7 @@ function parseFileTextAndAnalyze(text) {
 	
 	// Continue with the rest of the main program logic
 	doClear(2);
-	analysisResults = computeAndAnalyze(samples);
+	analysisResults = computeAndAnalyze(filename, samples);
 	displayResults();
 }
 
@@ -232,7 +233,7 @@ var frequencySpectrumChart = null;
 var SAMPLES_PER_SECOND = 512;
 
 // Returns an array of dictionaries, one per second.
-function computeAndAnalyze(samples) {
+function computeAndAnalyze(filename, samples) {
 	// Note: All helper functions contained here are pure. They take arguments and return new values.
 	// They do not have side effects, and do not read or write variables from the enclosing scope.
 	
@@ -283,8 +284,10 @@ function computeAndAnalyze(samples) {
 		return result;
 	}
 	
-	function computeOverall(perSecond) {
-		var result = {};
+	function computeOverall(filename, perSecond) {
+		var result = {
+			filename: filename,
+		};
 		var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
 		var totalPower = 0;
 		perSecond.forEach(function(data) {
@@ -305,7 +308,7 @@ function computeAndAnalyze(samples) {
 	var result = {};
 	result.perSecond = computePerSecond(samples);
 	result.perMinute = computePerMinute(result.perSecond);
-	result.overall = computeOverall(result.perSecond);
+	result.overall = computeOverall(filename, result.perSecond);
 	return result;
 }
 
@@ -443,6 +446,9 @@ function displayResults() {
 		removeAllChildren(span);
 		span.appendChild(document.createTextNode(s));
 	});
+	
+	var fileNameDisplayElem = document.getElementById("file-name-display");
+	fileNameDisplayElem.appendChild(document.createTextNode(analysisResults.overall.filename));
 }
 
 
