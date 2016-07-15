@@ -219,6 +219,15 @@ function downloadNumbersCsv() {
 }
 
 
+function doChangePerMinuteBandsYScaleTop() {
+	var value = parseFloat(document.getElementById("per-minute-bands-top").value);
+	if (isNaN(value) || value <= 0)
+		return;
+	perMinuteBandsChart.options.scales.yAxes[0].ticks.max = value;
+	perMinuteBandsChart.update(400, false);
+}
+
+
 /*---- Middle-level application functions and state ----*/
 
 var perSecondBandsChart = null;
@@ -434,6 +443,7 @@ function displayResults() {
 			},
 		},
 	});
+	document.getElementById("per-minute-bands-top").value = perMinuteBandsChart.scales["y-axis-0"].max.toString();
 	
 	// Calculate and display overall power percentage per band
 	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
