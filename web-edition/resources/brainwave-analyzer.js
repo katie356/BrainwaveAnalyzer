@@ -33,6 +33,11 @@ function doClear(level) {
 				perMinuteBandsChart.destroy();
 				perMinuteBandsChart = null;
 			}
+			removeAllChildren(document.getElementById("delta-overall"));
+			removeAllChildren(document.getElementById("theta-overall"));
+			removeAllChildren(document.getElementById("alpha-overall"));
+			removeAllChildren(document.getElementById("beta-overall" ));
+			removeAllChildren(document.getElementById("gamma-overall"));
 			removeAllChildren(document.getElementById("file-name-display"));
 			removeAllChildren(document.getElementById("time-offset"));
 		
@@ -443,7 +448,6 @@ function displayResults() {
 	bandNames.forEach(function(name) {
 		var s = (analysisResults.overall[name + "Proportion"] * 100).toFixed(2) + "%";
 		var span = document.getElementById(name + "-overall");
-		removeAllChildren(span);
 		span.appendChild(document.createTextNode(s));
 	});
 	
