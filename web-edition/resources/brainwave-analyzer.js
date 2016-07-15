@@ -7,7 +7,7 @@
 "use strict";
 
 
-/*---- Top-level functions ----*/
+/*---- Top-level application functions and state ----*/
 
 var analysisResults = null;  // Set by doAnalyze(), cleared by doClear()
 
@@ -28,7 +28,6 @@ function doClear(level) {
 	switch (level) {  // Uses fall-through
 		case 3:
 			document.getElementById("input-file").value = "";
-			
 		case 2:
 			analysisResults = null;
 			document.getElementById("results").style.display = "none";
@@ -41,13 +40,11 @@ function doClear(level) {
 			removeAllChildren("gamma-overall");
 			removeAllChildren("file-name-display");
 			removeAllChildren("time-offset");
-		
 		case 1:
 			brainwaveChart = destroyChart(brainwaveChart);
 			frequencySpectrumChart = destroyChart(frequencySpectrumChart);
 			removeAllChildren("numbers-table");
 			break;
-		
 		default:
 			throw "Illegal argument";
 	}
@@ -222,7 +219,7 @@ function downloadNumbersCsv() {
 }
 
 
-/*---- Middle-level application functions ----*/
+/*---- Middle-level application functions and state ----*/
 
 var perSecondBandsChart = null;
 var perMinuteBandsChart = null;
@@ -274,11 +271,11 @@ function computeAndAnalyze(filename, samples) {
 		for (var i = 0; i < perSecond.length; i += 60) {
 			var subdata = perSecond.slice(i, i + 60);
 			result.push({
-				delta: getMedian(subdata.map(function(data) { return data.delta; })),
-				theta: getMedian(subdata.map(function(data) { return data.theta; })),
-				alpha: getMedian(subdata.map(function(data) { return data.alpha; })),
-				beta : getMedian(subdata.map(function(data) { return data.beta ; })),
-				gamma: getMedian(subdata.map(function(data) { return data.gamma; })),
+				delta: getMedian(subdata.map(function(data) { return data.delta; })),  // Scalar number
+				theta: getMedian(subdata.map(function(data) { return data.theta; })),  // Scalar number
+				alpha: getMedian(subdata.map(function(data) { return data.alpha; })),  // Scalar number
+				beta : getMedian(subdata.map(function(data) { return data.beta ; })),  // Scalar number
+				gamma: getMedian(subdata.map(function(data) { return data.gamma; })),  // Scalar number
 			});
 		}
 		return result;
@@ -286,7 +283,7 @@ function computeAndAnalyze(filename, samples) {
 	
 	function computeOverall(filename, perSecond) {
 		var result = {
-			filename: filename,
+			filename: filename,  // String value
 		};
 		var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
 		var totalPower = 0;
@@ -300,7 +297,7 @@ function computeAndAnalyze(filename, samples) {
 			perSecond.forEach(function(data) {
 				bandPower += data[name];
 			});
-			result[name + "Proportion"] = bandPower / totalPower;
+			result[name + "Proportion"] = bandPower / totalPower;  // Scalar number
 		});
 		return result;
 	}
@@ -650,10 +647,8 @@ if (!("hypot" in Math)) {
  */
 
 
-/* 
- * Computes the discrete Fourier transform (DFT) of the given complex vector, storing the result back into the vector.
- * The vector's length must be a power of 2. Uses the Cooley-Tukey decimation-in-time radix-2 algorithm.
- */
+// Computes the discrete Fourier transform (DFT) of the given complex vector, storing the result back into the vector.
+// The vector's length must be a power of 2. Uses the Cooley-Tukey decimation-in-time radix-2 algorithm.
 function fastFourierTransform(real, imag) {
     // Initialization
     if (real.length != imag.length)
