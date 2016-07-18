@@ -437,13 +437,13 @@ function displayResults() {
 						labelString: "Amplitude",
 					},
 					ticks: {
+						max: parseFloat(document.getElementById("per-minute-bands-top").value),
 						beginAtZero: true,
 					},
 				}],
 			},
 		},
 	});
-	document.getElementById("per-minute-bands-top").value = perMinuteBandsChart.scales["y-axis-0"].max.toString();
 	
 	// Calculate and display overall power percentage per band
 	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
