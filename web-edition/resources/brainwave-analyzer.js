@@ -33,6 +33,7 @@ function doClear(level) {
 			document.getElementById("results").style.display = "none";
 			perSecondBandsChart = destroyChart(perSecondBandsChart);
 			perMinuteBandsChart = destroyChart(perMinuteBandsChart);
+			medianAmplitudesChart = destroyChart(medianAmplitudesChart);
 			removeAllChildren("file-name-display");
 			removeAllChildren("time-offset");
 		case 1:
@@ -227,6 +228,7 @@ function doChangePerMinuteBandsYScaleTop() {
 
 var perSecondBandsChart = null;
 var perMinuteBandsChart = null;
+var medianAmplitudesChart = null;
 var brainwaveChart = null;
 var frequencySpectrumChart = null;
 
@@ -437,6 +439,29 @@ function displayResults() {
 					},
 				}],
 			},
+		},
+	});
+	
+	datasets = [{
+		label: "Amplitude",
+		data: dataSeriesConfig.map(function(tuple) {
+			var name = tuple[0].toLowerCase();
+			var amps = analysisResults.perSecond.map(function(data) { return data[name]; });
+			return getMedian(amps);
+		}),
+		backgroundColor: dataSeriesConfig.map(function(tuple) {
+			return tuple[1];
+		}),
+		borderWidth: 0,
+	}];
+	medianAmplitudesChart = new Chart(document.getElementById("median-amplitudes"), {
+		type: "bar",
+		data: {
+			labels: dataSeriesConfig.map(function(tuple) { return tuple[0]; }),
+			datasets: datasets,
+		},
+		options: {
+			responsive: false,
 		},
 	});
 	
