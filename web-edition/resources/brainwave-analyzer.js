@@ -33,16 +33,6 @@ function doClear(level) {
 			document.getElementById("results").style.display = "none";
 			perSecondBandsChart = destroyChart(perSecondBandsChart);
 			perMinuteBandsChart = destroyChart(perMinuteBandsChart);
-			removeAllChildren("delta-median" );
-			removeAllChildren("delta-overall");
-			removeAllChildren("theta-median" );
-			removeAllChildren("theta-overall");
-			removeAllChildren("alpha-median" );
-			removeAllChildren("alpha-overall");
-			removeAllChildren("beta-median"  );
-			removeAllChildren("beta-overall" );
-			removeAllChildren("gamma-median" );
-			removeAllChildren("gamma-overall");
 			removeAllChildren("file-name-display");
 			removeAllChildren("time-offset");
 		case 1:
@@ -448,19 +438,6 @@ function displayResults() {
 				}],
 			},
 		},
-	});
-	
-	// Calculate and display overall power percentage per band
-	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
-	bandNames.forEach(function(name) {
-		var s = (analysisResults.overall[name + "Proportion"] * 100).toFixed(2) + "%";
-		var td = document.getElementById(name + "-overall");
-		td.appendChild(document.createTextNode(s));
-		
-		var amps = analysisResults.perSecond.map(function(data) { return data[name]; });
-		s = getMedian(amps).toFixed(0);
-		td = document.getElementById(name + "-median");
-		td.appendChild(document.createTextNode(s));
 	});
 	
 	var fileNameDisplayElem = document.getElementById("file-name-display");

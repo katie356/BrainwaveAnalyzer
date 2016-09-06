@@ -34,52 +34,7 @@
 		<p>Median power per minute:</p>
 		<canvas id="per-minute-bands" width="800" height="500"></canvas>
 		<p>Top of <var>y</var>-axis scale: <input type="number" id="per-minute-bands-top" min="0" step="5000" value="30000" style="width:10em" onchange="doChangePerMinuteBandsYScaleTop();"></p>
-		
-		<div id="overall-power-and-file-name">
-			<div>
-				<p>Overall power distribution:</p>
-				<table id="power-distribution">
-					<thead>
-						<tr>
-							<th>Band definition</th>
-							<th>Median amplitude</th>
-							<th>Average power</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>0 Hz &lt; Delta band &lt; 4 Hz</td>
-							<td id="delta-median"></td>
-							<td id="delta-overall"></td>
-						</tr>
-						<tr>
-							<td>4 Hz ≤ Theta band &lt; 8 Hz</td>
-							<td id="theta-median"></td>
-							<td id="theta-overall"></td>
-						</tr>
-						<tr>
-							<td>8 Hz ≤ Alpha band &lt; 14 Hz</td>
-							<td id="alpha-median"></td>
-							<td id="alpha-overall"></td>
-						</tr>
-						<tr>
-							<td>14 Hz ≤ Beta band &lt; 32 Hz</td>
-							<td id="beta-median"></td>
-							<td id="beta-overall" ></td>
-						</tr>
-						<tr>
-							<td>32 Hz ≤ Gamma band &lt; ∞ Hz</td>
-							<td id="gamma-median"></td>
-							<td id="gamma-overall"></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div>
-				<p>Input file name:</p>
-				<p id="file-name-display"></p>
-			</div>
-		</div>
+		<p>Input file name: <span id="file-name-display"></span></p>
 		
 		<hr>
 		<h3>File export</h3>

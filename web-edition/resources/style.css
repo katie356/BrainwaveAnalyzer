@@ -99,25 +99,6 @@ table {
 	border-collapse: collapse;
 }
 
-#overall-power-and-file-name {
-	display: table;
-	width: 100%;
-}
-
-#overall-power-and-file-name > div {
-	display: table-cell;
-	width: 50%;
-}
-
-#power-distribution td, #power-distribution th {
-	padding: 0.4em 0.8em;
-	border: 1px solid #D0D0D0;
-}
-
-#power-distribution td:not(:first-child) {
-	text-align: right;
-}
-
 #file-export-table {
 	display: table;
 }
