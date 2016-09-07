@@ -224,8 +224,10 @@ function doChangePerMinuteBandsYScaleTop() {
 	var value = parseFloat(document.getElementById("per-minute-bands-top").value);
 	if (isNaN(value) || value <= 0)
 		return;
-	perMinuteBandsChart.options.scales.yAxes[0].ticks.max = value;
-	perMinuteBandsChart.update(400, false);
+	perMinuteBandsChart  .options.scales.yAxes[0].ticks.max = value;
+	medianAmplitudesChart.options.scales.yAxes[0].ticks.max = value;
+	perMinuteBandsChart  .update(400, false);
+	medianAmplitudesChart.update(400, false);
 }
 
 
@@ -480,6 +482,7 @@ function displayResults() {
 						labelString: "Amplitude",
 					},
 					ticks: {
+						max: parseFloat(document.getElementById("per-minute-bands-top").value),
 						beginAtZero: true,
 					},
 				}],
