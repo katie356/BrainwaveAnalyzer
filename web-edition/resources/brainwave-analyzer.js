@@ -34,6 +34,11 @@ function doClear(level) {
 			perSecondBandsChart = destroyChart(perSecondBandsChart);
 			perMinuteBandsChart = destroyChart(perMinuteBandsChart);
 			medianAmplitudesChart = destroyChart(medianAmplitudesChart);
+			removeAllChildren("delta-median");
+			removeAllChildren("theta-median");
+			removeAllChildren("alpha-median");
+			removeAllChildren("beta-median" );
+			removeAllChildren("gamma-median");
 			removeAllChildren("file-name-display");
 			removeAllChildren("time-offset");
 		case 1:
@@ -463,6 +468,15 @@ function displayResults() {
 		options: {
 			responsive: false,
 		},
+	});
+	
+	// Calculate and display median power per band
+	var bandNames = ["delta", "theta", "alpha", "beta", "gamma"];
+	bandNames.forEach(function(name) {
+		var amps = analysisResults.perSecond.map(function(data) { return data[name]; });
+		var s = getMedian(amps).toFixed(0);
+		var td = document.getElementById(name + "-median");
+		td.appendChild(document.createTextNode(s));
 	});
 	
 	var fileNameDisplayElem = document.getElementById("file-name-display");

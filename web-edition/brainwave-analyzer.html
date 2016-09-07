@@ -36,7 +36,45 @@
 		<p>Top of <var>y</var>-axis scale: <input type="number" id="per-minute-bands-top" min="0" step="5000" value="30000" style="width:10em" onchange="doChangePerMinuteBandsYScaleTop();"></p>
 		<p>Median amplitudes:</p>
 		<canvas id="median-amplitudes" width="800" height="500"></canvas>
-		<p>Input file name: <span id="file-name-display"></span></p>
+		<div id="overall-power-and-file-name">
+			<div>
+				<p>Overall power distribution:</p>
+				<table id="power-distribution">
+					<thead>
+						<tr>
+							<th>Band definition</th>
+							<th>Median amplitude</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>0 Hz &lt; Delta band &lt; 4 Hz</td>
+							<td id="delta-median"></td>
+						</tr>
+						<tr>
+							<td>4 Hz ≤ Theta band &lt; 8 Hz</td>
+							<td id="theta-median"></td>
+						</tr>
+						<tr>
+							<td>8 Hz ≤ Alpha band &lt; 14 Hz</td>
+							<td id="alpha-median"></td>
+						</tr>
+						<tr>
+							<td>14 Hz ≤ Beta band &lt; 32 Hz</td>
+							<td id="beta-median"></td>
+						</tr>
+						<tr>
+							<td>32 Hz ≤ Gamma band &lt; ∞ Hz</td>
+							<td id="gamma-median"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div>
+				<p>Input file name:</p>
+				<p id="file-name-display"></p>
+			</div>
+		</div>
 		
 		<hr>
 		<h3>File export</h3>
