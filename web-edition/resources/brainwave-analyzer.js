@@ -368,7 +368,7 @@ function displayResults() {
 		type: "line",
 		data: {
 			labels: labels,
-			datasets: datasets.reverse(),
+			datasets: datasets,
 		},
 		options: {
 			responsive: false,
@@ -416,7 +416,7 @@ function displayResults() {
 		type: "line",
 		data: {
 			labels: labels,
-			datasets: datasets.reverse(),
+			datasets: datasets,
 		},
 		options: {
 			responsive: false,
