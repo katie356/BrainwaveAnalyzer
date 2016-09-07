@@ -467,6 +467,23 @@ function displayResults() {
 		},
 		options: {
 			responsive: false,
+			scales: {
+				xAxes: [{
+					scaleLabel: {
+						display: true,
+						labelString: "Band name",
+					},
+				}],
+				yAxes: [{
+					scaleLabel: {
+						display: true,
+						labelString: "Amplitude",
+					},
+					ticks: {
+						beginAtZero: true,
+					},
+				}],
+			},
 		},
 	});
 	
