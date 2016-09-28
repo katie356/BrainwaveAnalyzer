@@ -1,3 +1,10 @@
+/* 
+ * Brainwave Analyzer
+ * https://github.com/katie356/BrainwaveAnalyzer
+ * Open source under the MIT License
+ */
+
+
 html {
 	height: 100%;
 	margin: 0em auto;
@@ -97,6 +104,32 @@ hr {
 table {
 	border: 1px solid #D0D0D0;
 	border-collapse: collapse;
+}
+
+#band-config td, #band-config th {
+	padding: 0.2em 0.5em;
+	border-top: 1px solid #D0D0D0;
+}
+
+#band-config td {
+	text-align: center;
+}
+
+#band-config tbody td:nth-child(1) {
+	text-align: right;
+}
+
+#band-config td:nth-child(2) input[type=text] {
+	width: 8em;
+}
+
+#band-config input[type=number] {
+	width: 4em;
+	text-align: right;
+}
+
+#band-config td:nth-child(5) input[type=text] {
+	width: 6em;
 }
 
 #overall-power-and-file-name {
