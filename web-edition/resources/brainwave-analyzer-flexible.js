@@ -451,136 +451,143 @@ function displayResults() {
 	if (analysisResults.perSecond.length >= 1)
 		displayAnalysis(0);
 	
-	// Build the data for the brainwave power graph
-	var labels = [];
-	var datasets = analysisResults.overall.bandConfig.map(function(band) {
-		return {
-			label: band.name,
-			borderColor: band.color,
-			pointBackgroundColor: band.color,
-			backgroundColor: band.color,
-			data: [],
-			fill: false,
-		};
-	});
-	analysisResults.perSecond.forEach(function(data, i) {
-		labels.push(i.toString());
-		data.bandAmplitudes.forEach(function(val, j) {
-			datasets[j].data.push(val);
+	function makePerSecondBandsChart() {
+		var labels = [];
+		var datasets = analysisResults.overall.bandConfig.map(function(band) {
+			return {
+				label: band.name,
+				borderColor: band.color,
+				pointBackgroundColor: band.color,
+				backgroundColor: band.color,
+				data: [],
+				fill: false,
+			};
 		});
-	});
-	
-	// Create the overall brainwave power graph
-	perSecondBandsChart = new Chart(document.getElementById("per-second-bands"), {
-		type: "line",
-		data: {
-			labels: labels,
-			datasets: datasets,
-		},
-		options: {
-			responsive: false,
-			showLines: true,
-			scales: {
-				xAxes: [{
-					scaleLabel: {
-						display: true,
-						labelString: "Time (s)",
-					},
-				}],
-				yAxes: [{
-					scaleLabel: {
-						display: true,
-						labelString: "Amplitude",
-					},
-					ticks: {
-						beginAtZero: true,
-					},
-				}],
-			},
-		},
-	});
-	
-	labels = [];
-	datasets = analysisResults.overall.bandConfig.map(function(band) {
-		return {
-			label: band.name,
-			borderColor: band.color,
-			pointBackgroundColor: band.color,
-			backgroundColor: band.color,
-			data: [],
-			fill: false,
-		};
-	});
-	analysisResults.perMinute.forEach(function(data, i) {
-		labels.push(i.toString());
-		data.bandMedians.forEach(function(val, j) {
-			datasets[j].data.push(val);
+		analysisResults.perSecond.forEach(function(data, i) {
+			labels.push(i.toString());
+			data.bandAmplitudes.forEach(function(val, j) {
+				datasets[j].data.push(val);
+			});
 		});
-	});
-	perMinuteBandsChart = new Chart(document.getElementById("per-minute-bands"), {
-		type: "line",
-		data: {
-			labels: labels,
-			datasets: datasets,
-		},
-		options: {
-			responsive: false,
-			showLines: true,
-			scales: {
-				xAxes: [{
-					scaleLabel: {
-						display: true,
-						labelString: "Time (min)",
-					},
-				}],
-				yAxes: [{
-					scaleLabel: {
-						display: true,
-						labelString: "Amplitude",
-					},
-					ticks: {
-						max: parseFloat(document.getElementById("per-minute-bands-top").value),
-						beginAtZero: true,
-					},
-				}],
+		return new Chart(document.getElementById("per-second-bands"), {
+			type: "line",
+			data: {
+				labels: labels,
+				datasets: datasets,
 			},
-		},
-	});
+			options: {
+				responsive: false,
+				showLines: true,
+				scales: {
+					xAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: "Time (s)",
+						},
+					}],
+					yAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: "Amplitude",
+						},
+						ticks: {
+							beginAtZero: true,
+						},
+					}],
+				},
+			},
+		});
+	}
 	
-	datasets = [{
-		label: "Amplitude",
-		data: analysisResults.overall.bandMedians,
-		backgroundColor: analysisResults.overall.bandConfig.map(function(band) { return band.color; }),
-		borderWidth: 0,
-	}];
-	medianAmplitudesChart = new Chart(document.getElementById("median-amplitudes"), {
-		type: "bar",
-		data: {
-			labels: analysisResults.overall.bandConfig.map(function(band) { return band.name; }),
-			datasets: datasets,
-		},
-		options: {
-			responsive: false,
-			scales: {
-				xAxes: [{
-					scaleLabel: {
-						display: true,
-						labelString: "Band name",
-					},
-				}],
-				yAxes: [{
-					scaleLabel: {
-						display: true,
-						labelString: "Amplitude",
-					},
-					ticks: {
-						max: parseFloat(document.getElementById("per-minute-bands-top").value),
-						beginAtZero: true,
-					},
-				}],
+	function makePerMinuteBandsChart() {
+		var labels = [];
+		var datasets = analysisResults.overall.bandConfig.map(function(band) {
+			return {
+				label: band.name,
+				borderColor: band.color,
+				pointBackgroundColor: band.color,
+				backgroundColor: band.color,
+				data: [],
+				fill: false,
+			};
+		});
+		analysisResults.perMinute.forEach(function(data, i) {
+			labels.push(i.toString());
+			data.bandMedians.forEach(function(val, j) {
+				datasets[j].data.push(val);
+			});
+		});
+		return new Chart(document.getElementById("per-minute-bands"), {
+			type: "line",
+			data: {
+				labels: labels,
+				datasets: datasets,
 			},
-		},
-	});
+			options: {
+				responsive: false,
+				showLines: true,
+				scales: {
+					xAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: "Time (min)",
+						},
+					}],
+					yAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: "Amplitude",
+						},
+						ticks: {
+							max: parseFloat(document.getElementById("per-minute-bands-top").value),
+							beginAtZero: true,
+						},
+					}],
+				},
+			},
+		});
+	}
+	
+	function makeMedianAmplitudesChart() {
+		var datasets = [{
+			label: "Amplitude",
+			data: analysisResults.overall.bandMedians,
+			backgroundColor: analysisResults.overall.bandConfig.map(function(band) { return band.color; }),
+			borderWidth: 0,
+		}];
+		return new Chart(document.getElementById("median-amplitudes"), {
+			type: "bar",
+			data: {
+				labels: analysisResults.overall.bandConfig.map(function(band) { return band.name; }),
+				datasets: datasets,
+			},
+			options: {
+				responsive: false,
+				scales: {
+					xAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: "Band name",
+						},
+					}],
+					yAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: "Amplitude",
+						},
+						ticks: {
+							max: parseFloat(document.getElementById("per-minute-bands-top").value),
+							beginAtZero: true,
+						},
+					}],
+				},
+			},
+		});
+	}
+	
+	perSecondBandsChart = makePerSecondBandsChart();
+	perMinuteBandsChart = makePerMinuteBandsChart();
+	medianAmplitudesChart = makeMedianAmplitudesChart();
 	
 	// Display median power per band
 	analysisResults.overall.bandConfig.forEach(function(band, index) {
@@ -606,91 +613,97 @@ function displayAnalysis(timeOffset) {
 	doClear(1);
 	var data = analysisResults.perSecond[timeOffset];
 	
-	// Create brainwave time series chart
-	var color = "#B00000";
-	brainwaveChart = new Chart(document.getElementById("brainwave"), {
-		type: "line",
-		data: {
-			labels: data.electrode.map(function() { return ""; }),
-			datasets: [{
-				label: "Electrode",
-				data: data.electrode.slice(),
-				borderColor: color,
-				backgroundColor: color,
-				fill: false,
-				pointRadius: 0,
-			}],
-		},
-		options: {
-			animation: {
-				duration: 0,
-			},
-			responsive: false,
-			showLines: true,
-			scales: {
-				xAxes: [{
-					scaleLabel: {
-						display: true,
-						labelString: "Time",
-					},
-				}],
-				yAxes: [{
-					animate: false,
-					scaleLabel: {
-						display: true,
-						labelString: "Value",
-					},
-					ticks: {
-						beginAtZero: false,
-					},
+	function makeBrainwaveChart() {
+		var color = "#B00000";
+		return new Chart(document.getElementById("brainwave"), {
+			type: "line",
+			data: {
+				labels: data.electrode.map(function() { return ""; }),
+				datasets: [{
+					label: "Electrode",
+					data: data.electrode.slice(),
+					borderColor: color,
+					backgroundColor: color,
+					fill: false,
+					pointRadius: 0,
 				}],
 			},
-		},
-	});
+			options: {
+				animation: {
+					duration: 0,
+				},
+				responsive: false,
+				showLines: true,
+				scales: {
+					xAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: "Time",
+						},
+					}],
+					yAxes: [{
+						animate: false,
+						scaleLabel: {
+							display: true,
+							labelString: "Value",
+						},
+						ticks: {
+							beginAtZero: false,
+						},
+					}],
+				},
+			},
+		});
+	}
 	
-	// Create frequency spectrum chart
-	var color = "#4000A0";
-	frequencySpectrumChart = new Chart(document.getElementById("frequency-spectrum"), {
-		type: "bar",
-		data: {
-			labels: data.fftAmplitude.map(function(_, i) { return i + " Hz"; }),
-			datasets: [{
-				label: "Amplitude",
-				data: data.fftAmplitude.slice(),
-				borderColor: color,
-				backgroundColor: color,
-				borderWidth: 0,
-			}],
-		},
-		options: {
-			animation: {
-				duration: 0,
-			},
-			responsive: false,
-			categoryPercentage: 1.0,
-			barPercentage: 1.0,
-			scales: {
-				xAxes: [{
-					scaleLabel: {
-						display: true,
-						labelString: "Frequency",
-					},
-				}],
-				yAxes: [{
-					animate: false,
-					scaleLabel: {
-						display: true,
-						labelString: "Amplitude",
-					},
-					ticks: {
-						beginAtZero: true,
-					},
+	function makeFrequencySpectrumChart() {
+		var color = "#4000A0";
+		return new Chart(document.getElementById("frequency-spectrum"), {
+			type: "bar",
+			data: {
+				labels: data.fftAmplitude.map(function(_, i) { return i + " Hz"; }),
+				datasets: [{
+					label: "Amplitude",
+					data: data.fftAmplitude.slice(),
+					borderColor: color,
+					backgroundColor: color,
+					borderWidth: 0,
 				}],
 			},
-		},
-	});
+			options: {
+				animation: {
+					duration: 0,
+				},
+				responsive: false,
+				categoryPercentage: 1.0,
+				barPercentage: 1.0,
+				scales: {
+					xAxes: [{
+						scaleLabel: {
+							display: true,
+							labelString: "Frequency",
+						},
+					}],
+					yAxes: [{
+						animate: false,
+						scaleLabel: {
+							display: true,
+							labelString: "Amplitude",
+						},
+						ticks: {
+							beginAtZero: true,
+						},
+					}],
+				},
+			},
+		});
+	}
 	
-	// Create table of numbers
+	// Create the charts
+	brainwaveChart = makeBrainwaveChart();
+	frequencySpectrumChart = makeFrequencySpectrumChart();
+	
+	// Fill thes table of numbers
 	var tbodyElem = document.querySelector("#numbers tbody");
 	for (var i = 0; i < SAMPLES_PER_SECOND; i++) {
 		var cellTexts = [
