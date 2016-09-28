@@ -10,18 +10,17 @@
 /*---- Application initialization ----*/
 
 function initialize() {
-	var bandConfigElem = document.querySelector("#band-config tbody");
+	var bandConfigContainerElem = document.querySelector("#band-config tbody");
 	
 	function renumberBandRows() {
-		var elems = bandConfigElem.querySelectorAll("td:nth-child(1)");
+		var elems = bandConfigContainerElem.querySelectorAll("td:nth-child(1)");
 		for (var i = 0; i < elems.length; i++)
 			setElemText(elems[i], (i + 1).toString());
 	}
 	
 	function addBandRow(name, start, end, color) {
 		// Row number
-		var trElem = createElement("tr");
-		trElem.appendChild(createElement("td"));
+		var trElem = createElement("tr", createElement("td"));
 		// Band name
 		var inputElem = createElement("input");
 		inputElem.type = "text";
@@ -54,30 +53,31 @@ function initialize() {
 		};
 		trElem.appendChild(createElement("td", inputElem));
 		// Miscellaneous
-		bandConfigElem.appendChild(trElem);
+		bandConfigContainerElem.appendChild(trElem);
 		renumberBandRows();
 	}
 	
-	var defaultBands = [
+	var DEFAULT_BANDS = [
 		["Delta",  1,   3, "#0000A0"],
 		["Theta",  4,   7, "#00A000"],
 		["Alpha",  8,  13, "#D0D000"],
 		["Beta" , 14,  31, "#FFA000"],
 		["Gamma", 32, 256, "#FF4040"],
 	];
-	defaultBands.forEach(function(band) {
+	DEFAULT_BANDS.forEach(function(band) {
 		addBandRow(band[0], band[1].toString(), band[2].toString(), band[3]);
 	});
 	
 	var bottomButtonElems = document.querySelectorAll("#band-config tfoot input[type=button]");
-	bottomButtonElems[0].onclick = function() {  // Add band row
+	bottomButtonElems[0].onclick = function() {  // Add band button
 		addBandRow("", "", "", "#B0B0B0");
 	};
 	
-	// Import/export band config
+	// Import/export button
 	bottomButtonElems[1].onclick = function() {
+		// First export the data
 		var data = [];
-		var inputElems = bandConfigElem.querySelectorAll("input");
+		var inputElems = bandConfigContainerElem.querySelectorAll("input");
 		for (var i = 0; i < inputElems.length; i += 5) {
 			data.push([
 				inputElems[i + 0].value,  // Band name
@@ -87,21 +87,23 @@ function initialize() {
 			]);
 		}
 		var s = prompt("Import/export the frequency band configuration:", JSON.stringify(data));
+		
+		// Then try to import the data
 		if (s == null)
 			return;
 		try {
+			clearChildren(bandConfigContainerElem);
 			data = JSON.parse(s);
 			if (!Array.isArray(data))
 				throw "Expected an array";
-			clearChildren(bandConfigElem);
 			data.forEach(function(row) {
 				if (!Array.isArray(row) || row.length != 4)
 					throw "Expected a 4-tuple";
 				addBandRow(row[0], row[1], row[2], row[3]);
 			});
 		} catch (e) {
-			clearChildren(bandConfigElem);
-			alert("Import failed: Syntax error");
+			clearChildren(bandConfigContainerElem);
+			alert("Import failed: Invalid data format");
 		}
 	};
 }
@@ -132,8 +134,8 @@ function doClear(level) {
 		case 2:
 			analysisResults = null;
 			document.getElementById("results").style.display = "none";
-			perSecondBandsChart = destroyChart(perSecondBandsChart);
-			perMinuteBandsChart = destroyChart(perMinuteBandsChart);
+			perSecondBandsChart   = destroyChart(perSecondBandsChart);
+			perMinuteBandsChart   = destroyChart(perMinuteBandsChart);
 			medianAmplitudesChart = destroyChart(medianAmplitudesChart);
 			clearChildren(document.querySelector("#power-distribution tbody"));
 			clearChildren("file-name-display");
@@ -144,7 +146,7 @@ function doClear(level) {
 		case 1:
 			brainwaveChart = destroyChart(brainwaveChart);
 			frequencySpectrumChart = destroyChart(frequencySpectrumChart);
-			clearChildren("numbers-table");
+			clearChildren(document.querySelector("#numbers tbody"));
 			break;
 		default:
 			throw "Illegal argument";
@@ -159,6 +161,9 @@ function doClear(level) {
 // - Initializes UI elements
 // - Creates the graphs
 function doAnalyze() {
+	// Parse the frequency band configuration form inputs
+	// bandConfig is a list of objects with specific properties,
+	// e.g.: [{name:"Delta",start:1,end:3,color:"#0000A0"}, {name:"Theta",...}, ...]
 	var bandConfig = [];
 	var bandConfigInputElems = document.querySelectorAll("#band-config tbody input");
 	for (var i = 0; i < bandConfigInputElems.length; i += 5) {
@@ -170,9 +175,10 @@ function doAnalyze() {
 		});
 	}
 	
+	// Handle the input file
 	var inputFileElem = document.getElementById("input-file");
 	if (inputFileElem.files.length != 1)  // No file or multiple files selected
-		return null;
+		return;
 	var file = inputFileElem.files[0];
 	var reader = new FileReader();
 	reader.onload = function() {
@@ -367,7 +373,7 @@ function computeAndAnalyze(filename, samples, bandConfig) {
 		for (var i = 0; i < numSeconds; i++) {
 			var startIndex = (i + 0) * SAMPLES_PER_SECOND;  // Inclusive
 			var endIndex   = (i + 1) * SAMPLES_PER_SECOND;  // Exclusive
-			var block = samples.slice(startIndex, endIndex)
+			var block = samples.slice(startIndex, endIndex);
 			
 			var real = block.slice();  // Clone
 			var imag = real.map(function() { return 0; });  // Same length, but all zeros
@@ -414,7 +420,7 @@ function computeAndAnalyze(filename, samples, bandConfig) {
 			bandMedians.push(getMedian(perSecond.map(function(data) { return data.bandAmplitudes[i]; })));
 		return {
 			filename: filename,  // String value
-			bandConfig: bandConfig,
+			bandConfig: bandConfig,  // Array of objects
 			bandMedians: bandMedians,  // Array of bandConfig.length numbers
 		};
 	}
@@ -430,7 +436,7 @@ function computeAndAnalyze(filename, samples, bandConfig) {
 // Based on the value of 'analysisResults', this function builds and shows the
 // overall brainwave graph, and shows the per-second data for the 0th second.
 function displayResults() {
-	// Create and configure the <select> element
+	// Create <option>s for the <select> element
 	var selectElem = document.getElementById("time-offset");
 	analysisResults.perSecond.forEach(function(_, i) {
 		var optionElem = createElement("option", i.toString());
@@ -440,7 +446,6 @@ function displayResults() {
 	selectElem.onchange = function() {
 		displayAnalysis(parseInt(this.value, 10));
 	};
-	document.getElementById("results").style.display = "";
 	
 	// Display the per-second data
 	if (analysisResults.perSecond.length >= 1)
@@ -584,13 +589,14 @@ function displayResults() {
 		document.querySelector("#power-distribution tbody").appendChild(trElem);
 	});
 	
-	var fileNameDisplayElem = document.getElementById("file-name-display");
-	fileNameDisplayElem.appendChild(document.createTextNode(analysisResults.overall.filename));
+	setElemText("file-name-display", analysisResults.overall.filename);
 	
 	analysisResults.overall.bandConfig.forEach(function(band) {
 		document.querySelector("#numbers thead tr").appendChild(
 			createElement("th", band.name));
 	});
+	
+	document.getElementById("results").style.removeProperty("display");
 }
 
 
@@ -685,7 +691,7 @@ function displayAnalysis(timeOffset) {
 	});
 	
 	// Create table of numbers
-	var tbodyElem = document.getElementById("numbers-table");
+	var tbodyElem = document.querySelector("#numbers tbody");
 	for (var i = 0; i < SAMPLES_PER_SECOND; i++) {
 		var cellTexts = [
 			(timeOffset + i / SAMPLES_PER_SECOND).toFixed(3),
@@ -750,7 +756,7 @@ function createElement(tagName, content) {
 // Sets the content of the given DOM element to the given text.
 function setElemText(elemOrId, text) {
 	if (typeof elemOrId == "string")
-		elemOrId = document.getElementById(node);
+		elemOrId = document.getElementById(elemOrId);
 	clearChildren(elemOrId);
 	elemOrId.appendChild(document.createTextNode(text));
 }

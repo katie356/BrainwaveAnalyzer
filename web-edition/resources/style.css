@@ -5,6 +5,8 @@
  */
 
 
+/*---- Major elements ----*/
+
 html {
 	height: 100%;
 	margin: 0em auto;
@@ -106,6 +108,9 @@ table {
 	border-collapse: collapse;
 }
 
+
+/*---- Specific elements ----*/
+
 #band-config td, #band-config th {
 	padding: 0.2em 0.5em;
 	border-top: 1px solid #D0D0D0;
@@ -132,6 +137,7 @@ table {
 	width: 6em;
 }
 
+
 #overall-power-and-file-name {
 	display: table;
 	width: 100%;
@@ -142,6 +148,7 @@ table {
 	width: 50%;
 }
 
+
 #power-distribution td, #power-distribution th {
 	padding: 0.4em 0.8em;
 	border: 1px solid #D0D0D0;
@@ -150,6 +157,7 @@ table {
 #power-distribution td:not(:first-child) {
 	text-align: right;
 }
+
 
 #file-export-table {
 	display: table;
@@ -166,6 +174,11 @@ table {
 #file-export-table > p > span:first-child {
 	padding-right: 1.0em;
 }
+
+#file-export-table input[type=text] {
+	width: 15em;
+}
+
 
 #numbers {
 	font-size: 80%;
@@ -186,6 +199,7 @@ table {
 #numbers td {
 	text-align: right;
 }
+
 
 #about p {
 	line-height: 1.6;
