@@ -559,7 +559,7 @@ function displayResults() {
 		return new Chart(document.getElementById("median-amplitudes"), {
 			type: "bar",
 			data: {
-				labels: analysisResults.overall.bandConfig.map(function(band) { return band.name; }),
+				labels: analysisResults.overall.bandConfig.map(function(band) { return [band.name, "(" + band.start + "~" + band.end + "Hz)"]; }),
 				datasets: datasets,
 			},
 			options: {
