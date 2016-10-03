@@ -62,7 +62,8 @@ function initialize() {
 		["Theta",  4,   7, "#00A000"],
 		["Alpha",  8,  13, "#D0D000"],
 		["Beta" , 14,  31, "#FFA000"],
-		["Gamma", 32, 256, "#FF4040"],
+		["Gamma", 32, 100, "#FF4040"],
+		["HiGamma", 101, 256, "#DBAAE2"],
 	];
 	DEFAULT_BANDS.forEach(function(band) {
 		addBandRow(band[0], band[1].toString(), band[2].toString(), band[3]);
