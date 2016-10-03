@@ -593,6 +593,7 @@ function displayResults() {
 	// Display median power per band
 	analysisResults.overall.bandConfig.forEach(function(band, index) {
 		var trElem = createElement("tr", createElement("td", band.name));
+		trElem.appendChild(createElement("td", band.start + " to " + band.end + " Hz"));
 		trElem.appendChild(createElement("td", analysisResults.overall.bandMedians[index].toFixed(0)));
 		document.querySelector("#power-distribution tbody").appendChild(trElem);
 	});
