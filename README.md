@@ -1,6 +1,6 @@
 # Brainwave Analyzer
        
-Program to import raw brainwaves, and using FFT and Frequency Index calculate various bands of brainwaves. The Brainwave Analyzer (Web Edition) is Finished!
+Program to import raw brainwaves, and using FFT and Frequency Index calculate various bands of brainwaves. The Brainwave Analyzer (Web Edition) is Finished! The latest live version can be found at:  http://brainwaves.io/wp/brainwave-analyzer.html
 
 The purpose of the Brainwave Analyzer is to provide a way to take raw brainwaves, calculate their frequencies, divide them up into the different bands (Delta, Theta, Alpha, Beta, Gamma), and then graph the results. Note the brainwave-analyzer-flexible.html allows the user to change the band frequency ranges.
 
